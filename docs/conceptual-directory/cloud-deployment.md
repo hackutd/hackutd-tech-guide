@@ -18,4 +18,4 @@ Your code can't run on your computer forever! Deploy your code through any of th
 
 ## [Google Cloud Platform](https://cloud.google.com/)
 
-Come, attend the *Google Cloud Deployment Workshop* live at 6:30pm for a demo.
+Come, attend the _Google Cloud Deployment Workshop_ live at 6:30pm for a demo.

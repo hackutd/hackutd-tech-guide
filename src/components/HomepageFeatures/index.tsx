@@ -21,7 +21,7 @@ const FeatureList: FeatureItem[] = [
                 learn how to build a clean-looking website.
             </>
         ),
-        href: '/frontend',
+        href: '/conceptual-directory/frontend',
     },
     {
         title: 'Backend',
@@ -33,7 +33,7 @@ const FeatureList: FeatureItem[] = [
                 use to build a backend. Click here to explore your options!
             </>
         ),
-        href: '/backend',
+        href: '/conceptual-directory/backend',
     },
     {
         title: 'Cloud Deployment',

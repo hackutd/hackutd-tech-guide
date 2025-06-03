@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'HackUTD Tech Guide',
-    tagline: 'Your one-stop shop for all tech resources during HackUTD!',
+    title: 'HackUTD Tech Resources',
+    tagline: 'Your one-stop shop for all content from HackUTD!',
     url: 'https://guide.hackutd.co',
     baseUrl: '/',
     onBrokenLinks: 'throw',
@@ -16,7 +16,7 @@ const config = {
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'acmutd', // Usually your GitHub org/user name.
+    organizationName: 'hackutd', // Usually your GitHub org/user name.
     projectName: 'hackutd-tech-guide', // Usually your repo name.
 
     // Even if you don't use internalization, you can use this field to set useful
@@ -47,7 +47,7 @@ const config = {
                         copyright: `Copyright © ${new Date().getFullYear()} HackUTD`,
                     },
                     routeBasePath: 'archive',
-                    blogTitle: 'Workshop Archive',
+                    blogTitle: 'Mischellaneous Blog',
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
@@ -68,13 +68,13 @@ const config = {
                 items: [
                     {
                         type: 'doc',
-                        docId: 'intro',
+                        docId: 'resources',
                         position: 'left',
-                        label: 'Intro',
+                        label: 'Resources',
                     },
                     {
                         to: 'archive',
-                        label: 'Workshop Archive',
+                        label: 'Miscellanous Blog',
                         position: 'left',
                     },
                     {
@@ -91,29 +91,21 @@ const config = {
                         title: 'Docs',
                         items: [
                             {
-                                label: 'Workshop Archive',
+                                label: 'Resources',
+                                to: '/resources',
+                            },  
+                            {
+                                label: 'Blog',
                                 to: '/archive',
                             },
                             {
-                                label: 'Intro',
-                                to: '/intro',
+                                label: 'Conceptual Directory',
+                                to: '/conceptual-directory/',
                             },
                             {
-                                label: 'Frontend',
-                                to: '/frontend',
-                            },
-                            {
-                                label: 'Backend',
-                                to: '/backend',
-                            },
-                            {
-                                label: 'Version Control',
-                                to: '/version-control',
-                            },
-                            {
-                                label: 'Cloud Deployment',
-                                to: '/cloud-deployment',
-                            },
+                                label: 'Guided Project',
+                                to: '/guided%20project',
+                            }
                         ],
                     },
                     {
