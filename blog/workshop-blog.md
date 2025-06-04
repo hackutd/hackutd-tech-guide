@@ -7,4 +7,4 @@ authors:
 tags: [info]
 ---
 
-Meowster
+This section of the site is dedicated to articles and niche topics that we've written about, but don't fit into a particular category. We hope that whatever you find here is interesting and informative!
