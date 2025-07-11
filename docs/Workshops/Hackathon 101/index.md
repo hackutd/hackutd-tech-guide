@@ -1,6 +1,7 @@
 ---
-title: Hackathon 101 Read-along
-slug: hackathon101-read-along
+title: Hackathon 101
+slug: hackathon-101
+sidebar_position: 1
 ---
 
 ## What is a Hackathon?
