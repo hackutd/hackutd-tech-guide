@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhackutd_tech_guide=self.webpackChunkhackutd_tech_guide||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"How to Leverage Artificial Intelligence and Not be a Slave to It","permalink":"/archive/ai-leverage"},{"title":"HackUTD Miscellaneous Blog","permalink":"/archive/workshop-blog"}]}')}}]);

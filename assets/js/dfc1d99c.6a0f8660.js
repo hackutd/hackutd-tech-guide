@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhackutd_tech_guide=self.webpackChunkhackutd_tech_guide||[]).push([[9100],{7260:e=>{e.exports=JSON.parse('{"permalink":"/archive/tags/info","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Mischellaneous Blog"}')}}]);

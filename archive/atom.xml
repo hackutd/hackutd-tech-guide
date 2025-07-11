@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://guide.hackutd.co/archive</id>
+    <title>HackUTD Tech Resources Blog</title>
+    <updated>2025-06-04T15:55:09.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://guide.hackutd.co/archive"/>
+    <subtitle>HackUTD Tech Resources Blog</subtitle>
+    <icon>https://guide.hackutd.co/img/favicon.ico</icon>
+    <rights>Copyright © 2025 HackUTD</rights>
+    <entry>
+        <title type="html"><![CDATA[How to Leverage Artificial Intelligence and Not be a Slave to It]]></title>
+        <id>/ai-leverage</id>
+        <link href="https://guide.hackutd.co/archive/ai-leverage"/>
+        <updated>2025-06-04T15:55:09.000Z</updated>
+        <summary type="html"><![CDATA[Learn how to properly use AI for your benefit instead of harm!]]></summary>
+        <content type="html"><![CDATA[<p>A major problem with the current generation's new talent is that many of them have an over-reliance, or sometimes even a complete dependence, on Artifical Intelligence. We use it to study, to finish school work, code projects, and even to complete daily tasks. In this article, we will explore the detriments of AI and learn how to properly use it for your personal benefit.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-does-misuse-of-artificial-intelligence-look-like">What does misuse of Artificial Intelligence look like?<a class="hash-link" href="#what-does-misuse-of-artificial-intelligence-look-like" title="Direct link to heading">​</a></h2><ul><li>You often go straight to an LLM for help before even attempting to solve the problem with your own thoughts.</li><li>You cannot code projects without the use of LLMs.</li><li>You have a poor understanding of your class material because you use AI to complete all of your assignments.</li></ul>]]></content>
+        <author>
+            <name>Daniel Kim</name>
+            <email>sungsu.kim04@gmail.com</email>
+            <uri>https://danielsungsu.kim/</uri>
+        </author>
+        <category label="info" term="info"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HackUTD Miscellaneous Blog]]></title>
+        <id>workshop-blog</id>
+        <link href="https://guide.hackutd.co/archive/workshop-blog"/>
+        <updated>2025-06-03T03:30:05.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to the HackUTD Miscellaneous Blog! On this page, we provide all materials that don't fit into a specific niche.]]></summary>
+        <content type="html"><![CDATA[<p>This section of the site is dedicated to articles and niche topics that we've written about, but don't fit into a particular category. We hope that whatever you find here is interesting and informative!</p>]]></content>
+        <author>
+            <name>Daniel Kim</name>
+            <email>sungsu.kim04@gmail.com</email>
+            <uri>https://danielsungsu.kim/</uri>
+        </author>
+        <category label="info" term="info"/>
+    </entry>
+</feed>
