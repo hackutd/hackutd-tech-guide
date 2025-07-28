@@ -5,7 +5,6 @@
  *
  * Docusarus has a nice color editor: https://docusaurus.io/docs/styling-layout
  */
-
 /* You can override the default Infima variables here. */
 :root {
     --ifm-color-primary: #cb1fba;
@@ -18,7 +17,6 @@
     --ifm-code-font-size: 95%;
     --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
-
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
     --ifm-color-primary: #e67aeb;
@@ -29,4 +27,31 @@
     --ifm-color-primary-lighter: #efa9f2;
     --ifm-color-primary-lightest: #f8d7f9;
     --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+article.margin-bottom--xl .markdown {
+    max-height: 80px; /* Adjust this to control how much text shows */
+    overflow: hidden;
+    position: relative;
+}
+
+/* Add the "..." indicator */
+article.margin-bottom--xl .markdown::after {
+    content: '...';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: var(--ifm-background-color);
+    padding-left: 20px;
+    font-weight: normal;
+}
+
+/* Make sure this doesn't affect individual blog post pages */
+.theme-blog-post-page .markdown {
+    max-height: none !important;
+    overflow: visible !important;
+}
+
+.theme-blog-post-page .markdown::after {
+    content: none !important;
 }
