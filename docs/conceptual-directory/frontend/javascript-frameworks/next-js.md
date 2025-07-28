@@ -9,12 +9,13 @@ sidebar_position: 1
 [Next.js](https://nextjs.org/) is a JavaScript web framework that combines frontend and backend functionality under one hood. Working on both layers of your software is often referred to as Full-Stack development.
 
 ## Read before Starting
-- [React.js](/frontend/javascript-libraries/react-js.md) - Next.js is based on React.js.
-- [Express.js](/backend/express-js.md) - The following tutorial builds on our Express.js tutorial.
+
+-   [React.js](../../frontend/javascript-libraries/react-js.md) - Next.js is based on React.js.
+-   [Express.js](../../backend/express-js.md) - The following tutorial builds on our Express.js tutorial.
 
 ## Backend
 
-Let's implement our [Express.js example](/backend/express-js.md) in Next.js. To get started, create a new Fullstack Next.js project in [StackBlitz](https://stackblitz.com/).
+Let's implement our [Express.js example](../../backend/express-js.md) in Next.js. To get started, create a new Fullstack Next.js project in [StackBlitz](https://stackblitz.com/).
 
 Create a new file called `dad.js` under `/pages/api`. This automatically creates a new route that can be used to access your app. Add the following code to the new file.
 
@@ -22,19 +23,19 @@ Create a new file called `dad.js` under `/pages/api`. This automatically creates
 const store = ['Welcome to the Board! Send in your best dad jokes.'];
 ```
 
-Similar to our Express.js tutorial, we will create a temporary store in memory for now. Please see [SQL](/backend/sql-db), [NoSQL](/backend/no-sql-db), [Firebase](/backend/firebase.md) for permanent storage.
+Similar to our Express.js tutorial, we will create a temporary store in memory for now. Please see [SQL](../../backend/sql-db), [NoSQL](../../backend/no-sql-db), [Firebase](../../backend/firebase.md) for permanent storage.
 
 ```js
 export default (req, res) => {
-  if (req.method == 'GET') {
-    res.status(200).json({ jokes: store });
-  }
+    if (req.method == 'GET') {
+        res.status(200).json({ jokes: store });
+    }
 
-  if (req.method == 'POST') {
-    const { newJoke } = req.body;
-    store.push(newJoke);
-    res.status(200).send();
-  }
+    if (req.method == 'POST') {
+        const { newJoke } = req.body;
+        store.push(newJoke);
+        res.status(200).send();
+    }
 };
 ```
 
@@ -44,7 +45,7 @@ One major difference in syntax is that `get` and `post` are not separate methods
 
 ## Frontend
 
-Let's use what we learned in [React](/frontend/javascript-libraries/react-js.md) to make a simple client for this API. We want our users to be able to view a list jokes, and send new jokes.
+Let's use what we learned in [React](../../frontend/javascript-libraries/react-js.md) to make a simple client for this API. We want our users to be able to view a list jokes, and send new jokes.
 
 Delete all existing code from `index.js` and use this file to write the following code.
 
@@ -58,11 +59,11 @@ import { useState, useEffect } from 'react';
 
 ```js
 export default function Home() {
-    // The rest of your code goes here... 
+    // The rest of your code goes here...
 }
 ```
 
-We declare our page as a functional component. All the remaining code below will go inside the `{ }` (body) of this function. 
+We declare our page as a functional component. All the remaining code below will go inside the `{ }` (body) of this function.
 
 ### State
 
@@ -72,7 +73,8 @@ const [myJoke, setMyJoke] = useState('');
 ```
 
 We declare 2 state variables along with their setters:
-1. jokes – a list of jokes (strings) sent by the backend to the frontend 
+
+1. jokes – a list of jokes (strings) sent by the backend to the frontend
 2. myJoke – a new joke (string) that the frontend wants to send to the backend
 
 ### Backend to Frontend Communication
@@ -144,7 +146,7 @@ return (
 
 Finally, we return our desired page structure.
 
-The `<div>` on top is used for sending jokes. This further contains a (text-based) `<input>`  and a `<button>`.
+The `<div>` on top is used for sending jokes. This further contains a (text-based) `<input>` and a `<button>`.
 
 We want the `value` of the `<input>` to be the current state of `myJoke`. Also, when the `<input>` notices a change in its value, it calls the `handleChange` function to copy the current value from the event target to the state variable. This is one way of synchronizing an input to the state of a React app.
 
@@ -156,4 +158,4 @@ The `<ul>` on bottom displays the `items` array that resulted from the mapping i
 
 ## External Links
 
-- [Learn Next.js](https://nextjs.org/learn/foundations/about-nextjs)
+-   [Learn Next.js](https://nextjs.org/learn/foundations/about-nextjs)

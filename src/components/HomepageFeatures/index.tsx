@@ -46,7 +46,7 @@ const FeatureList: FeatureItem[] = [
                 Vercel.
             </>
         ),
-        href: '/cloud-deployment',
+        href: '/conceptual-directory/cloud-deployment',
     },
 ];
 

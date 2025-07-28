@@ -1,7 +1,8 @@
 ---
 sidebar_position: 2
+slug: concepts
 ---
 
-# Conceptual Directory
+# Concepts
 
 In this folder, you will find all of our one-off educational guides in various topics that span the industry.
