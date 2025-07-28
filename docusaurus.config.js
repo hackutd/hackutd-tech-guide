@@ -48,6 +48,11 @@ const config = {
                     },
                     routeBasePath: 'archive',
                     blogTitle: 'Mischellaneous Blog',
+                    blogSidebarCount: 'ALL',
+                    truncateMarker: /<!--\s*(truncate)\s*-->/,
+
+                    blogSidebarTitle: 'All posts',
+                    postsPerPage: 5,
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
@@ -74,7 +79,7 @@ const config = {
                     },
                     {
                         to: 'archive',
-                        label: 'Miscellanous Blog',
+                        label: 'Miscellaneous Blog',
                         position: 'left',
                     },
                     {
@@ -93,7 +98,7 @@ const config = {
                             {
                                 label: 'Resources',
                                 to: '/resources',
-                            },  
+                            },
                             {
                                 label: 'Blog',
                                 to: '/archive',
@@ -105,7 +110,7 @@ const config = {
                             {
                                 label: 'Guided Project',
                                 to: '/guided%20project',
-                            }
+                            },
                         ],
                     },
                     {
