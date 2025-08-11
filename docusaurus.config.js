@@ -99,8 +99,8 @@ const config = {
                                 to: '/archive',
                             },
                             {
-                                label: 'Conceptual Directory',
-                                to: '/conceptual-directory/',
+                                label: 'Concepts',
+                                to: '/conceptual-directory/concepts',
                             },
                             {
                                 label: 'Guided Project',
