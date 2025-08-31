@@ -9,12 +9,9 @@ At this point, you should have installed everything necessary to start the devel
 
 In this section, we won’t be creating any _**new**_ content. We will simply set up our Integrated Development Environment (VS Code in this case) so that it’s ready for us to start creating our web application.
 
-## Overview
-
-- Initialize our React Project using Vite (a JavaScript framework)
-- Install Tailwind CSS into our project
-- Adding a custom font
-- Adding custom colors
+:::caution
+If you are attending **Devday**, there is **_no_** need to go any further at this point. We will be creating a **fork** of a starter project code that we already have set up for you. The only point in continuing the tutorial is to have an understanding of what to do on the actual **day** of the Hackathon (HackUTD 2025).
+:::
 
 ---
 
@@ -22,6 +19,8 @@ In this section, we won’t be creating any _**new**_ content. We will simply se
 
 :::info
 Before we get into creating our first project, we want to make sure that we know **_where_** we’re building it. In this section, we will be creating a general folder that will _house_ all of our future projects.
+
+_note_: If you already have a dedicated folder for projects, you can skip this step.
 :::
 
 1. Open up Visual Studio Code
@@ -42,21 +41,21 @@ Before we get into creating our first project, we want to make sure that we know
    :::tip
    An essential skill of a programmer is to become comfortable with reading documentation.
    :::
-2. Click on "Get Started". Feel free to read through the features
+2. Click on "Get Started". Feel free to read through the features.
    ![nextjs get started](../../../static/img/webapp-setup/nextjs2.png)
 3. Click on `Installation` on the sidebar.
    ![nextjs get started](../../../static/img/webapp-setup/nextjs.png)
 4. Open up the terminal. You can find the button in the top bar of VS Code (as shown below). You could also use the shortcut: `ctrl` + `shift` + \` which is the backtick symbol (found below the`Esc` key).
    ![nextjs get started](../../../static/img/webapp-setup/nextjs3.png)
-5. In your terminal, run the following commands:
+5. In your terminal, run the following command:
 
     ```bash
     npx create-next-app@latest devday_project
-    cd my-app
-    npm run dev
     ```
 
     :::info
+    Make sure that you are in your `projects/` folder before running this command. For example, my terminal directory shows `/Users/dayo/Desktop/projects/`. And if I run the command in this folder, then it will be creating a new folder as the following: `/Users/dayo/Desktop/projects/devday_project/`.
+
     `npx create-next-app` is the command that installs the project
 
     `@latest` indicates the version we want to download
