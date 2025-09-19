@@ -1,6 +1,6 @@
 ---
 title: Slides
-slug: streamlit-slides
+slug: github-slides
 sidebar_position: 2
 ---
 
