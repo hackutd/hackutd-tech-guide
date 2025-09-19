@@ -33,6 +33,8 @@ const config = {
                 path: 'dayof',
                 routeBasePath: 'dayof',
                 sidebarPath: require.resolve('./sidebars-dayof.js'), // Fixed: point to correct sidebar
+
+                sidebarCollapsed: false, // Default to expanded for dayof docs too
             },
         ],
     ],
@@ -74,6 +76,11 @@ const config = {
     themeConfig:
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
+            docs: {
+                sidebar: {
+                    autoCollapseCategories: false,
+                },
+            },
             metadata: [
                 {
                     name: 'keywords',

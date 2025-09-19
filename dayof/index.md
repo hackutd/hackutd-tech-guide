@@ -23,9 +23,9 @@ keywords:
 
 > _"Every great journey begins with a single page..."_
 
-Hey everyone! We are so excited for HackUTD 2025: Lost in the Pages this year. We hope that this event brings you great memories, helps you learn new things, and most importantly, allows you to grow!
+Welcome to your complete guide for **HackUTD 2025: Lost in the Pages**! This platform brings together all the resources, schedules, and information you'll need for an amazing hackathon experience.
 
-This website is designed to have everything you could possibly need on a single page. But of course, if we miss anything, you can reach in any of the following ways.
+Questions or need help with something not covered here? We're here to help:
 
 <h2 className="section-header">Essential Resources</h2>
 
