@@ -6,13 +6,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'HackUTD Tech Resources',
-    tagline: 'Your one-stop shop for all content from HackUTD!',
+    title: 'HackUTD Tech Guide',
+    tagline:
+        'The HackUTD tech platform. Where you can find guides, resources, and information for HackUTD!',
     url: 'https://guide.hackutd.co',
     baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
+
+    // meta data for SEO:
 
     // GitHub pages deployment config.
     organizationName: 'hackutd',
@@ -58,6 +61,12 @@ const config = {
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
                 },
+                sitemap: {
+                    changefreq: 'weekly',
+                    priority: 0.5,
+                    ignorePatterns: ['/tags/**'],
+                    filename: 'sitemap.xml',
+                },
             }),
         ],
     ],
@@ -65,6 +74,28 @@ const config = {
     themeConfig:
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
+            metadata: [
+                {
+                    name: 'keywords',
+                    content:
+                        'HackUTD, HackUTD 2025, hackathon, UT Dallas, UTD, programming, coding competition, student hackathon, Dallas, Texas, Lost in the Pages',
+                },
+                {
+                    name: 'description',
+                    content:
+                        'Complete guide and resources for HackUTD 2025: Lost in the Pages hackathon at University of Texas at Dallas. Find day-of guides, technical resources, and everything you need for the event.',
+                },
+                {
+                    property: 'og:image',
+                    content: 'https://guide.hackutd.co/img/hackutd-2025-og.png',
+                },
+                { property: 'og:type', content: 'website' },
+                { property: 'og:site_name', content: 'HackUTD Tech Guide' },
+                { name: 'twitter:card', content: 'summary_large_image' },
+                { name: 'twitter:site', content: '@HackUTD' },
+                { name: 'author', content: 'HackUTD Team' },
+                { name: 'robots', content: 'index, follow' },
+            ],
             navbar: {
                 title: 'HackUTD Tech Guide',
                 logo: {

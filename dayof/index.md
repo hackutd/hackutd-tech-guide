@@ -2,6 +2,21 @@
 id: index
 title: HackUTD 2025 Lost in the Pages
 slug: /
+description: Complete day-of event guide for HackUTD 2025 Lost in the Pages hackathon. Find hackerpacks, submission guides, travel info, and everything you need for UT Dallas's premier coding competition.
+keywords:
+    - HackUTD 2025
+    - HackUTD
+    - hackathon
+    - UT Dallas
+    - UTD
+    - programming competition
+    - coding event
+    - Lost in the Pages
+    - day of event
+    - hackathon guide
+    - student hackathon
+    - Dallas hackathon
+    - Texas hackathon
 ---
 
 # HackUTD 2025: Lost in the Pages

@@ -12,13 +12,13 @@ module.exports = {
                 // Primary Resources
                 {
                     type: 'category',
-                    label: 'Primary Resources',
+                    label: 'Essential Resources',
                     items: ['general-hackerpack', 'devpost-guide'],
                 },
                 // Role-Specific Information
                 {
                     type: 'category',
-                    label: 'Role-Specific Information',
+                    label: 'Other Information',
                     items: [
                         'volunteer-hackerpack',
                         'mentor-guide',
