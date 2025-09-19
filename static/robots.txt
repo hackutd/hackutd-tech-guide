@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://guide.hackutd.co/sitemap.xml
+
+# Priority pages for HackUTD search
+# /resources - Technical resources
+# /dayof/ - Main day of event guide
+# /archive - Blog posts about hackathon
+
+# SEO hints for crawlers
+# Main keywords: HackUTD, HackUTD 2025, hackathon, UT Dallas, UTD
+# Event: Lost in the Pages hackathon
+# Location: University of Texas at Dallas
