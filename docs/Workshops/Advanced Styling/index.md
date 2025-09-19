@@ -3,6 +3,78 @@ title: Advanced Styling
 slug: advanced-styling
 sidebar_position: 5
 ---
+## Why is Styling so Important?
+There's many reasons as to why styling is important, but the three that we're going to be focusing on today is as such:
+- catches the attention of your audience
+- can help cover up mistakes
+- makes your idea seem more realistic
+
+Here we have 2 examples of the same website but different styling.
+
+![Styling1](/img/advancedstyling/Styling1.png)
+
+ Take note of these major differences! <br/>
+ We still use the same logo at the top, but we add a **background color** to give it more character. Also if you look at some of the buttons, it is very clear that they are **buttons** because they are *boxed* and have a *high constrasting color*.
+
+
+## How Can I Style My Project?
+There are many ways to add styling, character, and emphasis to your website. Today we're going over some main points. If you want to learn more you can always go to tailwindCSS documentation for more styling guides.
+
+### Element Organization
+Flex allows us to organize our elements within a container. By using flex, the default is horizontally in a row. 
+
+In this example, the text goes from being in a column to a row for the navbar.
+
+![Styling2](/img/advancedstyling/styling2.png)
+![Styling3](/img/advancedstyling/Styling3.png)
+
+
+
+### Fonts
+Fonts can add a lot of benefit to a website. For titles, it is okay to choose fancier fonts to draw more attention to them. For paragraphs, choose easy to read fonts to make it more accessible. 
+
+Bolding, italics, and underlining, are great ways to emphasis specific words or phrases.  Make sure to follow styling standards like bolding titles and subtitles or underlining links.
+
+Use utilities like `font-sans` or `font-mono` to set the font. A utility is a pre-written CSS class, and here we are using the font family properties.
+
+### Images
+An image conveys 1000 words. They help your audience visualize and convey messages without too many words. Images are also great for logos to create a brand. 
+
+We see this with Nucleus. The image conveys a message and emotion that aligns with their brand.
+
+![Styling5](/img/advancedstyling/Styling5.png)
+
+### Subtle Effects
+Subtle Effects are subtle, but add a lot to the user experience. You can guide users to what you want them to see and create layers (foreground and background). Using effects effitively will take your website to the next level.
+
+- buttons changing color when hovering
+- Card components being distinct from the background create layers
+
+In this example, the card is boxed and creates different layers. Drawing your eyes to the card (foreground).
+
+![Styling4](/img/advancedstyling/Styling4.png)
+
+### Color Palettes
+Color palettes give your website character and a cohesiveness that is appealing to users. 
+It is recommended to use 3 colors: 
+- 60% background color
+- 30% main color for buttons and other features
+- 10% accent color
+
+You can explore color palettes at https://colorhunt.co/
+
+The statefarm website is a great examples of a cohesive color palette, making the website look professional and draws your eyes to different parts of the page.
+
+![Styling6](/img/advancedstyling/Styling6.png)
+
+### Continuity
+Continuity is about making it easy for the user to use your site. Follow styling standards like using a house icon to go home. Use cohesive colors that match your brand / message, and use these colors throughout your website.
+
+Be sure to section and group like items together to create uniform sections.
+
+You can find icons at https://react-icons.github.io/react-icons/ <br/><br/><br/>
+
+# Demo Time!
 
 ## Header.jsx
 
