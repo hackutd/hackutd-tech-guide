@@ -1,30 +1,288 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- *
- * Docusarus has a nice color editor: https://docusaurus.io/docs/styling-layout
- */
-/* You can override the default Infima variables here. */
-:root {
-    --ifm-color-primary: #cb1fba;
-    --ifm-color-primary-dark: #b71ca7;
-    --ifm-color-primary-darker: #ad1a9e;
-    --ifm-color-primary-darkest: #8e1682;
-    --ifm-color-primary-light: #de24cb;
-    --ifm-color-primary-lighter: #df2ece;
-    --ifm-color-primary-lightest: #e44cd5;
-    --ifm-code-font-size: 95%;
-    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+/* Enhanced modern card styles - Add to your src/css/custom.css */
+
+/* Remove underlines and improve link styling */
+.notion-card-link {
+    text-decoration: none !important;
+    color: inherit !important;
+    border: none !important;
 }
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-    --ifm-color-primary: #e67aeb;
-    --ifm-color-primary-dark: #e05be6;
-    --ifm-color-primary-darker: #dd4be4;
-    --ifm-color-primary-darkest: #d121d9;
-    --ifm-color-primary-light: #ec99f0;
-    --ifm-color-primary-lighter: #efa9f2;
-    --ifm-color-primary-lightest: #f8d7f9;
-    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+.notion-card-link:hover {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+/* Custom card container with responsive grid */
+.custom-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin: 32px 0;
+}
+
+/* Primary cards - 2x1 layout for main resources */
+.primary-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 24px;
+    margin: 32px 0;
+}
+
+/* Individual card styling with modern design */
+.notion-card {
+    background: linear-gradient(
+        135deg,
+        rgba(139, 69, 19, 0.08) 0%,
+        rgba(75, 0, 130, 0.08) 100%
+    );
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    padding: 24px;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark theme adjustments */
+[data-theme='dark'] .notion-card {
+    background: linear-gradient(
+        135deg,
+        rgba(139, 69, 19, 0.12) 0%,
+        rgba(75, 0, 130, 0.12) 100%
+    );
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* Light theme adjustments */
+[data-theme='light'] .notion-card {
+    background: linear-gradient(
+        135deg,
+        rgba(139, 69, 19, 0.04) 0%,
+        rgba(75, 0, 130, 0.04) 100%
+    );
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Enhanced hover effects */
+.notion-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    border-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+}
+
+[data-theme='dark'] .notion-card:hover {
+    box-shadow: 0 12px 48px rgba(0, 0, 0, 0.4);
+}
+
+[data-theme='light'] .notion-card:hover {
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
+}
+
+/* Card header with improved spacing */
+.notion-card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--ifm-color-emphasis-900);
+    line-height: 1.3;
+}
+
+.notion-card-emoji {
+    font-size: 28px;
+    margin-right: 12px;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+/* Card description with better typography */
+.notion-card-description {
+    color: var(--ifm-color-emphasis-700);
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+    font-weight: 400;
+}
+
+/* Primary cards styling */
+.notion-card--primary {
+    background: linear-gradient(
+        135deg,
+        rgba(139, 69, 19, 0.15) 0%,
+        rgba(75, 0, 130, 0.15) 100%
+    );
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    padding: 32px;
+}
+
+.notion-card--primary .notion-card-header {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.notion-card--primary .notion-card-emoji {
+    font-size: 32px;
+    margin-right: 16px;
+}
+
+.notion-card--primary .notion-card-description {
+    font-size: 16px;
+    line-height: 1.65;
+}
+
+/* Color variations for different categories */
+.notion-card--volunteer {
+    background: linear-gradient(
+        135deg,
+        rgba(59, 130, 246, 0.08) 0%,
+        rgba(37, 99, 235, 0.08) 100%
+    );
+    border-color: rgba(59, 130, 246, 0.2);
+}
+
+.notion-card--volunteer:hover {
+    border-color: rgba(59, 130, 246, 0.4);
+    box-shadow: 0 12px 40px rgba(59, 130, 246, 0.15);
+}
+
+.notion-card--travel {
+    background: linear-gradient(
+        135deg,
+        rgba(16, 185, 129, 0.08) 0%,
+        rgba(5, 150, 105, 0.08) 100%
+    );
+    border-color: rgba(16, 185, 129, 0.2);
+}
+
+.notion-card--travel:hover {
+    border-color: rgba(16, 185, 129, 0.4);
+    box-shadow: 0 12px 40px rgba(16, 185, 129, 0.15);
+}
+
+.notion-card--guide {
+    background: linear-gradient(
+        135deg,
+        rgba(245, 158, 11, 0.08) 0%,
+        rgba(217, 119, 6, 0.08) 100%
+    );
+    border-color: rgba(245, 158, 11, 0.2);
+}
+
+.notion-card--guide:hover {
+    border-color: rgba(245, 158, 11, 0.4);
+    box-shadow: 0 12px 40px rgba(245, 158, 11, 0.15);
+}
+
+.notion-card--prizes {
+    background: linear-gradient(
+        135deg,
+        rgba(236, 72, 153, 0.08) 0%,
+        rgba(219, 39, 119, 0.08) 100%
+    );
+    border-color: rgba(236, 72, 153, 0.2);
+}
+
+.notion-card--prizes:hover {
+    border-color: rgba(236, 72, 153, 0.4);
+    box-shadow: 0 12px 40px rgba(236, 72, 153, 0.15);
+}
+
+/* Section headers with modern styling */
+.section-header {
+    font-size: 28px;
+    font-weight: 800;
+    margin: 48px 0 24px 0;
+    color: var(--ifm-color-emphasis-900);
+    background: linear-gradient(
+        135deg,
+        var(--ifm-color-primary),
+        var(--ifm-color-primary-light)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Responsive design improvements */
+@media (max-width: 768px) {
+    .primary-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .custom-card-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .notion-card {
+        padding: 20px;
+    }
+
+    .notion-card--primary {
+        padding: 24px;
+    }
+
+    .notion-card-header {
+        font-size: 18px;
+    }
+
+    .notion-card--primary .notion-card-header {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .notion-card {
+        padding: 16px;
+    }
+
+    .notion-card--primary {
+        padding: 20px;
+    }
+}
+
+/* Add subtle animation to emojis */
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-4px);
+    }
+}
+
+.notion-card:hover .notion-card-emoji {
+    animation: float 2s ease-in-out infinite;
+}
+
+/* Modern focus states for accessibility */
+.notion-card-link:focus {
+    outline: 2px solid var(--ifm-color-primary);
+    outline-offset: 4px;
+    border-radius: 16px;
+}
+
+/* Add a subtle shine effect on hover */
+.notion-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.1),
+        transparent
+    );
+    transition: left 0.5s;
+}
+
+.notion-card:hover::before {
+    left: 100%;
 }

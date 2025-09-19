@@ -15,18 +15,24 @@ const config = {
     favicon: 'img/favicon.ico',
 
     // GitHub pages deployment config.
-    // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'hackutd', // Usually your GitHub org/user name.
-    projectName: 'hackutd-tech-guide', // Usually your repo name.
+    organizationName: 'hackutd',
+    projectName: 'hackutd-tech-guide',
 
-    // Even if you don't use internalization, you can use this field to set useful
-    // metadata like html lang. For example, if your site is Chinese, you may want
-    // to replace "en" with "zh-Hans".
     i18n: {
         defaultLocale: 'en',
         locales: ['en'],
     },
-
+    plugins: [
+        [
+            '@docusaurus/plugin-content-docs',
+            {
+                id: 'dayof',
+                path: 'dayof',
+                routeBasePath: 'dayof',
+                sidebarPath: require.resolve('./sidebars-dayof.js'), // Fixed: point to correct sidebar
+            },
+        ],
+    ],
     presets: [
         [
             'classic',
@@ -35,10 +41,6 @@ const config = {
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
                     routeBasePath: '/',
-                    // Please change this to your repo.
-                    // Remove this to remove the "edit this page" links.
-                    // editUrl:
-                    //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
                 },
                 blog: {
                     showReadingTime: true,
@@ -82,8 +84,19 @@ const config = {
                         position: 'left',
                     },
                     {
+                        // Fixed: remove docId and use proper link format
+                        to: '/dayof/',
+                        position: 'left',
+                        label: 'HackUTD 2025: Lost in the Pages',
+                    },
+                    {
                         href: 'https://github.com/acmutd/hackutd-tech-guide',
                         label: 'GitHub',
+                        position: 'right',
+                    },
+                    {
+                        href: 'https://www.instagram.com/hackutd/',
+                        label: 'Instagram',
                         position: 'right',
                     },
                 ],
@@ -101,6 +114,10 @@ const config = {
                             {
                                 label: 'Blog',
                                 to: '/archive',
+                            },
+                            {
+                                label: 'Day of Event', // Added dayof to footer
+                                to: '/dayof/',
                             },
                             {
                                 label: 'Concepts',
