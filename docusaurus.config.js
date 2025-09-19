@@ -47,10 +47,9 @@ const config = {
                         copyright: `Copyright © ${new Date().getFullYear()} HackUTD`,
                     },
                     routeBasePath: 'archive',
-                    blogTitle: 'Mischellaneous Blog',
+                    blogTitle: 'Blog',
                     blogSidebarCount: 'ALL',
-                    truncateMarker: /<!--\s*(truncate)\s*-->/,
-
+                    truncateMarker: /<!--\s*(truncate|more)\s*-->/,
                     blogSidebarTitle: 'All posts',
                     postsPerPage: 5,
                 },
@@ -79,7 +78,7 @@ const config = {
                     },
                     {
                         to: 'archive',
-                        label: 'Miscellaneous Blog',
+                        label: 'Blog',
                         position: 'left',
                     },
                     {

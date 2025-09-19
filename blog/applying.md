@@ -1,5 +1,5 @@
 ---
-title: Appyling to HackUTD
+title: Appyling to HackUTD 2025 Lost in the Pages
 description: Learn how to write a strong application for HackUTD or any other hackathon.
 date: 2024-09-19
 authors:
@@ -7,9 +7,9 @@ authors:
 tags: [Hackathons, UTD, Application, Coding, Tech]
 ---
 
-_Written by Daniel Kim_
-
 We’ve all been there: sitting in front of an application, staring at the short answer questions, and having no idea what to write. “Why are you interested?”, “What makes you special?”, “Why should we accept you?”. It’s the worst thing to write and the best thing to procrastinate.
+
+<!--truncate-->
 
 Though it might seem challenging, writing a strong application is essential for advancing your career. Opportunities like job positions, organizations, and events like hackathons typically require participants to submit applications. Applying to a hackathon can therefore feel intimidating because there’s no clear-cut rubric for what organizers will expect.
 
@@ -55,7 +55,7 @@ Organizers love seeing applicants who show that they are driven to solve specifi
 
 Even if you’ve never coded a single line, don’t be discouraged. Hackathons have tons of resources, from workshops of experienced speakers to mentors who can help answer any questions you may have about your project. There will be many opportunities to try new things and have a lot of fun, no matter who you are or what your background is.
 
-### Question 2: If you haven’t been to a hackathon, what do you hope to learn from HackUTD Ripple Effect?
+### Question 2: If you haven’t been to a hackathon, what do you hope to learn from HackUTD Lost in the Pages?
 
 There is no expectation for you to be some sort of genius. On the contrary, we want our attendees to have a passion for overcoming challenges and a desire to learn new technologies. This question gives you a chance to highlight not only what the gaps in your knowledge are, but also your desire to fill them.
 
@@ -63,7 +63,7 @@ As Abigail Adams once said:
 
 > Learning is not attained by chance, it must be sought for with ardor and diligence
 
-### Question 3: What are you looking forward to at HackUTD Ripple Effect?
+### Question 3: What are you looking forward to at HackUTD Lost in the Pages?
 
 To have a solid application, you must be able to clearly articulate what you are hoping to gain from the experience. We look for applicants who are driven by a strong sense of purpose. Whether you want to improve your coding skills via our workshops, collaborate with a team, learn from company representatives and sponsors, or make connections with like-minded individuals, clearly outlining your motivation for attending will help your application stand out.
 
