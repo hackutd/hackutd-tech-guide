@@ -45,7 +45,7 @@ We see this with Nucleus. The image conveys a message and emotion that aligns wi
 ![Styling5](/img/advancedstyling/Styling5.png)
 
 ### Subtle Effects
-Subtle Effects are subtle, but add a lot to the user experience. You can guide users to what you want them to see and create layers (foreground and background). Using effects effitively will take your website to the next level.
+Subtle Effects are subtle, but add a lot to the user experience. You can guide users to what you want them to see and create layers (foreground and background). Using effects effectively will take your website to the next level.
 
 - buttons changing color when hovering
 - Card components being distinct from the background create layers
@@ -74,11 +74,11 @@ Be sure to section and group like items together to create uniform sections.
 
 You can find icons at https://react-icons.github.io/react-icons/ <br/><br/><br/>
 
-# Demo Time!
+## Demo Time!
 
-## Header.jsx
+### Header.jsx
 
-### Step 1: Header
+#### Step 1: Header
 
 Starting in the Header.jsx file on line 5, after `return (`. We are going to add styling to the header container.
 
@@ -97,7 +97,7 @@ This adds dimension and emphasis to the container!
 ![line1](/img/advancedstyling/header-line1.png)
 
 
-### Step 2: Center
+#### Step 2: Center
 
 Here we are going to be adjusting the position of the div contents - the `<h1>` and `<nav>` tags. <br/>
 In the first div, add `flex justify-between items-center`
@@ -108,7 +108,7 @@ This will center everything in the div container with even spacing between them.
 
 ![line2](/img/advancedstyling/header-line2.png)
 
-### Step 3: Spacing
+#### Step 3: Spacing
 
 In the `<ul>` tag, add `flex space-x-4`, this adds padding between the containers
 
@@ -117,7 +117,7 @@ If needed, you can also use space-y-[] to add padding along the y-axis
 
 ![line3](/img/advancedstyling/header-line3.png)
 
-### Step 4: Hover
+#### Step 4: Hover
 
 On both `<li>` tags add hover: `text-yellow-300` and `transition duration-300`
 
@@ -131,9 +131,9 @@ On both `<li>` tags add hover: `text-yellow-300` and `transition duration-300`
 
 ![line3](/img/advancedstyling/header-line4.png)
 
-## RecipeCard.jsx
+### RecipeCard.jsx
 
-### Step 5: Overflow/Hover
+#### Step 5: Overflow/Hover
 
 **Line 8**
 
@@ -147,7 +147,7 @@ Go to **Line 8**, this is the first line after `return (`
 
 ![line1](/img/advancedstyling/recipeCard-line1.png)
 
-### Step 6:
+#### Step 6: Object Cover
 
 **Line 9**
 
@@ -156,7 +156,7 @@ Go to **Line 8**, this is the first line after `return (`
 
 ![line9](/img/advancedstyling/recipeCard-line4.png)
 
-### Step 7:
+#### Step 7: Font
 
 **Line 11**
 
@@ -165,7 +165,7 @@ Go to **Line 8**, this is the first line after `return (`
 
 ![line2](/img/advancedstyling/recipeCard-line2.png)
 
-### Step 8:
+#### Step 8: Icons
 
 Icons give us a different way to make buttons or add designs to a website. <br/>
 
@@ -176,7 +176,7 @@ Above the button's closing tag,
 
 ![line3](/img/advancedstyling/recipeCard-line3.png)
 
-### Additional Resources
+#### Additional Resources
 
 Tailwind Docs: https://v3.tailwindcss.com/docs/installation
 
