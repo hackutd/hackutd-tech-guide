@@ -51,26 +51,17 @@ This website is designed to have everything you could possibly need on a single 
   </a>
 </div>
 
-<h2 className="section-header">Team Resources</h2>
+<h2 className="section-header">Other Resources</h2>
 
 <div className="custom-card-grid">
-  <a href="/dayof/volunteer-hackerpack" className="notion-card notion-card--volunteer notion-card-link">
-    <div className="notion-card-header">
-      <span className="notion-card-emoji">🙋</span>
-      Volunteer Hub
-    </div>
-    <p className="notion-card-description">
-      Essential tools and insider knowledge for volunteers to create seamless hackathon experiences for all participants.
-    </p>
-  </a>
   
   <a href="/dayof/mentor-guide" className="notion-card notion-card--volunteer notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">🎯</span>
-      Mentor Toolkit
+      Mentor Information
     </div>
     <p className="notion-card-description">
-      Strategic guidance and proven techniques for mentors to effectively support teams and accelerate innovation.
+      Get in touch with mentors that will help you with your questions pertaining to your project.
     </p>
   </a>
   
@@ -80,14 +71,14 @@ This website is designed to have everything you could possibly need on a single 
       Judge Handbook
     </div>
     <p className="notion-card-description">
-      Comprehensive evaluation criteria and best practices for fair, consistent project assessment and scoring.
+      Learn how to ace the judging process. You'll need more than just a good project to win.
     </p>
   </a>
   
   <a href="/dayof/travel-guide" className="notion-card notion-card--volunteer notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">🧳</span>
-      Travel Companion
+      Travel Guide
     </div>
     <p className="notion-card-description">
       Complete travel logistics including transportation options, accommodation tips, and local area insights.
@@ -118,16 +109,6 @@ This website is designed to have everything you could possibly need on a single 
     </p>
   </a>
   
-  <a href="/dayof/guided-project" className="notion-card notion-card--guide notion-card-link">
-    <div className="notion-card-header">
-      <span className="notion-card-emoji">✨</span>
-      Guided Project
-    </div>
-    <p className="notion-card-description">
-      Follow our curated project path designed for beginners, complete with resources and expert guidance.
-    </p>
-  </a>
-  
   <a href="/dayof/prizes-challenges" className="notion-card notion-card--prizes notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">🏆</span>
@@ -138,12 +119,28 @@ This website is designed to have everything you could possibly need on a single 
     </p>
   </a>
 </div>
+<h2 className='section-header'>Guided Project Information</h2>
+
+<div className="custom-card-grid">
+ <a href="/dayof/guided-project" className="notion-card notion-card--guide notion-card-link">
+    <div className="notion-card-header">
+      <span className="notion-card-emoji">✨</span>
+      Guided Project
+    </div>
+    <p className="notion-card-description">
+      If this is your first ever hackathon, or you just need some guidance with web-application setup, this guide is for you!
+      Follow our curated project path complete with resources and expert guidance.
+    </p>
+  </a>
+</div>
 
 ---
 
-<div style={{textAlign: 'center', marginTop: '48px', padding: '24px', background: 'rgba(0,0,0,0.1)', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.1)'}}>
+<div style={{textAlign: 'center', marginTop: '48px', padding: '12px', background: 'rgba(0,0,0,0.1)', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.1)'}}>
 
-## **Need help?**
+<h2 className='section-header'>
+Need assistance?
+</h2>
 
 🚨 **Emergency**: We recommend opening a ticket in our [discord server](https://discord.gg/sCJb7J98QD) or finding an organizer.
 

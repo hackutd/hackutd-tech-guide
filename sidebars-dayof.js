@@ -1,4 +1,5 @@
-// sidebars-dayof.js
+// sidebars-dayof.js - Updated with clean titles
+
 module.exports = {
     dayOfSidebar: [
         {
@@ -9,32 +10,69 @@ module.exports = {
                 id: 'index',
             },
             items: [
-                // Primary Resources
                 {
                     type: 'category',
                     label: 'Essential Resources',
-                    items: ['general-hackerpack', 'devpost-guide'],
+                    items: [
+                        {
+                            type: 'doc',
+                            id: 'general-hackerpack',
+                            label: 'Hackerpack',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'devpost-guide',
+                            label: 'Devpost Guide',
+                        },
+                    ],
                 },
-                // Role-Specific Information
+                // Team Resources (renamed from "Other Information")
                 {
                     type: 'category',
-                    label: 'Other Information',
+                    label: 'Other Resources',
                     items: [
-                        'volunteer-hackerpack',
-                        'mentor-guide',
-                        'judge-guide',
-                        'travel-guide',
+                        {
+                            type: 'doc',
+                            id: 'travel-guide',
+                            label: 'Travel Hackerpack',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'mentor-guide',
+                            label: 'Mentor Information',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'judge-guide',
+                            label: 'Judging Handbook',
+                        },
                     ],
                 },
                 // Event Information
                 {
                     type: 'category',
-                    label: 'Event Information',
+                    label: 'Event Logistics',
                     items: [
-                        'travel-reimbursement',
-                        'venue-parking',
-                        'guided-project',
-                        'prizes-challenges',
+                        {
+                            type: 'doc',
+                            id: 'travel-reimbursement',
+                            label: 'Travel Reimbursement',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'venue-parking',
+                            label: 'Venue & Parking',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'guided-project',
+                            label: 'Guided Project',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'prizes-challenges',
+                            label: 'Prizes & Challenges',
+                        },
                     ],
                 },
             ],
