@@ -9,6 +9,8 @@ tags: [info, artificial intelligence, chatgpt]
 
 A major problem with the current generation's new talent is that many of them have an over-reliance, or sometimes even a complete dependence, on Artifical Intelligence. We use it to study, to finish school work, code projects, and even to complete daily tasks. In this article, we will explore the detriments of AI and learn how to properly use it for your personal benefit.
 
+<!--truncate-->
+
 ## What does misuse of Artificial Intelligence look like?
 
 - You often go straight to an LLM for help before even attempting to solve the problem with your own thoughts.

@@ -4,6 +4,6 @@ slug: resources
 sidebar_position: 1
 ---
 
-Here's a great article over the mindset of a seasoned hackathon participant.
+This is a great article, written by a seasoned hackathon participant, over what it truly takes to win a hackathon.
 
-https://medium.com/garyyauchan/ultimate-8-step-guide-to-winning-hackathons-84c9dacbe8e
+<https://medium.com/garyyauchan/ultimate-8-step-guide-to-winning-hackathons-84c9dacbe8e>

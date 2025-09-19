@@ -20,32 +20,34 @@ HackUTD is the hackathon that is hosted annually at the University of Texas at D
 
 There's no perfect formula to _win_ a hackathon, but there are definitely a few standout characteristics that elevate a project.
 
--   Helpful to a marginalized group of people
-    -   Ex: Underserved minorities, some form of disability, victims of abuse, sa, etc.
--   Unique features
-    -   Ex: Last year, our grand winner was TalkTuah which involved an AI help agent that was accessed via phone call
--   Finished product
-    -   Try to avoid _overcooking_ and pumping out a project with a bunch of features that **barely work**. Instead, try to hone in on the defining purpose of the app and ensure that it performs that **one thing** proficiently.
--   Comprehensive pitch
-    -   When you present your project to the judges, you're not just demoing the project and explaining what it does. You need to create a story. It's helpful to discuss your inspiration, the problem at hand, the target audience, and the obstacles that you overcame.
+- Helpful to a marginalized group of people
+  - Ex: Underserved minorities, some form of disability, victims of trauma, etc.
+- Unique features
+  - Ex: Last year, our grand winner was TalkTuah which involved an AI help agent that was accessed via phone call
+- Finished product
+  - Try to avoid _overcooking_ and pumping out a project with a bunch of features that **barely work**. Instead, try to hone in on the defining purpose of the app and ensure that it performs that **one thing** proficiently.
+- Comprehensive pitch
+  - When you present your project to the judges, you're not just demoing the project and explaining what it does. You need to create a story. It's helpful to discuss your inspiration, the problem at hand, the target audience, and the obstacles that you overcame.
 
 ## What should I know to do well in a hackathon?
 
 To successfully develop a full stack application, you would need to have knowledge in the following topics:
 
--   Frontend Web Development
-    -   React, Streamlit, Svelte
--   Frontend Mobile App Development
-    -   React Native, Flutter, Kotlin
--   Backend
-    -   Flask, Google Firebase, Supabase, FastAPI
--   Free APIs to pull information from
-    -   Spotify, WeatherAPI, Google Maps, etc.
+- Web Development
+  - React, Streamlit, Svelte
+- Mobile App Development
+  - React Native, Flutter, Kotlin
+- Backend
+  - Flask, Google Firebase, Supabase, FastAPI
+- Free APIs to pull information from
+  - Spotify, WeatherAPI, Google Maps, etc.
 
 ## How can I learn those topics?
 
-On this site, you will find many resources to help you such as our Guided Project which will take you to an elaborate step by step guide in creating your very own full stack app. Furthermore, we have various workshop guides and blog posts that may assist you on your journey. If you don't know where to start, visit this link to dip your feet and don't be afraid to use Google or AI when you face any major confusions. And of course don't forget that we have this entire workshop series too.
+On this site, you will find many resources to help you such as our [Guided Project](../../Guided%20Project/) which will take you to an elaborate step by step guide in creating your very own full stack app. Furthermore, we have various workshop guides and blog posts that may assist you on your journey. If you don't know where to start, visit this link to dip your feet and don't be afraid to use Google or AI when you face any major confusions. And of course, don't forget that you can always find us in person for some assistance!
 
 ## Final remarks
 
-Thanks for making it to the end! If you have any questions, shoot us an email at hello@hackutd.co or better yet, come out to the future workshops.
+Thanks for making it to the end! If you have any questions, shoot us an email at <hello@hackutd.co> or better yet, come out to our other workshops.
+
+Hope to see you there - HackUTD 2025
