@@ -14,7 +14,7 @@ export default function Root({ children }) {
                 t.src = 'https://www.clarity.ms/tag/' + i;
                 y = l.getElementsByTagName(r)[0];
                 y.parentNode.insertBefore(t, y);
-            })(window, document, 'clarity', 'script', 'tfuykwrmi0');
+            })(window, document, 'clarity', 'script', 'tfvc1tedqr');
         }
     }, []);
     return <>{children}</>;
