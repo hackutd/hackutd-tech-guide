@@ -210,7 +210,7 @@ git push -u origin main
 - **Make it public**: Great for showcasing your work to employers
 - **Add collaborators**: Go to Settings → Manage access to add team members
 
-## How to Create a Repo
+## Local Repo
 ### git clone
 - Use when you want to **download an existing repository** from GitHub (or another remote).  
 - Example:  
