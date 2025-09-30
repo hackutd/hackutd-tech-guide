@@ -1,6 +1,6 @@
 ---
 title: Firebase
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 ## Chapter 1 - Intro
