@@ -3,11 +3,15 @@ title: External Resources
 slug: resources
 sidebar_position: 1
 ---
-## Slides
-TBD
 
 ## Cheat Sheet
-TBD
+[Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf) from GitHub Education
 
-## How to Get Github Copilot Pro for Free as a Student:
-https://docs.github.com/en/education/about-github-education/github-education-for-students/apply-to-github-education-as-a-student
+# Learn Git Through a Game
+Play the game [here](https://ohmygit.org/)
+
+# Git Tutorial for Visual Learners
+Visualize git [here](https://agripongit.vincenttunru.com/)
+
+# How to Get Github Copilot Pro for Free as a Student:
+Get access to GitHub Copilot for free while you are a student [here](https://docs.github.com/en/education/about-github-education/github-education-for-students/apply-to-github-education-as-a-student)
