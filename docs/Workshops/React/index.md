@@ -410,29 +410,246 @@ Key points:
 - State is isolated to the component instance. Each rendered `<Counter />` has its own `count`.
 - In Next.js App Router, any component that uses state must be a Client Component (start the file with `"use client"`).
 
-## Server vs Client in React (Next.js App Router)
+## Side effects and useEffect (with useState)
 
-In Next.js (App Router), components are Server Components by default. You opt into Client Components by adding `"use client"` at the top of a file.
+Side effects are anything your component does that reaches outside React’s render cycle or depends on external systems. Common examples:
+- Network requests (fetching data)
+- Reading/writing browser APIs (localStorage, document, window)
+- Timers, intervals, subscriptions, event listeners
+- Logging, analytics, imperative DOM updates
 
-- Server Components (default):
-  - Run on the server. No client-side JavaScript is sent for them by default.
-  - Great for data fetching, heavy computation, and SEO-friendly HTML.
-  - Can render Client Components as children.
-  - Cannot use browser-only APIs or React Client hooks (`useState`, `useEffect`, event handlers).
+Use `useState` to store changing data in a Client Component and `useEffect` to run effects after render. The effect’s dependency array controls when it runs.
 
-- Client Components (`"use client"`):
-  - Run in the browser after hydration.
-  - Required for interactivity: state, effects, event handlers, `localStorage`, `document`, etc.
-  - Bundle size matters—only mark components as client when necessary.
-  - Can receive data from Server Components via props.
+Example: a search page that loads popular movies on mount and lets users search.
 
-How a page is produced:
-- Server renders the initial HTML for Server Components (and shells for Client Components).
-- The browser downloads client bundles and hydrates Client Components, attaching event handlers so buttons, inputs, etc. start working.
+```tsx
+"use client";
+import MovieCard from "./components/MovieCard";
+import {useState, useEffect} from "react";
+import {searchMovies, getPopularMovies} from "./api/movies/route";
 
-When to choose which:
-- Use Server Components for: fetching TMDB data, rendering lists/cards, static content, SEO.
-- Use Client Components for: Favorite buttons, forms with `useState`, modals, anything needing `useEffect` or browser APIs.
+type Movie = {
+  id: number;
+  title: string;
+  poster_path?: string;
+  release_date?: string;
+};
 
-Tip: You can mix them. For example, a Server Component page fetches movies and maps them to `<MovieCard>` components. If `MovieCard` needs interactivity (like a Favorite toggle), make only `MovieCard` a Client Component.
+export default function Home() {
+  const [searchQuery, setSearchQuery] = useState("");
+  const [movies, setMovies] = useState<Movie[]>([]);
+
+  useEffect(() => {
+    const loadPopularMovies = async () => {
+      try {
+        const popularMovies = await getPopularMovies();
+        setMovies(popularMovies);
+      } catch (error) {
+        console.error("Error fetching popular movies:", error);
+      }
+    };
+    loadPopularMovies();
+  }, []);
+
+  const handleSearch = async (e: any) => {
+    e.preventDefault(); // Prevent page reload on form submit
+
+    if (!searchQuery.trim()) return; // Ignore empty searches
+
+    const fetchSearchResults = async () => {
+      try {
+        const results = await searchMovies(searchQuery);
+        setMovies(results);
+      } catch (error) {
+        console.error("Error searching movies:", error);
+      }
+    };
+
+    fetchSearchResults();
+  }
+
+  return (
+    <div>
+      <form onSubmit={handleSearch} className="m-4 flex">
+        <input
+          type="text"
+          placeholder="Search for a movie..."
+          className="border rounded-l p-2 flex-1"
+          value={searchQuery}
+          onChange={(e) => {
+            setSearchQuery(e.target.value);
+            console.log(e.target.value);
+          }}
+        />
+        <button type="submit" className="bg-blue-500 text-white rounded-r p-2">
+          Search
+        </button>
+      </form>
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 m-8">
+        {movies.map((movie) => (
+            <MovieCard movie={movie} key={movie.id} />
+          ))}
+      </div>
+    </div>
+  );
+}
+```
+
+What’s happening:
+- "use client": Required because we use `useState`, `useEffect`, and browser APIs in this file.
+- `useState` holds the search query and the list of movies.
+- `useEffect(..., [])` runs once after the first render (mount) to load popular movies.
+- On submit, we prevent the default page reload, call `searchMovies`, and update state with the results.
+- Changing state (`setMovies`, `setSearchQuery`) triggers a re-render and the UI updates.
+
+About the dependency array:
+- `[]`: run once after mount.
+- `[searchQuery]`: run when `searchQuery` changes.
+- Omit the array: run after every render (usually not desired).
+- Cleanup: return a function from `useEffect` to unsubscribe/clear timers when the component unmounts or before the next run.
+
+Note (Next.js App Router): If `searchMovies`/`getPopularMovies` are API route handlers in `app/api/.../route.ts`, don’t import them directly into a Client Component. Instead, call them over HTTP (e.g., `await fetch('/api/movies?query=...')`) or move shared fetching logic into a separate module (e.g., `lib/tmdb.ts`) that both server and client can use safely.
+
+Tip (typing events): For stricter types, use `React.FormEvent<HTMLFormElement>` for the submit handler and `React.ChangeEvent<HTMLInputElement>` for `onChange`.
+
+## TMDB API: setup and API module (app/api/movies/route.ts)
+
+The Movie Database (TMDB) is a public API for movie data (titles, posters, release dates, etc.). You’ll need an API key and a base URL.
+
+- Base URL: `https://api.themoviedb.org/3`
+- Docs: https://developer.themoviedb.org/
+
+### 1) Create environment variables
+Create a file named `.env.local` at the project root and add:
+
+```bash
+NEXT_PUBLIC_TMDB_BASE_URL=https://api.themoviedb.org/3
+NEXT_PUBLIC_TMDB_API_KEY=YOUR_API_KEY_HERE
+```
+
+- You can grab the API key from the slides: https://docs.google.com/presentation/d/1FKsA746KOhiAC1M-s-wR1RcHO8cmI6H7g9LMwGqdDMI/edit?usp=sharing
+- Files matching `.env*` are loaded by Next.js. `.env.local` is for your machine only and should not be committed.
+- The `NEXT_PUBLIC_` prefix exposes the value to the browser. That’s convenient for demos, but see the Security note below.
+
+### 2) Ensure `.env.local` is ignored by Git
+Your `.gitignore` should include entries like:
+
+```gitignore
+# dependencies
+node_modules/
+
+# next build output
+.next/
+
+# env files
+.env*
+```
+
+This keeps secrets and large/generated files out of your repository.
+
+### 3) Create `app/api/movies/route.ts`
+Add the following helper functions to fetch data from TMDB:
+
+```ts
+// app/api/movies/route.ts
+export const getPopularMovies = async () => {
+  const response = await fetch(
+    `${process.env.NEXT_PUBLIC_TMDB_BASE_URL}/movie/popular?api_key=${process.env.NEXT_PUBLIC_TMDB_API_KEY}`
+  );
+  const data = await response.json();
+  return data.results;
+};
+
+export const searchMovies = async (query: string) => {
+  const response = await fetch(
+    `${process.env.NEXT_PUBLIC_TMDB_BASE_URL}/search/movie?api_key=${process.env.NEXT_PUBLIC_TMDB_API_KEY}&query=${encodeURIComponent(query)}`
+  );
+  const data = await response.json();
+  return data.results;
+};
+```
+
+What this code does:
+- `async` marks a function as asynchronous so you can use `await` inside.
+- `await fetch(url)`: sends an HTTP request and pauses until the response arrives.
+- `await response.json()`: parses the JSON body into a JavaScript object.
+- `data.results`: TMDB returns a shape like `{ page, results, total_pages, ... }`. We return the `results` array of movies.
+- We interpolate environment variables (from `.env.local`) into the URL using template strings.
+
+Why place this under `app/api/movies/`?
+- In the App Router, anything under `app/api/**/route.ts` corresponds to an API route path (e.g., `/api/movies`).
+- Co-locating TMDB-related code here makes it easy to evolve this file into a proper API endpoint later.
+- Conventionally, you’d either export route handlers here or keep shared fetch logic in `lib/`. For the workshop, we keep it simple with helper functions.
+
+Security note (important):
+- Using `NEXT_PUBLIC_` exposes the API key to the browser. That’s fine for learning, but not secure for production.
+- Production approach: keep your API key server-only (no `NEXT_PUBLIC_`), implement a real API route, and have the client call `/api/movies` instead of TMDB directly.
+
+Optional: turn this into a proper API route so the client fetches `/api/movies`.
+
+```ts
+// app/api/movies/route.ts (API route handler example)
+export async function GET(request: Request) {
+  const { searchParams } = new URL(request.url);
+  const query = searchParams.get('query');
+
+  const base = process.env.TMDB_BASE_URL!; // server-only var (no NEXT_PUBLIC_)
+  const key = process.env.TMDB_API_KEY!;   // server-only var
+
+  const url = query
+    ? `${base}/search/movie?api_key=${key}&query=${encodeURIComponent(query)}`
+    : `${base}/movie/popular?api_key=${key}`;
+
+  const res = await fetch(url, { cache: 'no-store' });
+  const data = await res.json();
+  return new Response(JSON.stringify(data.results), {
+    headers: { 'Content-Type': 'application/json' },
+  });
+}
+```
+
+Then, in a Client Component, call your own API route:
+
+```ts
+const popular = await fetch('/api/movies').then((r) => r.json());
+const search = await fetch(`/api/movies?query=${encodeURIComponent(q)}`).then((r) => r.json());
+```
+
+This keeps your TMDB key on the server and avoids exposing secrets to users.
+
+## Wrap-up and next steps
+
+By now you’ve:
+- Created a Next.js app and learned App Router file-based routing
+- Added a global Navbar via `app/layout.tsx` and created a `/favorites` page
+- Built a typed `MovieCard` and rendered lists with `Array.map()` and stable `key`s
+- Passed data with props and used object access/destructuring patterns safely
+- Learned how state changes trigger re-renders, plus Server vs Client components and when to use `"use client"`
+- Used `useEffect` for side effects like fetching, and wired search + popular movies
+- Set up TMDB with environment variables, kept secrets out of Git with `.gitignore`, and created helper/API route code
+
+Quick checklist
+- Home page renders a grid of `MovieCard`s
+- `/favorites` route is accessible
+- If you added the favorite toggle, the heart button updates and persists via `localStorage`
+- Search loads popular movies on mount and returns results on submit
+
+Good next steps
+- Server data fetching: make `app/page.tsx` an async Server Component to fetch TMDB data on the server and pass it into client children only when needed
+- Details page: add `app/movies/[id]/page.tsx` to show a movie’s details using a dynamic route
+- UX states: add `loading.tsx` and `error.tsx` files for routes; show skeletons/placeholders
+- Data strategy: use caching/revalidation (ISR) for lists; choose SWR/TanStack Query if you need client-side refetching
+- UI polish: refine layout with Tailwind; consider component libraries like shadcn/ui, MUI, or Chakra
+- Persistence: keep favorites in localStorage for now; later, persist to a DB (Supabase/Firebase) behind your own API
+- Deploy: connect your repo to Vercel, set env vars in the project settings, and avoid exposing secrets (use server-only keys)
+
+Resources
+- Workshop resources: see [Resources](./external_resources.md)
+- Slides (API key link inside): https://docs.google.com/presentation/d/1FKsA746KOhiAC1M-s-wR1RcHO8cmI6H7g9LMwGqdDMI/edit?usp=sharing
+
+Troubleshooting
+- `.env.local` changes require restarting the dev server
+- 401/403 from TMDB: check `NEXT_PUBLIC_TMDB_API_KEY` and base URL
+- Missing posters: `poster_path` can be null; guard with a fallback image or empty string
+- Key warnings: ensure `key` is stable (use `movie.id`), not array index if lists can reorder
 
