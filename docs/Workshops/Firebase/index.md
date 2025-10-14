@@ -69,7 +69,7 @@ We now have firebase set up!! Time to add it to our app!
 ## Chapter 3 - Firebase-Config
 
 **1.** Follow this tiny url, https://tinyurl.com/f25firebase <br/>
-**2.** Click on the green code box <br/>
+**2.** Click on the green code button<br/>
 **3.** Click on codespaces. <br/>
 **4.** Then `Open in Codespace` This should bring you a screen like this<br/> 
 <img src ="/img/firebase/codespaces.png" width ="75%"/>
