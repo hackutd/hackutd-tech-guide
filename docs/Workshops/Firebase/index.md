@@ -54,7 +54,7 @@ To start, we need to set up firebase through Google before we can install it int
 **9.** Click Create Project<br/>
 **10.** Click on `+ Add App` <br/>
 **11.** Click `</>` (web)  <br/>
-<img src ="/img/firebase/firebaseWeb.png" width ="75%"/>
+<img src ="/img/firebase/webAppFirebase.png" width ="75%"/>
 
 **12.** Enter your app name <br/>
 **13.** Click `Register App` <br/>
