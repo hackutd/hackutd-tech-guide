@@ -50,7 +50,7 @@ To successfully develop project, you would need to have knowledge in at least on
 
 ## How can I learn those topics?
 
-On this site, you will find many resources to help you such as our [Guided Project](../../Guided%20Project/) which will take you to an elaborate step by step guide in creating your very own full stack app. Furthermore, we have various workshop guides and blog posts that may assist you on your journey. If you don't know where to start, visit this link to dip your feet and don't be afraid to use Google or AI when you face any major confusions. And of course, don't forget that you can always find us in person for some assistance!
+On this site, you will find many resources to help you such as our [Guided Project](../../GuidedProject/) which will take you to an elaborate step by step guide in creating your very own full stack app. Furthermore, we have various workshop guides and blog posts that may assist you on your journey. If you don't know where to start, visit this link to dip your feet and don't be afraid to use Google or AI when you face any major confusions. And of course, don't forget that you can always find us in person for some assistance!
 
 ## What should I do at a hackathon?
 
@@ -100,7 +100,7 @@ And this is the link to the [jamboard](https://padlet.com/danielkim55/list-your-
 
 ## Final remarks
 
-Thanks for making it to the end! If you have any questions, shoot us an email at <hello@hackutd.co> or better yet, come out to our other workshops. More details can be found [here](https://www.instagram.com/p/DO1S2g5jrlE/?hl=en).
+Thanks for making it to the end! If you have any questions, shoot us an email at [hello@hackutd.co](mailto:hello@hackutd.co) or better yet, come out to our other workshops. More details can be found [here](https://www.instagram.com/p/DO1S2g5jrlE/?hl=en).
 
 Hope to see you there - HackUTD 2025
 
@@ -108,4 +108,4 @@ Hope to see you there - HackUTD 2025
 
 This is a great article, written by a seasoned hackathon participant, over what it truly takes to win a hackathon.
 
-<https://medium.com/garyyauchan/ultimate-8-step-guide-to-winning-hackathons-84c9dacbe8e>
+[Link to article](https://medium.com/garyyauchan/ultimate-8-step-guide-to-winning-hackathons-84c9dacbe8e)

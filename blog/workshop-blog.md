@@ -11,4 +11,4 @@ This portion of the site is dedicated to articles and niche topics that we've wr
 
 We would love to connect with you. Follow us on instagram [@hackutd](https://www.instagram.com/hackutd/?hl=en)
 
-Or shoot us an email at <hello@hackutd.co>
+Or shoot us an email at [hello@hackutd.co](mailto:hello@hackutd.co)

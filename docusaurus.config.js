@@ -163,7 +163,7 @@ const config = {
                             },
                             {
                                 label: 'Guided Project',
-                                to: '/guided%20project',
+                                to: '/GuidedProject',
                             },
                         ],
                     },
