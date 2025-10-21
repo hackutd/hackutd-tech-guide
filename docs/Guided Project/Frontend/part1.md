@@ -177,3 +177,180 @@ export default {
       @tailwind components;
       @tailwind utilities;
       ```
+
+## Adding a Custom Font
+
+Now that our Tailwind CSS is setup, let’s add a custom font to our project.
+
+1. Go to your web browser and search up [poppins google font](https://fonts.google.com/specimen/Poppins?query=poppins) (or click on the embed)
+2. Click on “Get font” found in the top right corner
+3. Click on `<> Get embed code`
+![](img/fonts1.jpg)
+
+4. Switch the type to @import and copy the code without the `<style>` tags.
+![](img/fonts2.jpg)
+5. Go back to your `index.css` file and paste it in at the very top. 
+6. Also, add this code at the bottom of the file. `body` applies the styles to the body of the project. The `background-color` will make the entire background to this yellowish-white color. Your `index.css` file should now look like this:
+![](img/fonts3.jpg)
+7. We want to now add some variations of fonts such as bold and semibold. We can simply go back to the Google Fonts page and copy and paste the entire CSS class list.
+Now your index.css file should look like this:
+```css
+  /* index.css */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+  body {
+      background-color: #fcf7f1;
+  }
+
+  .poppins-thin {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 100;
+      font-style: normal;
+  }
+
+  .poppins-extralight {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 200;
+      font-style: normal;
+  }
+
+  .poppins-light {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 300;
+      font-style: normal;
+  }
+
+  .poppins-regular {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
+      font-style: normal;
+  }
+
+  .poppins-medium {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      font-style: normal;
+  }
+
+  .poppins-semibold {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      font-style: normal;
+  }
+
+  .poppins-bold {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      font-style: normal;
+  }
+
+  .poppins-extrabold {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 800;
+      font-style: normal;
+  }
+
+  .poppins-black {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 900;
+      font-style: normal;
+  }
+
+  .poppins-thin-italic {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 100;
+      font-style: italic;
+  }
+
+  .poppins-extralight-italic {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 200;
+      font-style: italic;
+  }
+
+  .poppins-light-italic {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 300;
+      font-style: italic;
+  }
+
+  .poppins-regular-italic {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
+      font-style: italic;
+  }
+
+  .poppins-medium-italic {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      font-style: italic;
+  }
+
+  .poppins-semibold-italic {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      font-style: italic;
+  }
+
+  .poppins-bold-italic {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      font-style: italic;
+  }
+
+  .poppins-extrabold-italic {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 800;
+      font-style: italic;
+  }
+
+  .poppins-black-italic {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 900;
+      font-style: italic;
+  }
+```
+### Adding Another Custom Font
+
+Now we have successfully imported Poppins into our project. 
+Try importing another font called **Inter** on your own! Note that for the styling, we will provide the code for the *regular* and *semibold* font styles. 
+
+At this point, your code should look something like this: 
+[answer](https://pastebin.com/kCPMHekR)
+
+## Adding custom colors
+
+You might be wondering, *” What’s the point?”*
+
+It is ideal to create a color scheme during the initial design of a project. This helps to create a consistent theme across all elements and also simplifies the process of using **custom colors** that aren’t natively provided in Tailwind. Take a look at this [documentation](https://tailwindcss.com/docs/customizing-colors) if you have more questions.
+
+We will be adding 5 custom colors, and you can find the code for the entire `tailwind.config.js` file below:
+```js
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+      extend: {
+          colors: {
+            pastelblue: '#A1CAF1',
+            pastelgreen: '#B0E57C',
+            pastelpink: '#FDC1C5',
+            darkgreen: '#355E3B', 
+            darkblue: '#003366',
+          },
+      },
+  },
+  plugins: [],
+};
+```
+
+## Congratulations!
+
+You’ve made it to the end of this section! Another friendly reminder to take a break. When you’re ready, go to the next page where we’ll guide you in the creation of your first React component!
+
+We will assume that you guys have a baseline understanding of HTML, CSS, and Javascript. However, if you require additional resources or help, you can find related documentation here: [All Resources](https://www.notion.so/All-Resources-cbd6054a4e4e4e619f4279490ef1d015?pvs=21)
