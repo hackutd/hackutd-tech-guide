@@ -1,10 +1,14 @@
 ---
-title: External Resources
+title: Resources
 slug: resources
-sidebar_position: 1
+sidebar_position: 3
 ---
+# Resources
 
-## Cheat Sheet
+# Slides
+Access the workshop slides [here](https://docs.google.com/presentation/d/1TTJkfvz4f0RLPve8Znvp7iXWmCVLQPd0RAU0VmI2MtA/edit?usp=sharing)
+
+# Cheat Sheet
 [Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf) from GitHub Education
 
 # Learn Git Through a Game
