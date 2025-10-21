@@ -1,6 +1,6 @@
 ---
 title: Project Setup
-slug: resources
+slug: project_setup
 ---
 
 At this point, you should have installed everything necessary to start the development of this project! In this section, we won’t be **creating** any new content. We will simply set up our Integrated Development Environment (VS Code in this case) so that it’s ready for us to start creating our full-stack application.
@@ -19,7 +19,7 @@ It’s imperative that your team understands how to handle merge conflicts and c
 
 Once the project is setup and everyone has access to it, that is when you guys should begin working in separate branches. Don’t make the mistake of everyone creating their own independent project and trying to copy/paste code into each other’s IDEs to combine it.
 :::
-
+---
 ## File Directory Setup
 
 > Before we get into creating our first project, we want to make sure that we know *where* we’re building it.
@@ -31,6 +31,7 @@ Once the project is setup and everyone has access to it, that is when you guys s
     2. When we run the commands in the future steps, we will be creating a new folder **dedicated to the project itself** within the folder we are currently in.
     ![](img/add_folder.jpg)
     3. At this point, your VS Code should be in the working directory of the folder you have recently or previously created.
+---
 
 ## Vite
 
@@ -146,6 +147,8 @@ We’re going to be **deleting** the following things:
 
   ![](img/index.jpg)
 
+---
+
 ## Tailwind CSS
 
 > As some of you may already know, CSS is what enables us to stylize our web page and make it look nice. Tailwind is a tool that allows us to write CSS effectively and faster. We will now be adding Tailwind into our project using Node Package Manager (NPM). Documentation regarding npm can be found [here](https://docs.npmjs.com/about-npm). For our purposes, you just need to know that the keyword npm is used in the terminal to install packages from the internet directly into our project.
@@ -177,6 +180,8 @@ export default {
       @tailwind components;
       @tailwind utilities;
       ```
+
+---
 
 ## Adding a Custom Font
 
@@ -320,8 +325,9 @@ Now your index.css file should look like this:
 Now we have successfully imported Poppins into our project. 
 Try importing another font called **Inter** on your own! Note that for the styling, we will provide the code for the *regular* and *semibold* font styles. 
 
-At this point, your code should look something like this: 
-[answer](https://pastebin.com/kCPMHekR)
+At this point, your code should look something like this: [answer](https://pastebin.com/kCPMHekR)
+
+---
 
 ## Adding custom colors
 
@@ -348,6 +354,8 @@ export default {
   plugins: [],
 };
 ```
+
+---
 
 ## Congratulations!
 
