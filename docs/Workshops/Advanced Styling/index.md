@@ -3,18 +3,35 @@ title: Advanced Styling
 slug: advanced-styling
 sidebar_position: 5
 ---
+## Resources
+[Slides](https://docs.google.com/presentation/d/1Es58uedndROUObGrf-YaVs43nX6GMsCNXNHlGsbPMxU/edit?usp=sharing)
+
+Fonts: https://fonts.google.com/
+
+Icons: https://react-icons.github.io/react-icons/
+
+
+
 ## Why is Styling so Important?
 There's many reasons as to why styling is important, but the three that we're going to be focusing on today is as such:
 - catches the attention of your audience
 - can help cover up mistakes
 - makes your idea seem more realistic
 
-Here we have 2 examples of the same website but different styling.
+Here we have 2 examples of different websites, showing how much styling can impact a website
 
-![Styling1](/img/advancedstyling/Styling1.png)
+![Styling1](/img/advancedstyling/badWebsite.png)
+![Styling1](/img/advancedstyling/apple.png)
+
+
 
  Take note of these major differences! <br/>
- We still use the same logo at the top, but we add a **background color** to give it more character. Also if you look at some of the buttons, it is very clear that they are **buttons** because they are *boxed* and have a *high constrasting color*.
+
+ Apple has a sleek look because it uses high contrast color. Particularly the **background color** is light and not busy at all. 
+
+ Apple follows styling standards as **buttons** are clearly buttons. There is a **flow** throughout the page.
+
+ Where as in the first design there are sections but there is no natural flow. It is hard to read the titles and the bodies of text. The background color is busy, making it harder to read the text.
 
 
 ## How Can I Style My Project?
@@ -31,18 +48,22 @@ In this example, the text goes from being in a column to a row for the navbar.
 
 
 ### Fonts
+
+
 Fonts can add a lot of benefit to a website. For titles, it is okay to choose fancier fonts to draw more attention to them. For paragraphs, choose easy to read fonts to make it more accessible. 
 
 Bolding, italics, and underlining, are great ways to emphasis specific words or phrases.  Make sure to follow styling standards like bolding titles and subtitles or underlining links.
 
 Use utilities like `font-sans` or `font-mono` to set the font. A utility is a pre-written CSS class, and here we are using the font family properties.
 
+Find lots of fonts at https://fonts.google.com/
+
 ### Images
 An image conveys 1000 words. They help your audience visualize and convey messages without too many words. Images are also great for logos to create a brand. 
 
-We see this with Nucleus. The image conveys a message and emotion that aligns with their brand.
+We see this with Disney. The image conveys a message and emotion that aligns with their brand.
 
-![Styling5](/img/advancedstyling/Styling5.png)
+![Styling5](/img/advancedstyling/disney.png)
 
 ### Subtle Effects
 Subtle Effects are subtle, but add a lot to the user experience. You can guide users to what you want them to see and create layers (foreground and background). Using effects effectively will take your website to the next level.
@@ -54,6 +75,16 @@ In this example, the card is boxed and creates different layers. Drawing your ey
 
 ![Styling4](/img/advancedstyling/Styling4.png)
 
+### Continuity
+Continuity is about making it easy for the user to use your site. Follow styling standards like using a house icon to go home.
+You can find icons at https://react-icons.github.io/react-icons/ <br/><br/>
+Use cohesive colors that match your brand / message, and use these colors throughout your website.
+
+
+Be sure to section and group like items together to create uniform sections.
+
+
+
 ### Color Palettes
 Color palettes give your website character and a cohesiveness that is appealing to users. 
 It is recommended to use 3 colors: 
@@ -63,16 +94,9 @@ It is recommended to use 3 colors:
 
 You can explore color palettes at https://colorhunt.co/
 
-The statefarm website is a great examples of a cohesive color palette, making the website look professional and draws your eyes to different parts of the page.
+The AmericanAirlines website is a great examples of a cohesive color palette, making the website look professional and draws your eyes to different parts of the page.
 
-![Styling6](/img/advancedstyling/Styling6.png)
-
-### Continuity
-Continuity is about making it easy for the user to use your site. Follow styling standards like using a house icon to go home. Use cohesive colors that match your brand / message, and use these colors throughout your website.
-
-Be sure to section and group like items together to create uniform sections.
-
-You can find icons at https://react-icons.github.io/react-icons/ <br/><br/><br/>
+![Styling6](/img/advancedstyling/AmericanAirlines.png)
 
 ## Demo Time!
 
