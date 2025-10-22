@@ -1,6 +1,7 @@
 ---
 title: Project Setup
 slug: project_setup
+sidebar_position: 1
 ---
 
 At this point, you should have installed everything necessary to start the development of this project! In this section, we won’t be **creating** any new content. We will simply set up our Integrated Development Environment (VS Code in this case) so that it’s ready for us to start creating our full-stack application.
