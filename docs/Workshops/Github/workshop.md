@@ -1,8 +1,8 @@
 ---
 title: Workshop
-sidebar_position: 2
+sidebar_position: 1
 ---
-
+# Github
 ## What is Version Control?
 
 **Version control** is a system that **records changes** to files over time so you can look back at **old versions** and recover if something goes wrong.  
