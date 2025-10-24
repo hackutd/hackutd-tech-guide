@@ -5,7 +5,7 @@ title: Venue Parking and Rooms
 ## Parking Permit
 Non-UTD students will need a parking permit to park at UTD during HackUTD. Please download and print the permit below, and place it on your dashboard so it is clearly visible.
 
-# **[Gold Permit (PDF)](TBD)**
+# **Gold Permit (PDF)**
 
 ---
 ## Venue address
