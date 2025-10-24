@@ -46,6 +46,11 @@ module.exports = {
                             id: 'judge-guide',
                             label: 'Submission & Judging Guide',
                         },
+                        {
+                            type: 'doc',
+                            id: 'travel-reimbursement',
+                            label: 'Travel Reimbursement',
+                        }
                     ],
                 },
                 // Event Information
