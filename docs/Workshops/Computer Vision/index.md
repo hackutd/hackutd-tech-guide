@@ -14,7 +14,7 @@ Exactly what it sounds like, vision for computers! CV is pattern recognition for
 
 *Visual feedback = instant wow.* Judges love bounding boxes and heatmaps because they *see* your progress. A pre-trained model + creative story often beats a perfect backend nobody sees. On top of that, CV is a field which has a lot of real-world impact, which is ideal for hackathons.
 
-**Pro-tip**: rehearse the live demo twice-- once with Wi-Fi off--to avoid campus network surprises. 
+**Pro-tip**: rehearse the live demo twice, once with Wi-Fi off, to avoid campus network surprises. 
 
 ## Core Tasks You Can Build Today
 
@@ -138,8 +138,8 @@ print(f"Prediction saved to {output_path}")'''
 ## Exercise
 Congrats! You now know how to train a YOLOv11 on a custom dataset and get outputs from it.  
 
-If you want to do more, here a few tasks you can focus on:
+If you want to do more, here are few tasks you can focus on:
 - Try finding an interesting dataset on [Roboflow](https://roboflow.com)
-- Extract the data from the desired dataset
+- Download the dataset
 - Train your YOLOv11 model on this dataset using the same technique we used
 - Instead of having predictions on an image, try to do it on a video real-time!
