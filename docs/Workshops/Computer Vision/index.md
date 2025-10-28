@@ -74,7 +74,7 @@ model.train(data= "data.yaml", imgsz = 640, batch=16, epochs = 100, workers = 8 
   ```
 
 :::note
-Training a model takes time. Making sure you train it for the correct number of epochs (training cycles) is crucial. Too less and the model doesn't learn enough. Too much and the model overfits (gets used to the training data and does bad on unseen data).  
+Training a model takes time. Making sure you train it for the correct number of epochs (training cycles) is crucial. Too little and the model doesn't learn enough. Too much and the model overfits (gets used to the training data and does bad on test data).  
 Since we have limited time for this workshop, we will only be training this for a few epochs. Go ahead and try training it for a longer time to check out the difference!
 ::: 
 
