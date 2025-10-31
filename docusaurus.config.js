@@ -11,8 +11,6 @@ const config = {
         'The HackUTD tech platform. Where you can find guides, resources, and information for HackUTD!',
     url: 'https://guide.hackutd.co',
     baseUrl: '/',
-    onBrokenLinks: 'throw',
-    onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
 
     // meta data for SEO:
@@ -24,6 +22,12 @@ const config = {
     i18n: {
         defaultLocale: 'en',
         locales: ['en'],
+    },
+    markdown: {
+        hooks: {
+            onBrokenMarkdownLinks: 'warn',
+            onBrokenMarkdownImages: 'warn',
+        },
     },
     plugins: [
         [
@@ -163,7 +167,7 @@ const config = {
                             },
                             {
                                 label: 'Guided Project',
-                                to: '/guided%20project',
+                                to: '/GuidedProject',
                             },
                         ],
                     },

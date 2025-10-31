@@ -3,10 +3,13 @@ title: External Resources
 slug: resources
 sidebar_position: 1
 ---
-Dataset: [Link](https://www.dropbox.com/scl/fo/r6kxmfiyra96atcklnhc8/AHYyTGv7cT_jh12D0ejcG8s?rlkey=zzoja3ihtltatp46t6gy2u1yh&st=wyel9qdk&dl=0)
+## Dataset ##
+Access the dataset [here](https://www.dropbox.com/scl/fo/r6kxmfiyra96atcklnhc8/AHYyTGv7cT_jh12D0ejcG8s?rlkey=wr71uhkl1rnw2su16maom4ssl&st=m3ognp76&dl=0)
 
-Colab Notebook: [Link](https://colab.research.google.com/drive/1E9vcioEPqT0tD9YqhMgFqrYTnnGvkoZt?usp=sharing)
+## Slides ##
+Access the workshop slides [here](https://docs.google.com/presentation/d/1WAgOOux1pRl6p7_NoSblBnFWgyvJmyB6HgfC735FzdQ/edit?usp=sharing)
 
+## Other Resources ##
 YOLOv11 Documentation: https://docs.ultralytics.com/models/yolo11/
 
 FastAI CV course (free): https://course.fast.ai/

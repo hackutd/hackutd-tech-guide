@@ -34,18 +34,23 @@ module.exports = {
                         {
                             type: 'doc',
                             id: 'travel-guide',
-                            label: 'Travel Hackerpack',
+                            label: 'Travel Guide',
                         },
                         {
                             type: 'doc',
                             id: 'mentor-guide',
-                            label: 'Mentor Information',
+                            label: 'Need a Mentor?',
                         },
                         {
                             type: 'doc',
                             id: 'judge-guide',
-                            label: 'Judging Handbook',
+                            label: 'Submission & Judging Guide',
                         },
+                        {
+                            type: 'doc',
+                            id: 'travel-reimbursement',
+                            label: 'Travel Reimbursement',
+                        }
                     ],
                 },
                 // Guided Project as its own top-level category
@@ -116,11 +121,6 @@ module.exports = {
                     type: 'category',
                     label: 'Event Logistics',
                     items: [
-                        {
-                            type: 'doc',
-                            id: 'travel-reimbursement',
-                            label: 'Travel Reimbursement',
-                        },
                         {
                             type: 'doc',
                             id: 'venue-parking',
