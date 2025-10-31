@@ -307,3 +307,51 @@
 .notion-card:hover::before {
     left: 100%;
 }
+
+/* Make highlighted code lines yellow instead of grey - target the exact class */
+.token-line.theme-code-block-highlighted-line,
+.theme-code-block-highlighted-line,
+.theme-code-block .token-line.highlight-line,
+.theme-code-block .code-line.highlight-line,
+.theme-code-block .line-highlight,
+.theme-code-block .line--highlighted,
+.theme-code-block .prism-line-highlight,
+.theme-code-block [data-line].highlighted,
+.theme-code-block .highlighted,
+.rehype-pretty-code .line-highlight,
+.code-block .line-highlight,
+.prism-code .line-highlight,
+pre .token-line.highlight-line,
+pre .code-line.highlight-line,
+pre .highlighted,
+.prism-code .highlighted,
+.language-js .highlighted,
+.language-javascript .highlighted {
+  background-color: rgba(255, 235, 59, 0.2) !important; /* yellow background - more opaque */
+  border-left: 4px solid #fdd835 !important;              /* yellow stripe - thicker */
+  padding-left: 12px !important;
+  display: block !important;
+  margin-left: -16px !important;
+  margin-right: -16px !important;
+  padding-right: 16px !important;
+}
+
+/* Dark theme - slightly different yellow for better contrast */
+[data-theme='dark'] .token-line.theme-code-block-highlighted-line,
+[data-theme='dark'] .theme-code-block-highlighted-line,
+[data-theme='dark'] .theme-code-block .token-line.highlight-line,
+[data-theme='dark'] .theme-code-block .code-line.highlight-line,
+[data-theme='dark'] .theme-code-block .line-highlight,
+[data-theme='dark'] .theme-code-block .line--highlighted,
+[data-theme='dark'] .theme-code-block .prism-line-highlight,
+[data-theme='dark'] .theme-code-block [data-line].highlighted,
+[data-theme='dark'] .theme-code-block .highlighted,
+[data-theme='dark'] pre .token-line.highlight-line,
+[data-theme='dark'] pre .code-line.highlight-line,
+[data-theme='dark'] pre .highlighted,
+[data-theme='dark'] .prism-code .highlighted,
+[data-theme='dark'] .language-js .highlighted,
+[data-theme='dark'] .language-javascript .highlighted {
+  background-color: rgba(255, 235, 59, 0.15) !important;
+  border-left-color: #ffeb3b !important;
+}
