@@ -23,12 +23,6 @@ const config = {
         defaultLocale: 'en',
         locales: ['en'],
     },
-    markdown: {
-        hooks: {
-            onBrokenMarkdownLinks: 'warn',
-            onBrokenMarkdownImages: 'warn',
-        },
-    },
     plugins: [
         [
             '@docusaurus/plugin-content-docs',

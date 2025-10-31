@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Guided Project
 
-Written By: HackUTD Experience 2024/2025! <3
+Written By: HackUTD Experience 2024/2025! ❤️
 
 **Currently converting the Notion guide into markdown to be compatible with this site. for now you can access the guide via this [link](https://hackutd.notion.site/HackUTD-Ripple-Effect-Guided-Project-3ff201694b2e451abf6f210d502e4a7d).**
 

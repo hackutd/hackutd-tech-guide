@@ -48,25 +48,24 @@ function ActivityPage() {
     </div>
   );
 }
-
 export default ActivityPage;
   ```
 ---
 
 ## Challenge 2: Making the Weather Component
 
-> Before we create the file, let’s create the folder. In your `\src` , create a new folder called `\utils`. This folder is used to house helper functions, API calls, and other complex logic that we want to abstract away.
+> Before we create the file, let's create the folder. In your `src` , create a new folder called `utils`. This folder is used to house helper functions, API calls, and other complex logic that we want to abstract away.
 > 
-1. Now let’s create a file called `WeatherComponent.jsx` within our `\utils` folder.
+1. Now let's create a file called `WeatherComponent.jsx` within our `utils` folder.
 2. Go ahead and copy/paste the code snippet below. We are importing several modules that we will need to make this API work.
     ```js
   import React, { useState, useEffect } from 'react';
   import { getFirestore, doc, getDoc } from 'firebase/firestore';
   import axios from 'axios';
-  function WeatherComponent() {
+  function WeatherComponent() {}
     return (
     );
-  }
+    }
   export default WeatherComponent;
   ```
 ---

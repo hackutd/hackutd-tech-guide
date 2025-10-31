@@ -6,11 +6,11 @@ sidebar_position: 1
 
 This page will contain the link for every piece of documentation that we’ve used and also some other useful resources.
 
-[Join the HackUTD: Lost in the Pages Discord Server!](https://discord.gg/Sagcf2Z2sy)
+[Join the HackUTD: Lost in the Pages Discord Server!](https://discord.gg/DVy4xdG57s)
 
 [legend.hackutd.co](https://legend.hackutd.co/)
 
-[Hackerpack (TBD)](https://www.notion.so/Hackerpack-1130d994cbb980e59d90ef16445ab97d?pvs=21)
+[Hackerpack](https://guide.hackutd.co/dayof/general-hackerpack)
 
 ## Preface
 

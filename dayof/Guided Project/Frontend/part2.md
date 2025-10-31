@@ -17,7 +17,7 @@ Before diving in, let’s understand what **React** is. React is a **JavaScript 
 
 > Think of a **component** as a building block. Just as LEGO bricks combine to create a complex structure, components join together to form a website. A **Navbar**, for example, is a component that houses links to various pages on the site.
 > 
-1. Inside your `\root` folder there’s an `\src` folder. Inside the `src` folder, we want to create a folder called `components`. This will hold the individual parts (or components) you create.    <!-- Dawg we need to insert vs code file tree but where the image>
+1. Inside your `root` folder there's an `src` folder. Inside the `src` folder, we want to create a folder called `components`. This will hold the individual parts (or components) you create.    <!-- Dawg we need to insert vs code file tree but where the image -->
 2. In the `components` folder, create a new file called `Navbar.jsx`. This file will contain all of the information regarding our navbar component.
 
 ### Some Useful Shortcuts:
@@ -64,8 +64,8 @@ This is especially useful when you want to create an outer HTML component that w
 > As we mentioned before, components are **exported** to enable us to **import** them within other files. This can be done in a single line of code, typically found at the top of the file.
 > 
 
-1. Navigate to the `app.jsx` file found in the `\src` folder.
-We can go ahead and delete all of the code inside of this file because it’s boiler plate that came with the installation. 
+1. Navigate to the `app.jsx` file found in the `src` folder.
+We can go ahead and delete all of the code inside of this file because it's boiler plate that came with the installation.
 2. In case you didn’t try it earlier, now is another good opportunity to type in ‘rfce’ which will paste in a JavaScript export function snippet.
 ![](img/rfce.jpg)
 3. And now your component should look similar to this
@@ -205,7 +205,7 @@ If you like your design better, keep it! Make this project your own. We want to 
     <p className="hover:text-pastelgreen transition duration-300">map</p>
     <p className="hover:text-pastelgreen transition duration-300">rsvp</p>
     <p className="hover:text-pastelgreen transition duration-300">activity</p>
-  </div>;
+  </div>
   ```
   Note that the `hover` effect and the other transitional styling are kept separate or else the entire list of pages would light up green upon hovering only one of them. Also, we added the `hover` effect to our title as well.  
 
