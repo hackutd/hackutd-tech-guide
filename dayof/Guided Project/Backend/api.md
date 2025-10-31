@@ -58,12 +58,13 @@ export default ActivityPage;
 > 
 1. Now let's create a file called `WeatherComponent.jsx` within our `utils` folder.
 2. Go ahead and copy/paste the code snippet below. We are importing several modules that we will need to make this API work.
-    ```js
-  import React, { useState, useEffect } from 'react';
+```js
+  import React, {useState, useEffect} from 'react';
   import { getFirestore, doc, getDoc } from 'firebase/firestore';
   import axios from 'axios';
-  function WeatherComponent() {}
-    return (
+  function WeatherComponent() {
+    return(
+
     );
     }
   export default WeatherComponent;
@@ -112,7 +113,8 @@ For now, let’s import it at the top of our component.
 Let’s also take this opportunity to visit the [Weather API website](https://weatherapi.com/).
 Create an account and you should see your API key at the top of your dashboard.
   ```js
-  import React, { useState, useEffect } from 'react';
+
+import React, { useState, useEffect } from 'react';
 import { getFirestore, doc, getDoc, updateDoc } from 'firebase/firestore';
 import axios from 'axios';
 
