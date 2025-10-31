@@ -3,7 +3,8 @@ title: Bonus
 sidebar_position: 3
 ---
 
-First and foremost, we want to give you a huge thank you for making it this far in our guide. It’s not an easy task to read through all of this text and code along, and we sincerely applaud you for your efforts.   
+First and foremost, we want to give you a huge thank you for making it this far in our guide. It’s not an easy task to read through all of this text and code along, and we sincerely applaud you for your efforts.  
+ 
 At this point, you have quite a few options to choose from, and we want to give you full creative freedom to do whatever you want. This page will simply serve as inspiration for future steps.
 ## Conceptual ##
 - You could revamp the entire project into a separate purpose, i.e. instead of a picnic planner, you can change it into a romantic date planner.

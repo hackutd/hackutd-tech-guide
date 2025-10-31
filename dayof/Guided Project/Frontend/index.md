@@ -4,6 +4,7 @@ slug: project_setup
 sidebar_position: 1
 ---
 
+# Project Setup
 At this point, you should have installed everything necessary to start the development of this project! In this section, we won’t be **creating** any new content. We will simply set up our Integrated Development Environment (VS Code in this case) so that it’s ready for us to start creating our full-stack application.
 
 # Overview:
@@ -27,7 +28,7 @@ Once the project is setup and everyone has access to it, that is when you guys s
 
 1. Open Visual Studio Code
 2. Click on “File” in the top left corner and click on “Open Folder”
-3. Navigate to where you want to create your folder. Right-click in the file explorer to create a new folder to hold your project directory. *You can skip this step if you already have a folder dedicated to your projects.
+3. Navigate to where you want to create your folder. Right-click in the file explorer to create a new folder to hold your project directory. You can skip this step if you already have a folder dedicated to your projects.
     1. Do note that this folder will be the **parent folder** and will not be the folder of the **actual project files.** This means that this folder should be titled something generic such as “Projects” or even simply choose your Desktop.
     2. When we run the commands in the future steps, we will be creating a new folder **dedicated to the project itself** within the folder we are currently in.
     ![](img/add_folder.jpg)
@@ -40,8 +41,7 @@ Once the project is setup and everyone has access to it, that is when you guys s
     1. This will link you to the documentation page of Vite. 
     2. *An **essential** skill of a programmer is to become comfortable with reading these pages. *
 2. Scroll down to “Scaffolding Your First Vite Project”
-    1. You can follow any of the installation methods listed, but we recommend running this single line in your VS Code terminal.
-3. In your terminal, run the following command: `npm create vite@latest`
+    1. You can follow any of the installation methods listed, but we recommend running this single line in your VS Code terminal: `npm create vite@latest`
     1. To open your terminal, you can find the button in the top bar of VS Code as shown below. You could also use the shortcut ``` Ctrl + Shift + ` ```  where the last symbol is “back-tick” which can be found below the Escape key.
     ![](img/new_terminal.jpg)
 4. Follow the instructions for the installation
@@ -127,22 +127,21 @@ Once the project is setup and everyone has access to it, that is when you guys s
     4. `App.css` & `index.css`
         1. Any .css files are used for styling purposes.
     5. `main.jsx` vs `App.jsx`
-        1. These are both .jsx files but have unique and vitally important purposes. 
+       1. These are both .jsx files but have unique and vitally important purposes. 
         `main.jsx` is the **entry point** for our application. You can think of it as the root of our project.
         `App.jsx` on the other hand is where we put all of our React code such as pages and components. 
-        *Note: `App.jsx` is a component and is **called** in the `main.jsx` file.’
+        Note: `App.jsx` is a component and is **called** in the `main.jsx` file.
 
-    The final file structure should look like this. Though there are many components that we haven’t created yet, this serves as a reference for the future.
-      ![](img/file_structure.jpg)
+    The final file structure should look like this. Though there are many components that we haven’t created yet, this serves as a reference for the future.  
+    ![](img/file_structure.jpg)
 
 8. Before we move on to the next step, let’s clean up our file directory a little bit.
 We’re going to be **deleting** the following things:
-
-      1. `App.css` found in the `src/` folder
-      2. `vite.svg` found in the `public/` folder
-      3. The **content** of `index.css` found in the `src/` folder
-      4. The folder `assets/` found in the `src/` folder
-          1. Do note that we attempt to `import` this file within our `App.jsx` file towards the top. Make sure you remove that file to avoid this error.
+   1. `App.css` found in the `src/` folder
+   2. `vite.svg` found in the `public/` folder
+   3. The **content** of `index.css` found in the `src/` folder
+   4. The folder `assets/` found in the `src/` folder
+      1. Do note that we attempt to `import` this file within our `App.jsx` file towards the top. Make sure you remove that file to avoid this error.
         
 9. Now your `index.css` file should be empty and your directory should look like the screenshot below. Let’s move on to the next section!
 
@@ -152,7 +151,7 @@ We’re going to be **deleting** the following things:
 
 ## Tailwind CSS
 
-> As some of you may already know, CSS is what enables us to stylize our web page and make it look nice. Tailwind is a tool that allows us to write CSS effectively and faster. We will now be adding Tailwind into our project using Node Package Manager (NPM). Documentation regarding npm can be found [here](https://docs.npmjs.com/about-npm). For our purposes, you just need to know that the keyword npm is used in the terminal to install packages from the internet directly into our project.
+> As some of you may already know, CSS is what enables us to stylize our web page and make it look nice. Tailwind is a tool that allows us to write CSS effectively and faster. We will now be adding Tailwind into our project using Node Package Manager (NPM).   Documentation regarding npm can be found [here](https://docs.npmjs.com/about-npm). For our purposes, you just need to know that the keyword npm is used in the terminal to install packages from the internet directly into our project.
 
 1. Go to your web browser and search up [Tailwind](https://tailwindcss.com/docs/installation) (or click the embedded link)
 2. Click on “Docs” which can be found on the navbar. Proceed to the “Framework Guides” section found in the screenshot below.
@@ -196,7 +195,7 @@ Now that our Tailwind CSS is setup, let’s add a custom font to our project.
 4. Switch the type to @import and copy the code without the `<style>` tags.
 ![](img/fonts2.jpg)
 5. Go back to your `index.css` file and paste it in at the very top. 
-6. Also, add this code at the bottom of the file. `body` applies the styles to the body of the project. The `background-color` will make the entire background to this yellowish-white color. Your `index.css` file should now look like this:
+6. Also, add this code at the bottom of the file. `body` applies the styles to the body of the project. The `background-color` will make the entire background to this yellowish-white color. Your `index.css` file should now look like this:  
 ![](img/fonts3.jpg)
 7. We want to now add some variations of fonts such as bold and semibold. We can simply go back to the Google Fonts page and copy and paste the entire CSS class list.
 Now your index.css file should look like this:
@@ -360,6 +359,6 @@ export default {
 
 ## Congratulations!
 
-You’ve made it to the end of this section! Another friendly reminder to take a break. When you’re ready, go to the next page where we’ll guide you in the creation of your first React component!
+You’ve made it to the end of this section! Another friendly reminder to take a **break**. Drink some water, touch some grass. When you’re ready, go to the next page where we’ll guide you in the creation of your first React component!
 
 We will assume that you guys have a baseline understanding of HTML, CSS, and Javascript. However, if you require additional resources or help, you can find related documentation here: [All Resources](https://www.notion.so/All-Resources-cbd6054a4e4e4e619f4279490ef1d015?pvs=21)

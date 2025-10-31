@@ -8,7 +8,7 @@ When building a web application, you might want different pages or views, like a
 
 ### What is Routing?
 
-Imagine a website as a house with many rooms, and each room represents a different page. **Routing** is like creating paths or doors to access each room. By using routing in React, we can set up these paths so that when someone visits a specific URL, they see the content we want to show for that page.
+Imagine a website as a house with many rooms, and each room represents a different page. **Routing** is like **creating paths** or doors to access each room. By using routing in React, we can set up these paths so that when someone visits a specific **URL**, they see the content we want to show for that page.
 
 Here’s some [documentation](https://www.w3schools.com/react/react_router.asp) for those that are interested.
 
@@ -58,7 +58,7 @@ Let’s first create our separate page files in our directory.
 4. Now let’s go back to our `App.jsx` file to answer the question: “How can we create a Route for the **items** in our Navbar?”. Let’s reference this [documentation](https://www.w3schools.com/react/react_router.asp) for help.
     1. Don’t forget to import all of our page components for Map, Activity, and Rsvp at the top!
 
-**Solution**
+###  **Solution**
 
 ### Creating Routes within `App.jsx`
   ```js
@@ -103,7 +103,7 @@ export default App;
 - We then define `<Routes>` which will contain all of our Route(s)
 - Each individual `<Route>` has a path, and when we navigate to said path, our DOM will render the element which is the respective page.
 
-#### Creating Links to our Pages ####
+### Creating Links to our Pages ###
 
   ```js
   <Link to="/map">Click Me</Link>

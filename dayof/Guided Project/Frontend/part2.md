@@ -24,7 +24,7 @@ Before diving in, let’s understand what **React** is. React is a **JavaScript 
 
 Reformatting your code using Prettier: **alt+shift+f**
 
-Moving a block of code up or down without copy and pasting: alt + ↑ / alt + **↓**
+Moving a block of code up or down without copy and pasting: **alt + ↑ / alt + ↓**
 
 This is especially useful when you want to create an outer HTML component that will contain your block of code.
 
@@ -50,7 +50,7 @@ This is especially useful when you want to create an outer HTML component that w
 ### Main Takeaway
 
 - **`function Navbar() {...}`**: Creates a **function** named `Navbar`. Also being the component.
-- **`return <div>Ripple & Refresh</div>;`:** Outputs a singular HTML div element. Within it is contained our content, “Ripple & Refresh”. Keep in mind: React components can only return 1 HTML tag so everything for the component will be enclosed in this `<div>` tag.
+- **`return <div>Ripple & Refresh</div>;`**: Outputs a singular HTML div element. Within it is contained our content, “Ripple & Refresh”. *Keep in mind*: React components can only return 1 HTML tag so everything for the component will be enclosed in this `<div>` tag.
 - **`export default Navbar;`**: Allows us to use this component in other files. We do this via the keyword `import` and we will see how we can do this in our next step.
 
 ### Tips:
@@ -84,7 +84,11 @@ export default App
 
 4. Let’s finally get into the meat and potatoes of this challenge. You might have been able to guess it based off of the information in the previous challenge, but we want to use the import statement. 
 
-  To import our Navbar, we only need one line of code:import Navbar from `./components/Navbar`. Conventionally, the name of the component will be the same name of the file name we import from, another example being import Hero from `./components/Hero`. Also note that the way we find the imported component information is through the relative file path in our directory. For more information regarding importing and exporting components, visit this link.
+  To import our Navbar, we only need one line of code:  
+  ```import Navbar from ./components/Navbar```.  
+  Conventionally, the name of the component will be the same name of the file name we import from, another example being  
+  ```import Hero from ./components/Hero```  
+  Also note that the way we find the imported component information is through the relative file path in our directory. For more information regarding importing and exporting components, visit this [link](https://react.dev/learn/importing-and-exporting-components).
 
   At this point, your App.jsx should look similar to the screenshot below.
   ![](img/app1.jpg)
@@ -121,7 +125,7 @@ Within the HTML tag, create an attribute called `className=""` . And within thes
 
 We highly recommend you fiddle around with Tailwind styling to see how these attributes affect our display. By practicing and building more React components, applying Tailwind will become much easier. You can find some of the most common Tailwind attributes here: [Common Tailwind Attributes and Examples](https://www.notion.so/Common-Tailwind-Attributes-and-Examples-1380d994cbb98037950bc03069272fbd?pvs=21)  
 
-2. **Problem**: Try making the **text bigger**, **bold**, and give it the **darkgreen custom color** that we created earlier. Try it on your own before revealing the answer!!  
+ **Problem**: Try making the text **bigger**, **bold**, and give it the **darkgreen** custom color that we created earlier. Try it on your own before revealing the answer!!  
     [Answer](https://pastebin.com/3EA0e1E7)
 
 ### Main Takeaway
@@ -132,9 +136,9 @@ With Tailwind CSS, we can easily apply **in-line** styling to any HTML element t
 
 ## **Challenge 4: How can we create a list of items that go left to right?**
 
-> By default, HTML elements are stacked in a vertical top-down fashion. The way we enable these elements to orient themselves horizontally is through [**flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).**
+> By default, HTML elements are stacked in a vertical top-down fashion. The way we enable these elements to orient themselves horizontally is through [**flexbox**](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
 
-1. First, let’s create the list of elements that will make up our Navbar. For now let’s say our elements are ‘RSVP’, “Activity”, and “Map”
+1. First, let’s create the list of elements that will make up our Navbar. For now let’s say our elements are "RSVP", “Activity”, and “Map”
 2. **Problem:** How can we create 3 separate text elements on our screen as seen in the image below?
 ![](img/ripple.jpg)  
 [Answer](https://pastebin.com/EZRfCC6C)
@@ -143,7 +147,8 @@ With Tailwind CSS, we can easily apply **in-line** styling to any HTML element t
 This is actually a **trick question** because we need to add it to **both** of our `<div>` tags and here’s why.
 After adding `className='flex justify-between'` to **only** the parent div, my display shows this:
 ![](img/ripple2.jpg)
-`justify-between` evenly spaces all of the children of the `<div>`, which would include the title, and our three pages. But this makes the home page look sparse and unreadable. Instead, we want the Title on the left, and the rest of our page links grouped together on the right.
+`justify-between` evenly spaces all of the children of the `<div>`, which would include the title, and our three pages. But this makes the home page look sparse and unreadable.  
+Instead, we want the Title on the left, and the rest of our page links grouped together on the right.
 How can we group up the page links?  
 
   By wrapping them in another `<div>`!
@@ -216,12 +221,13 @@ To make our code readable, reduce redundancy where you can. We know that we want
 >
 In this project, we will be using **both** contrast in color and a horizontal line.
 
-1. Let’s start off with the contrast in color. 
+1. Let’s start off with the contrast in color.  
 **Problem:** Which ***attribute*** of which **element** should we change to adjust its **overall color?**  
   [Answer](https://pastebin.com/kkBJ4BQZ)
     
-2. Now that we have our adjusted Navbar, let’s add a horizontal line to the bottom of it.
-**Problem:** How can we add a *single* horizontal line at the bottom? *Hint:* *Maybe there’s an HTML tag that exists solely for this purpose.*  
+2. Now that we have our adjusted Navbar, let’s add a horizontal line to the bottom of it.  
+**Problem:** How can we add a *single* horizontal line at the bottom?  
+*Hint:* *Maybe there’s an HTML tag that exists solely for this purpose.*  
 [Answer](https://pastebin.com/NPGeETKM)
 
 ### Main Takeaway
@@ -232,7 +238,7 @@ Having a separation between the Navbar and the rest of the page is good practice
 
 ## **Congratulations!🎉**
 
-This will be the heaviest chapter in terms of the front-end. Moving forward, there will be much less teaching but instead more Problem→Answer style active recall. 
+This is the heaviest chapter in terms of the front-end. Moving forward, there will be much less teaching but instead more Problem→Answer style active recall. 
 
 **If you are ever stuck and need assistance, don’t hesitate to ask in the** 
 **#guided-track channel found in our discord server!**

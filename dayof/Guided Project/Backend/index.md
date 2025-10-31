@@ -1,10 +1,10 @@
 ---
-title: Connecting a Backend
+title: Connecting a Backend (Firebase)
 slug: connecting
 sidebar_position: 1
 ---
 
-
+# Connecting a Backend (Firebase)
 ### What is a Backend? ###
 In web and app development, a backend is like the behind-the-scenes engine that powers your application. It's the part of the software that users don't directly interact with, but it's crucial for making everything work smoothly. Here's a simple breakdown:
 - **Data Storage**: The backend is where all the data for your app is stored and managed. This could be user profiles, posts, or any other information your app needs to remember.
@@ -198,7 +198,9 @@ export default Dashboard;
   ```
 What does the **useEffect** React hook do?
 
-- `useEffect` is a React hook that handles "side effects" in your component
+- `useEffect` is a React hook that handles "side effects" in your component.
+- You can use it to make sure certain operations occur when a page is rendered.
+- Few examples of these operations are calling an API or setting up event listeners.
 - As for the structure of the useEffect function:
   ```js
   useEffect(() => {

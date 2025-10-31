@@ -1,5 +1,5 @@
 ---
-title: Making cards in React
+title: Making Cards in React
 slug: cards
 sidebar_position: 4
 ---
@@ -31,14 +31,21 @@ Cards are effective because they:
 
 **Setting Up the Card Component**
 
-1. This step is the exact same process as it was for the other two components. Don’t forget to render the component in `\app.jsx`
+1. This step is the exact same process as it was for the other two components. Don’t forget to render the component in `\app.jsx`  
 [Answer](https://pastebin.com/GZmid5q6)
 
 ---
 
 ## **Challenge 2: How you can create this card box with text inside?**
 
-> **Add HTML and style the card component so it looks like the *card below*. You should have two boxes stacked on top of each other. The first box should have a blue/green gradient and the box on top of it should be white. They should both have rounded corners. When you hover on the white box it should grow in size to cover the gradient box. In the center you should have some text. Once you have tried it on your own, scroll down to see a possible solution**
+> **Add HTML and style the card component so it looks like the *card below***.  
+ - You should have two boxes stacked on top of each other. 
+ - The first box should have a blue/green gradient and the box on top of it should be white.
+ - They should both have rounded corners. 
+ - When you hover on the white box it should grow in size to cover the gradient box.
+ - In the center you should have some text.
+
+Once you have tried it on your own, scroll down to see a possible solution.
 
 ![](img/alan2.jpg)
 1. We start with a simple outer `<div>` with the `p-4` style to give the card some space.
@@ -55,13 +62,16 @@ Creating styles for our components can get quite complicated. But we facilitate 
 
 ## **Challenge 3: How would you add an image inside the box?**
 
-> **Add an image inside the card component so it look like the image below. The image should be centered and above the text. The image should also have rounded corners. Choose any image you want, just use CSS to make it square.**
+> **Add an image inside the card component so it look like the image below.**
+ - The image should be centered and above the text.
+ - The image should also have rounded corners.
+ - Choose any image you want, just use CSS to make it square.
 
 ![](img/alan3.jpg)
 
 **Solution**
 
-1. Within the ‘inner box’ `<div>` , let’s add an `<img>` element. Some key attributes you don’t want to forget about are `rounded-xl`, `object-cover`, and `shadow-md`. As for the sizing, there are many ways to go about it. 
+1. Within the ‘inner box’ `<div>` , let’s add an `<img>` element. Some key attributes you don’t want to forget about are `rounded-xl`, `object-cover`, and `shadow-md`. As for the sizing, there are many ways to go about it. Check out the [documentation](https://v2.tailwindcss.com/docs/width) to explore!
 
 Here’s how our [code](https://pastebin.com/fDTsReuZ) looks.
 
@@ -73,9 +83,14 @@ Adding an image inside the card provides a **visual focal point**. The `object-c
 
 ## **Challenge 4: Now, add additional text content to our Card**
 
-> **Add/change text so that you have a title for each card and a subtitle *as seen below*. The title should be larger than the subtitle and be a different color. There should be space between the texts and image. The styling does not have to be exactly the same. Make the design your own!**
+> **Add/change text so that you have a title for each card and a subtitle *as seen below***.
+- The title should be larger than the subtitle and be a different color.
+- There should be space between the texts and image.
 
-![](img/alan4.jpg)  
+The styling does not have to be exactly the same. Make the design your own!
+
+![](img/alan4.jpg) 
+
 **Solution**
 
 1. Add a new `<div>` that will contain **all** of our text elements. Let’s add the `space-y-3` attribute so that our text elements have an even vertical spacing.

@@ -17,7 +17,7 @@ To briefly explain, CRUD stands for Create, Read, Update, and Delete. They’re 
 In the previous steps, we created the WeatherComponent which helped us display the weather through an API. Now lets make a new file called VoteComponent.jsx in `\utils` .
 
 Let’s start by importing some packages for firebase and ChartJS at the top of our file.
-Don’t forget to install the following packages: `npm i chart.js` ``npm i react-chartjs-2`
+Don’t forget to install the following packages: `npm i chart.js` and `npm i react-chartjs-2`
 
   ```js
   import React, { useEffect, useState } from 'react';

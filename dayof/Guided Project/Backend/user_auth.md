@@ -135,7 +135,7 @@ export const AuthProvider = ({ children }) => {
 - `onAuthStateChanged` is a function that we imported in a previous step. This firebase function **is the listener**. When it observes a change to the user’s authentication state such as a login, logout, etc. it will invoke a **callback**. Afterward, it will return `unsubscribe` which will essentially detach the listener upon when the component **unmounts**. This is especially important in order to avoid wasting computational power.
 
 ### Authentication Function Implementation
-  ```js
+  ```js {20-22}
   import { createContext, useContext, useEffect, useState } from 'react';
 import { onAuthStateChanged, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from 'firebase/auth';
 import { auth } from '../firebase/firebase';
@@ -155,7 +155,7 @@ export const AuthProvider = ({ children }) => {
 	}, []);
 	
 	
-	const login = (email, password) => signInWithEmailAndPassword(auth, email, password);
+const login = (email, password) => signInWithEmailAndPassword(auth, email, password);
   const register = (email, password) => createUserWithEmailAndPassword(auth, email, password);
   const logout = () => signOut(auth);
 
@@ -166,7 +166,7 @@ export const AuthProvider = ({ children }) => {
 If you recall from earlier, we created some basic functions earlier within our `auth.js` file. We have those methods imported at the top of our code, and we’ll now define new functions that will pass in the necessary information.
 
 ### Returning HTML Code
-  ```js
+  ```js {3-5}
   ...
 	return (
     <AuthContext.Provider value={{ user, login, register, logout }}>
@@ -282,7 +282,7 @@ Here we made a function `handleSubmit`. This functions calls the login function 
 ### Successful Login Navigation
 
 When our user correctly logs into their account, they need to be routed to the main page. Let’s add that functionality
-  ```js
+  ```js {7,9-13,19}
   import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/authContext';
@@ -386,7 +386,7 @@ function RegisterPage() {
 export default RegisterPage;
   ```
 ### Making our Page Functional ###
-  ```js
+  ```js {6-9,11,14,34-35,46-47}
   import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/authContext';
@@ -455,7 +455,7 @@ To do this we make the function `handleRegistration` . This function takes in ou
 ### Successful Registration Navigation
 
 Now lets add the routing.
-  ```js
+  ```js {8}
   import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/authContext';
@@ -606,7 +606,7 @@ export default LandingPage;
 ### Making Our Landing Page The First Page Seen
 
 We now need to update our `App.jsx` so that our Landing page is what the user is initially brought to. Make sure to import our new pages and authContext!
-  ```js
+  ```js {9-12,16,20,23,35-36}
   import Navbar from "./components/Navbar";
 import FeaturedItem from "./components/FeaturedItem";
 import Dashboard from "./components/Dashboard";
@@ -708,7 +708,7 @@ function PrivateRoute({ children }) {
 export default PrivateRoute;
   ```
 Now if we go into our App.jsx and add these private routes, we should have now limited access to our website to only authenticated users. Don’t forget to import the Private Route component!
-  ```js
+  ```js {13,26,32,39,42,48,51,57,60}
   import Navbar from "./components/Navbar";
 import FeaturedItem from "./components/FeaturedItem";
 import Dashboard from "./components/Dashboard";

@@ -6,7 +6,7 @@ sidebar_position: 5
 
 In this guide, we’ll make **reusable, customizable Card components** using React and **props**. Props allow you to pass specific data to each component so that each card can display unique information without rewriting the component itself.
 
-### **Why Reusable Components Are Important**
+### **Why Are Reusable Components Important?**
 
 Reusable components save time and keep your code organized. Think of a list of products in a store or blog posts on a news site. You don’t want to write a new component for each item—props allow you to use one component for all items, customizing each one with its own data.
 
@@ -20,7 +20,7 @@ Reusable components save time and keep your code organized. Think of a list of p
 ## **Challenge 1: What are props?**
 
 > Now that we have a basic card structure, let’s make it customizable by introducing **props**. In React, **props** (short for “properties”) are a way to pass data into a component to make it more flexible. You can read more about props [here](https://www.w3schools.com/react/react_props.asp).
-> 
+ 
 1. **Add Props to the Function Header**: Update the function header by adding `props` as a parameter. This tells React that the component will receive some data from outside.
   ```js
   // Card.jsx
@@ -41,7 +41,7 @@ Now that `props` is set up, let’s replace the hard coded content with data fro
 
 1. Replace the static content with `props` variables. Wherever there was hard coded text or an image URL, replace it with `props.variableName`, like `{props.name}`, `{props.img}`, etc.
 
-### Code Change Highlight
+### Solution Code
 ```js
 // Card.jsx
 <div className="h-full w-full rounded-2xl bg-white p-4 transition duration-300 hover:scale-105">
@@ -127,16 +127,16 @@ You can either copy and paste this [code](https://pastebin.com/rfssiWMh) and pas
  or download this [file](https://drive.google.com/file/d/1sCzywZM9P4dvXi-t7_onvQdsIQBWhD9y/view?usp=drive_link) and add it to your `\data` folder.
 2. Let’s understand the structure of the `data.json` file:
 This JSON file contains an array of objects. Each object represents an individual entry with several properties. In our file, we have the following fields/keys:
-  1. id - an int that is the unique identifier for each object
-  2. name - a string of the name of the person
-  3. img - a relative path to the image based on our `\public\image` folder
-  4. bringing - a string he item that a person is bring
-  5. status - a string of their event status
+  1. **id** - an int that is the unique identifier for each object
+  2. **name** - a string of the name of the person
+  3. **img** - a relative path to the image based on our `\public\image` folder
+  4. **bringing** - a string he item that a person is bring
+  5. **status** - a string of their event status
 3. Each object in the array represents a **card’s data**, so you can imagine that each entry will be used to populate a unique and separate Card component. You can modify this file to your liking to change the idea of your project.
 
 ## Challenge 6: How can we leverage the Browser Development Tool?
 
-**How can you display the information contained in our data.json file? How can we access the Browser Development Tool? You can access the tool by right clicking on your browser and pressing inspect element. You can also press ‘ctrl + shift + i’ or f12**
+**How can you display the information contained in our data.json file? How can we access the Browser Development Tool (i.e. Inspect Element)?** You can access the tool by right clicking on your browser and pressing **Inspect Element**. You can also press **‘ctrl + shift + i’** or **f12**
 
 In our previous challenge, we added the `data.json` file into our directory. 
 Let’s import our data into our Dashboard so that we can use it.
@@ -144,8 +144,8 @@ Let’s import our data into our Dashboard so that we can use it.
 Just like we would import any React component, we can import our `data.json` in the same fashion with a single line of code: `import data from '../data/data.json'`
 
 How would we display how this data is formatted within our component?
-1. **Add a `console.log(data);`** statement within our `function Dashboard()`
-    1. The body of our function expects Javascript, whereas our `Return ()` statement expects HTML.
+1. **Add a `console.log(data);`** statement in the first line of our `function Dashboard()`
+    1. The body of our function expects Javascript, whereas our `Return ()` statement expects HTML, so our console statement needs to be outside of our `Return ()` statement.  
     This should be your [code](https://pastebin.com/5eUWQfdb) at this point.
 2. Open your browser’s developer tools (usually F12 or right-click > Inspect) and go to the **Console** tab.
 It should look something like this:
@@ -160,7 +160,7 @@ Using `console.log(props);` in the console lets you see the data being passed to
 
 ---
 
-## Challenge 8: How can we loop through all of our data?
+## Challenge 7: How can we loop through all of our data?
 
 > Not only do we have to loop through all of our data, we need to create a separate Card component for each index of our data. Is there an effective way to accomplish this? Look through this [documentation](https://react.dev/learn/rendering-lists) and see if you can figure out which method we need to use.
 > 
