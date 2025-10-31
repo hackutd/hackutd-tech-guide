@@ -36,7 +36,7 @@ Have passion, aspire for excellence. You are capable! Apply yourself and everyth
 ### For everyone:
 
 -   [All Resources](/dayof/Guided%20Project/All%20Resources/index.md)
--   [Installation Guide](/dayof/Guided%20Project/Installation%20Guide/index.md)
+-   [Installation Guide](/dayof/Guided%20Project/Installation_Guide.md)
 -   [Bonus](/dayof/Guided%20Project/Bonus.md)
 
 ### Frontend:

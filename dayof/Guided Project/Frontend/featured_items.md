@@ -3,6 +3,7 @@ title: Creating the Featured Item
 slug: Featured_item
 sidebar_position: 3
 ---
+# Creating the Featured Item
 Let’s continue with our site by making our next component - The Featured Item!
 
 It’s going to be similar to a typical Hero section, which is the first thing users see on a webpage. It usually displays a popular or important item to make an immediate impression.

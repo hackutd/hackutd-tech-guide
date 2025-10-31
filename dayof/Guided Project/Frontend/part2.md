@@ -3,7 +3,7 @@ title: Your first Component
 slug: First_Comp
 sidebar_position: 2
 ---
-
+# Your first Component
 Before diving in, let’s understand what **React** is. React is a **JavaScript library** (a collection of code that helps build things) that makes it easier to design parts of a website. With React, you build small, reusable pieces of a website, like buttons, menus, or forms, that can be easily put together to make a full webpage.
 
 # Overview:
