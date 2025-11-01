@@ -32,14 +32,14 @@ If you’re confident in all of these technologies, you don’t have to watch th
     - Ch. 3 is very important
 - [Github Tutorial](https://skills.github.com/)
 
-## [Installation Guide](/dayof/Guided%20Project/Installation_Guide.md)
+## [Installation Guide](/guided-project/Installation_Guide.md)
 
 - Installation: [Node.js](https://nodejs.org/en/download/prebuilt-installer)
 - Installation: [Visual Studio Code](https://code.visualstudio.com/)
 - Article: [Downloading VS Code through Microsoft Store vs Package Installation](https://visualstudiomagazine.com/articles/2021/08/25/store-ides.aspx)
 - Article: [Best VS Code Extensions](https://www.freecodecamp.org/news/best-vscode-extensions/)
 
-## [Project Setup](/dayof/Guided%20Project/Frontend/index.md)
+## [Project Setup](/guided-project/Frontend/index.md)
 
 - Installation: [Vite](https://vite.dev/guide/)
 - Article: [Ideal React Project File Structure](https://github.com/alan2207/bulletproof-react/blob/master/docs/project-structure.md)
@@ -49,35 +49,35 @@ If you’re confident in all of these technologies, you don’t have to watch th
 - Documentation: [Custom Colors in Tailwind](https://tailwindcss.com/docs/customizing-colors)
 - Page: [Essential Shortcut for VS Code](https://www.notion.so/Essential-Shortcut-for-VS-Code-13e0d994cbb980458315ce8c69db8c1e?pvs=21)
 
-## [Your first component!](/dayof/Guided%20Project/Frontend/part2.md)
+## [Your first component!](/guided-project/Frontend/part2.md)
 
 - Documentation: [Importing and Exporting components](https://react.dev/learn/importing-and-exporting-components)
 - Documentation: [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS)
 - Documentation: [Tailwind](https://v2.tailwindcss.com/docs)
 - Page: [Common Tailwind Attributes and Examples](https://www.notion.so/Common-Tailwind-Attributes-and-Examples-1380d994cbb98037950bc03069272fbd?pvs=21)
 
-## [Creating the Featured Item](/dayof/Guided%20Project/Frontend/featured_items.md)
+## [Creating the Featured Item](/guided-project/Frontend/featured_items.md)
 
 - File: [Folder of images](https://drive.google.com/drive/folders/1EZPZ6Bk8LSWjxR1agSwUOaER-5UJqwnf?usp=drive_link)
 
-## [Making Cards in React](/dayof/Guided%20Project/Frontend/cards.md)
+## [Making Cards in React](/guided-project/Frontend/cards.md)
 
 - Documentation: [Escaping HTML with Curly Braces](https://react.dev/learn/javascript-in-jsx-with-curly-braces)
 
-## [**Making Reusable Cards in React with Custom Data**](/dayof/Guided%20Project/Frontend/reusable.md)
+## [**Making Reusable Cards in React with Custom Data**](/guided-project/Frontend/reusable.md)
 
 - Documentation: [Props](https://www.w3schools.com/react/react_props.asp)
 - Documentation: [Map Function](https://react.dev/learn/rendering-lists)
 - File: [data.json](https://drive.google.com/file/d/1sCzywZM9P4dvXi-t7_onvQdsIQBWhD9y/view?usp=drive_link)
 
-## [Routing](/dayof/Guided%20Project/Frontend/routing.md)
+## [Routing](/guided-project/Frontend/routing.md)
 
 - Documentation: [React Router](https://www.w3schools.com/react/react_router.asp)
 - Documentation: [React Router Tutorial](https://reactrouter.com/en/main/start/tutorial)
 - Documentation: [React Router Links](https://reactrouter.com/en/main/components/link)
 - Article: [Complete Guide to useNavigate in React Router](https://medium.com/@bobjunior542/using-usenavigate-in-react-router-6-a-complete-guide-46f51403f430)
 
-## [Connecting a Backend (Firebase)](/dayof/Guided%20Project/Backend/index.md)
+## [Connecting a Backend (Firebase)](/guided-project/Backend/index.md)
 
 - Documentation: [Firebase](https://firebase.google.com/docs)
 - Installation: [Firebase Console](https://console.firebase.google.com/)
@@ -85,18 +85,18 @@ If you’re confident in all of these technologies, you don’t have to watch th
 - Documentation: [React useState](https://react.dev/reference/react/useState)
 - Article: What is an [Asynchronous function](https://www.w3schools.com/Js/js_async.asp)
 
-## [User Authentication (Firebase)](/dayof/Guided%20Project/Backend/user_auth.md)
+## [User Authentication (Firebase)](/guided-project/Backend/user_auth.md)
 
 - Documentation: [Firebase userAuth](https://firebase.google.com/docs/auth/web/start)
 - Installation: [Firebase Console](https://console.firebase.google.com/)
 
-## [Connecting an API (Weather)](/dayof/Guided%20Project/Backend/api.md)
+## [Connecting an API (Weather)](/guided-project/Backend/api.md)
 
 - Article: [What is an API?](https://www.geeksforgeeks.org/what-is-an-api/)
 - Documentation: [Axios API](https://axios-http.com/docs/api_intro)
 - Installation: [Weather API](https://weatherapi.com/)
 
-## [CRUD Using Firestore](/dayof/Guided%20Project/Backend/crud.md)
+## [CRUD Using Firestore](/guided-project/Backend/crud.md)
 
 - Article: [Explain CRUD](https://www.freecodecamp.org/news/crud-operations-explained/)
 - Documentation: [Chart.JS](https://www.chartjs.org/docs/latest/getting-started/usage.html)

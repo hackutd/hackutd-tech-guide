@@ -6,8 +6,6 @@ sidebar_position: 3
 
 Written By: HackUTD Experience 2024/2025! ❤️
 
-**Currently converting the Notion guide into markdown to be compatible with this site. for now you can access the guide via this [link](https://hackutd.notion.site/HackUTD-Ripple-Effect-Guided-Project-3ff201694b2e451abf6f210d502e4a7d).**
-
 ## Welcome to HackUTD Lost in the Pages!
 
 This guided project is for hackers who need help getting started with creating a **full-stack application**. It comprises multiple sections that will go from creating the front end to creating a backend to calling APIs.
@@ -25,7 +23,7 @@ Have passion, aspire for excellence. You are capable! Apply yourself and everyth
 -   **Can I do this project and turn it into something else?**
     -   Yes! Though there is a major time crunch of 24 hours, say you crank out this guide within a few hours and feel ready to build something on your own… go for it! Even transforming this project with a new concept and design is an effective way of exercising creativity.
 -   **I finished the project with a lot of time left, what now?**
-    -   This is where you can express your creativity and differentiate your project from the others! The [bonus](/dayof/Guided%20Project/Bonus.md) page of this guide shows the next steps after completion. A few general options include:
+    -   This is where you can express your creativity and differentiate your project from the others! The [bonus](/guided-project/Bonus.md) page of this guide shows the next steps after completion. A few general options include:
         -   Restyling the UI to look more appealing
         -   Integrating more APIs
         -   Altering the purpose of the project itself with new functionality and theme.
@@ -35,22 +33,22 @@ Have passion, aspire for excellence. You are capable! Apply yourself and everyth
 
 ### For everyone:
 
--   [All Resources](/dayof/Guided%20Project/All%20Resources/index.md)
--   [Installation Guide](/dayof/Guided%20Project/Installation_Guide.md)
--   [Bonus](/dayof/Guided%20Project/Bonus.md)
+-   [All Resources](/guided-project/All%20Resources/index.md)
+-   [Installation Guide](/guided-project/Installation_Guide.md)
+-   [Bonus](/guided-project/Bonus.md)
 
 ### Frontend:
 
--   [Project Setup](/dayof/Guided%20Project/Frontend/index.md)
--   [Your First Component](/dayof/Guided%20Project/Frontend/part2.md)
--   [Creating the Featured Item](/dayof/Guided%20Project/Frontend/featured_items.md) 
--   [Making Cards in React](/dayof/Guided%20Project/Frontend/cards.md)
--   [Making Reusable Cards in React with Custom Data](/dayof/Guided%20Project/Frontend/reusable.md)
--   [Routing](/dayof/Guided%20Project/Frontend/routing.md)
+-   [Project Setup](/guided-project/Frontend/index.md)
+-   [Your First Component](/guided-project/Frontend/part2.md)
+-   [Creating the Featured Item](/guided-project/Frontend/featured_items.md) 
+-   [Making Cards in React](/guided-project/Frontend/cards.md)
+-   [Making Reusable Cards in React with Custom Data](/guided-project/Frontend/reusable.md)
+-   [Routing](/guided-project/Frontend/routing.md)
 
 ### Backend:
 
--   [Connecting a Backend](/dayof/Guided%20Project/Backend/index.md)
--   [User Authentication (Firebase)](/dayof/Guided%20Project/Backend/user_auth.md)
--   [Connecting an API (Weather)](/dayof/Guided%20Project/Backend/api.md)
--   [CRUD using Firestore](/dayof/Guided%20Project/Backend/crud.md)
+-   [Connecting a Backend](/guided-project/Backend/index.md)
+-   [User Authentication (Firebase)](/guided-project/Backend/user_auth.md)
+-   [Connecting an API (Weather)](/guided-project/Backend/api.md)
+-   [CRUD using Firestore](/guided-project/Backend/crud.md)

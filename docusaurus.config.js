@@ -35,6 +35,16 @@ const config = {
                 sidebarCollapsed: false, // Default to expanded for dayof docs too
             },
         ],
+        [
+            '@docusaurus/plugin-content-docs',
+            {
+                id: 'guided-project',
+                path: 'guided-project',
+                routeBasePath: 'guided-project',
+                sidebarPath: require.resolve('./sidebars-guided-project.js'),
+                sidebarCollapsed: false,
+            },
+        ],
     ],
     presets: [
         [
@@ -118,6 +128,11 @@ const config = {
                         to: 'archive',
                         label: 'Blog',
                         position: 'left',
+                    },
+                    {
+                        to: '/guided-project/',
+                        position: 'left',
+                        label: 'Guided Project',
                     },
                     {
                         // Fixed: remove docId and use proper link format
