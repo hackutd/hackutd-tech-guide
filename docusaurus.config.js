@@ -174,10 +174,6 @@ const config = {
                                 label: 'Concepts',
                                 to: '/conceptual-directory/concepts',
                             },
-                            {
-                                label: 'Guided Project',
-                                to: '/GuidedProject',
-                            },
                         ],
                     },
                     {
