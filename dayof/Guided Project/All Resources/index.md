@@ -32,7 +32,7 @@ If you’re confident in all of these technologies, you don’t have to watch th
     - Ch. 3 is very important
 - [Github Tutorial](https://skills.github.com/)
 
-## [Installation Guide](/dayof/Guided%20Project/Installation%20Guide/index.md)
+## [Installation Guide](/dayof/Guided%20Project/Installation_Guide.md)
 
 - Installation: [Node.js](https://nodejs.org/en/download/prebuilt-installer)
 - Installation: [Visual Studio Code](https://code.visualstudio.com/)

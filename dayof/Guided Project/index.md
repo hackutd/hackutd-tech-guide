@@ -25,7 +25,7 @@ Have passion, aspire for excellence. You are capable! Apply yourself and everyth
 -   **Can I do this project and turn it into something else?**
     -   Yes! Though there is a major time crunch of 24 hours, say you crank out this guide within a few hours and feel ready to build something on your own… go for it! Even transforming this project with a new concept and design is an effective way of exercising creativity.
 -   **I finished the project with a lot of time left, what now?**
-    -   This is where you can express your creativity and differentiate your project from the others! The [bonus](/docs/Guided%20Project/Bonus/index.md) page of this guide shows the next steps after completion. A few general options include:
+    -   This is where you can express your creativity and differentiate your project from the others! The [bonus](/dayof/Guided%20Project/Bonus.md) page of this guide shows the next steps after completion. A few general options include:
         -   Restyling the UI to look more appealing
         -   Integrating more APIs
         -   Altering the purpose of the project itself with new functionality and theme.

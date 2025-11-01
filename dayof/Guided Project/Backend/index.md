@@ -83,7 +83,7 @@ Don’t forget to replace the `apiKey`, `authDomain`, etc. with your unique info
 :::caution Important
 At this point, wait until your front-end team creates the Dashboard component first.
 
-The dashboard component is found in this document [**Making Reusable Cards in React with Custom Data**](/docs/Guided%20Project/Frontend/reusable.md) 
+The dashboard component is found in this document [**Making Reusable Cards in React with Custom Data**](/dayof/Guided%20Project/Frontend/reusable.md) 
 
 You can work on the [Connecting an API (Weather)](https://www.notion.so/Connecting-an-API-Weather-42848f09b83f4aa9b89c0b370700fbbd?pvs=21) in the mean time.
 

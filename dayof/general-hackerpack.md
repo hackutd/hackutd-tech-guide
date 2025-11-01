@@ -160,4 +160,4 @@ The **info desk** will be located on the **1st floor Atrium of ECSW**, near the 
 
 **[Prizes/Challenge Statements](prizes-challenges.md)**
 
-**[HackUTD Lost in the Pages: Guided Project](guided-project.md)**
+**[HackUTD Lost in the Pages: Guided Project](/dayof/Guided%20Project/index.md)**
