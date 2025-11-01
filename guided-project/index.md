@@ -10,7 +10,7 @@ Written By: HackUTD Experience 2024/2025! ❤️
 
 This guided project is for hackers who need help getting started with creating a **full-stack application**. It comprises multiple sections that will go from creating the front end to creating a backend to calling APIs.
 
-For your benefit, we will have plenty of external resources to reference throughout the process. Don’t forget that Google is your best friend! Furthermore, we have mentors on deck at all times so feel free to come down to the lobby or take a visit to DevHour an event where a team of mentors are available to help you with any issue you may run into.
+For your benefit, we will have plenty of external resources to reference throughout the process. Don’t forget that Google is your best friend! Furthermore, we have mentors on deck at all times so feel free to come down to the lobby!
 
 Remember: The most important thing to do at a hackathon is to learn. Copying and pasting all of this code into your IDE will do you **zero good** and will simply be a waste of your time.
 
