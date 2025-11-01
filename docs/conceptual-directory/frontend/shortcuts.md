@@ -1,7 +1,7 @@
 ---
 title: Essential Shortcuts for VS Code
 slug: shortcuts
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 - ``` ctrl +  ` ``` -> Open the Terminal

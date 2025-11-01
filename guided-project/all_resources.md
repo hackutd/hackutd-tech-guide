@@ -100,3 +100,7 @@ If you’re confident in all of these technologies, you don’t have to watch th
 
 - Article: [Explain CRUD](https://www.freecodecamp.org/news/crud-operations-explained/)
 - Documentation: [Chart.JS](https://www.chartjs.org/docs/latest/getting-started/usage.html)
+
+## Extra Pages
+- [Essential Shortcuts for VS Code](/conceptual-directory/frontend/shortcuts)
+- [Common Tailwind Attributes and Examples](/conceptual-directory/frontend/tailwind)

@@ -87,7 +87,7 @@ The final code for this page can be found [here](https://pastebin.com/kSizNHdZ).
 
 ---
 
-## **Congratulations!**😊
+## Congratulations!😊
 
 This section may have been difficult to approach but we are so proud of you for making it to the end. To summarize what we did in this section, our goal was to practice styling and mimicing the final product to the best of our ability. 
 

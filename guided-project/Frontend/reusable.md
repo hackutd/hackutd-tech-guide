@@ -35,7 +35,7 @@ Reusable components save time and keep your code organized. Think of a list of p
 
 ---
 
-## **Challenge 2: How do we use** props**?**
+## Challenge 2: How do we use props?
 
 Now that `props` is set up, let’s replace the hard coded content with data from `props`. This will make it so each card can display unique information passed in from outside.
 

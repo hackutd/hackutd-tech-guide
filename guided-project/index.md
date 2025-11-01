@@ -33,7 +33,7 @@ Have passion, aspire for excellence. You are capable! Apply yourself and everyth
 
 ### For everyone:
 
--   [All Resources](/guided-project/All%20Resources/index.md)
+-   [All Resources](/guided-project/all_resources.md)
 -   [Installation Guide](/guided-project/Installation_Guide.md)
 -   [Bonus](/guided-project/Bonus.md)
 

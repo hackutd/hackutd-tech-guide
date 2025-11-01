@@ -13,25 +13,19 @@ const sidebars = {
             items: [
                 'Installation_Guide',
                 {
-                    type: 'category',
+                    type: 'doc',
+                    id: 'all_resources',
                     label: 'All Resources',
-                    link: {
-                        type: 'doc',
-                        id: 'All Resources/index',
-                    },
-                    items: [
-                        'All Resources/shortcuts',
-                        'All Resources/tailwind',
-                    ],
                 },
                 {
                     type: 'category',
                     label: 'Frontend',
-                    link: {
-                        type: 'doc',
-                        id: 'Frontend/index',
-                    },
                     items: [
+                        {
+                            type: 'doc',
+                            id: 'Frontend/index',
+                            label: 'Project Setup',
+                        },
                         'Frontend/part2',
                         'Frontend/cards',
                         'Frontend/featured_items',
@@ -42,11 +36,12 @@ const sidebars = {
                 {
                     type: 'category',
                     label: 'Backend',
-                    link: {
-                        type: 'doc',
-                        id: 'Backend/index',
-                    },
                     items: [
+                        {
+                            type: 'doc',
+                            id: 'Backend/index',
+                            label: 'Connecting a Backend (Firebase)',
+                        },
                         'Backend/api',
                         'Backend/crud',
                         'Backend/user_auth',
