@@ -99,10 +99,11 @@ function App() {
 export default App;
 
   ```
+  :::info
   - We wrap all of our content within `<Router>` (otherwise known as BrowserRouter)
 - We then define `<Routes>` which will contain all of our Route(s)
 - Each individual `<Route>` has a path, and when we navigate to said path, our DOM will render the element which is the respective page.
-
+  :::
 ### Creating Links to our Pages ###
 
   ```js

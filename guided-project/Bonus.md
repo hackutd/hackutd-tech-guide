@@ -17,6 +17,6 @@ At this point, you have quite a few options to choose from, and we want to give 
 - Change the theme of the project to something completely different
 
 ## Implement Additional Functionality ##
-- You can add content to the [Map](https://snippets.so/snip/yyGqwnZlfR) page *hint: GoogleMap api*
+- You can add content to the Map page *hint: GoogleMap api*
 - You can add content to the RSVP page
 - You can find other cool APIs to add

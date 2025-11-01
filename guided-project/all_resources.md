@@ -47,14 +47,14 @@ If you’re confident in all of these technologies, you don’t have to watch th
 - Installation: [Poppins Google Font](https://fonts.google.com/specimen/Poppins?query=poppins)
 - Installation: [Inter Google Font](https://fonts.google.com/specimen/Inter)
 - Documentation: [Custom Colors in Tailwind](https://tailwindcss.com/docs/customizing-colors)
-- Page: [Essential Shortcut for VS Code](https://www.notion.so/Essential-Shortcut-for-VS-Code-13e0d994cbb980458315ce8c69db8c1e?pvs=21)
+- Page: [Essential Shortcuts for VS Code](/conceptual-directory/frontend/shortcuts)
 
 ## [🎲 Your first component!](/guided-project/Frontend/part2.md)
 
 - Documentation: [Importing and Exporting components](https://react.dev/learn/importing-and-exporting-components)
 - Documentation: [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS)
 - Documentation: [Tailwind](https://v2.tailwindcss.com/docs)
-- Page: [Common Tailwind Attributes and Examples](https://www.notion.so/Common-Tailwind-Attributes-and-Examples-1380d994cbb98037950bc03069272fbd?pvs=21)
+- Page: [Common Tailwind Attributes and Examples](/conceptual-directory/frontend/tailwind)
 
 ## [💡 Creating the Featured Item](/guided-project/Frontend/featured_items.md)
 

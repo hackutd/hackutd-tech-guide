@@ -65,17 +65,19 @@ Take a closer look at our final product. In comparison to our skeleton, what **d
 
 1. Starting with the background/box. We need to add this gradient border that goes from blue to green. How can we do that?  
 
-  **Answer**: Adjust the styling for the main BOX element. Replace `bg-white` with `bg-gradient-to-r from-pastelblue to-pastelgreen`. Let’s also add `shadow-2xl` .  
+   **Answer**: Adjust the styling for the main BOX element. Replace `bg-white` with `bg-gradient-to-r from-pastelblue to-pastelgreen`. Let’s also add `shadow-2xl` .  
 Your page should look like [this](https://imgur.com/a/N2TWIop).
 2. Our title should be dark green, bold, and the horizontal line should also be green. 
 
-  **Answer**: For this, we need to add `poppins-bold text-darkgreen` to our Title element. And for the `<hr>` element, we need to add `border-pastelgreen`
+    **Answer**: For this, we need to add `poppins-bold text-darkgreen` to our Title element. And for the `<hr>` element, we need to add `border-pastelgreen`
 3. But what about that white background? This is where that somewhat random `<div>` that we created earlier is going to come in.  
-  **Answer**: Find the inner `<div>` with its only styling being `p-8`.
+
+    **Answer**: Find the inner `<div>` with its only styling being `p-8`.
 Let’s add the following stylizations:`rounded-3xl bg-white shadow-inner transition duration-500 hover:scale-105 hover:shadow-2xl`  
 At this point, your code should look like [this](https://pastebin.com/WYvEq2X3).
 4. Now let’s move on to the actual content of our box, starting with the **Image** on the left. One thing that you might’ve noticed is that our image should be **rounded** and have a shadow.  
-  **Answer**: To make this change, let’s add an attribute of `rounded-2xl` and `shadow-md`. 
+
+    **Answer**: To make this change, let’s add an attribute of `rounded-2xl` and `shadow-md`. 
 Let’s also make another hover effect for additional *interactivity*. This effect will rotate our image and make it bigger. We can do this through these styles: `transition-transform duration-500 hover:rotate-3 hover:scale-110`.
 5. For our last step, let’s style the text.
     1. “Lake Texarkana” **bold**, **large**, **dark blue**, and has a **shadow**.
