@@ -96,7 +96,7 @@ You can explore color palettes at https://colorhunt.co/
 
 The AmericanAirlines website is a great examples of a cohesive color palette, making the website look professional and draws your eyes to different parts of the page.
 
-![Styling6](/img/advancedstyling/AmericanAirlines.png)
+![Styling6](/img/advancedstyling/americanAirlines.png)
 
 ## Demo Time!
 
