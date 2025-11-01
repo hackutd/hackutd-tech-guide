@@ -50,7 +50,7 @@ To successfully develop project, you would need to have knowledge in at least on
 
 ## How can I learn those topics?
 
-On this site, you will find many resources to help you such as our [Guided Project](../../GuidedProject/) which will take you to an elaborate step by step guide in creating your very own full stack app. Furthermore, we have various workshop guides and blog posts that may assist you on your journey. If you don't know where to start, visit this link to dip your feet and don't be afraid to use Google or AI when you face any major confusions. And of course, don't forget that you can always find us in person for some assistance!
+On this site, you will find many resources to help you such as our [Guided Project](../../../guided-project/) which will take you to an elaborate step by step guide in creating your very own full stack app. Furthermore, we have various workshop guides and blog posts that may assist you on your journey. If you don't know where to start, visit this link to dip your feet and don't be afraid to use Google or AI when you face any major confusions. And of course, don't forget that you can always find us in person for some assistance!
 
 ## What should I do at a hackathon?
 

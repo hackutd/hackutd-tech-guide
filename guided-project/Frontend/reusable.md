@@ -35,7 +35,7 @@ Reusable components save time and keep your code organized. Think of a list of p
 
 ---
 
-## **Challenge 2: How do we use** props**?**
+## Challenge 2: How do we use props?
 
 Now that `props` is set up, let’s replace the hard coded content with data from `props`. This will make it so each card can display unique information passed in from outside.
 
@@ -150,7 +150,7 @@ How would we display how this data is formatted within our component?
 2. Open your browser’s developer tools (usually F12 or right-click > Inspect) and go to the **Console** tab.
 It should look something like this:
 ![](img/reuse1.jpg)
-3. Refresh the page and you should be able to see the console.log(data) output in the console.
+3. Refresh the page and you should be able to see the console.log(data) output in the console.  
 ![](img/reuse2.jpg)
 4. But what does this information mean? We can see how each object has a set of its own attributes. We are going to be using this information in our next step.
 

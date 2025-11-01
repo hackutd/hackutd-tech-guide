@@ -4,7 +4,7 @@ slug: crud
 sidebar_position: 4
 ---
 
-In this page, we are going to add a voting system so our users can vote on an activity. Do note that this page requires [User Authentication (Firebase)](https://www.notion.so/User-Authentication-Firebase-a54030329ef447948a48b607cc48263c?pvs=21) to be completed prior. 
+In this page, we are going to add a voting system so our users can vote on an activity. Do note that this page requires [⁉️ User Authentication (Firebase)](/guided-project/Backend/user_auth.md) to be completed prior. 
 
 ## What is CRUD?
 

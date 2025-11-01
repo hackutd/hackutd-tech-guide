@@ -76,7 +76,7 @@ import { createUserWithEmailAndPassword, sendEmailVerification, sendPasswordRese
   ```
 - Sends an email verification to the current user, with a redirect URL to your homepage after verification.  
 
-Here’s the [final code](https://snippets.so/snip/R1JpyR7MDa) for this challenge.
+Here’s the final code for this challenge.
 
 ## Step 3: Create an Authentication Context
 

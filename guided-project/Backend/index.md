@@ -43,7 +43,7 @@ In essence, Firebase simplifies many of the complex tasks involved in backend de
     1. Click on **Create Database.** Make sure you select **Testing Mode.** This will allow you to make modifications to the database.
 5. Now that your database is created, let’s create a new collection. We need to call it “settings”. Within settings, let’s create one field called “picnicDate”. The screenshot below should give a little more clarity.
 ![](img/connect1.jpg)
-6. Don’t forget to run npm install firebase
+6. Don’t forget to run `npm install firebase`
 
 ### **Step 2: Create a Firebase Configuration File**
 
@@ -83,11 +83,12 @@ Don’t forget to replace the `apiKey`, `authDomain`, etc. with your unique info
 :::caution Important
 At this point, wait until your front-end team creates the Dashboard component first.
 
-The dashboard component is found in this document [**Making Reusable Cards in React with Custom Data**](/dayof/Guided%20Project/Frontend/reusable.md) 
+The dashboard component is found in this document [**📦 Making Reusable Cards in React with Custom Data**](/guided-project/Frontend/reusable.md) 
 
-You can work on the [Connecting an API (Weather)](https://www.notion.so/Connecting-an-API-Weather-42848f09b83f4aa9b89c0b370700fbbd?pvs=21) in the mean time.
-
-**DANGER:** Your back-end and API key config files should not be visible to the public. This means that you **should never** push this type of file to github. In your root directory, you should see a file called `.gitignore`. There should already be a few things in this file, but let’s add another thing. Go to the bottom and create a new line and type in `src/firebase/firebase.js`. This will allow you to secure this file and keep it private. If you need to share this file with your teammates, send it to them on another platform such as email or discord.  
+You can work on the [**⛅️ Connecting an API (Weather)**](/guided-project/Backend/api.md) in the mean time.
+:::
+:::danger
+Your back-end and API key config files should not be visible to the public. This means that you **should never** push this type of file to github. In your root directory, you should see a file called `.gitignore`. There should already be a few things in this file, but let’s add another thing. Go to the bottom and create a new line and type in `src/firebase/firebase.js`. This will allow you to secure this file and keep it private. If you need to share this file with your teammates, send it to them on another platform such as email or discord.  
 ![](img/connect2.jpg)
 :::
 ---
@@ -101,15 +102,15 @@ You can work on the [Connecting an API (Weather)](https://www.notion.so/Connecti
 
 Let’s go to our `Dashboard.jsx` file and add an import statement for `{useState}` . We’re also going to add a single line of code to initialize a state variable. You can read more about useState [here](https://medium.com/@titoadeoye/react-hooks-usestate-with-practical-examples-64abd6df6471) and [here](https://react.dev/reference/react/useState).
 Your code should look like [this](https://pastebin.com/x2wkDnut).
-  ```js
+  ```js {1,4}
   import { useState } from 'react';
 
 function Dashboard() {
-  const [items, setItems] = useState([]);
+    const [items, setItems] = useState([]);
 
-  return (
+    return (
     ...
-  );
+    );
 }
 
 export default Dashboard;
@@ -122,7 +123,7 @@ export default Dashboard;
 To access data from Firestore, we need to import a few more modules such as `collection` and `getDocs`. We also need `db` from our firebase file.
 
 Make sure you add the following highlights:
-  ```js
+  ```js {2,3,8-16}
   import { useState } from 'react';
 import { collection, getDocs } from 'firebase/firestore';
 import { db } from '../firebase/firebase';
@@ -154,7 +155,7 @@ export default Dashboard;
 - Now let’s talk about the `const querySnapshot` variable.
     - `getDocs` is a Firebase function that fetches documents from your database
     - `collection(db, "invitees")` specifies which **collection** to fetch from.
-        - This collection may not **exist** yet if you haven’t done the [CRUD Using Firestore](https://www.notion.so/CRUD-Using-Firestore-13d0d994cbb98028abe3dd71d4745f13?pvs=21) page.
+        - This collection may not **exist** yet if you haven’t done the [💩 CRUD Using Firestore](/guided-project/Backend/crud.md) page.
     - The result is stored in `querySnapshot`
 - We then have another variable called `const dataArray`
     - We are looping through every **object** in `querySnapshot`  and storing it into a single array called `dataArray`.
@@ -165,7 +166,7 @@ export default Dashboard;
 
 ## Challenge 3: Implementing useEffect
 
-  ```js
+  ```js {1,18-20}
   import { useState, useEffect } from 'react';
 import { collection, getDocs } from 'firebase/firestore';
 import { db } from '../firebase/firebase';
@@ -222,7 +223,7 @@ Upon first render, useEffect hook will run the `fetchData` function which will u
 > 
 
 Instead of mapping through our `data.json`, we are going to map through our `items` instead. It’s the same format: an array of objects with the key value pairings of id, name, img, etc.
-  ```js
+  ```js {14}
   // import data from "../data/data.json";
 // You no longer need to import data, we are getting our data from our database instead.
 ...

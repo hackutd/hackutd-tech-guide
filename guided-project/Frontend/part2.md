@@ -139,7 +139,7 @@ With Tailwind CSS, we can easily apply **in-line** styling to any HTML element t
 > By default, HTML elements are stacked in a vertical top-down fashion. The way we enable these elements to orient themselves horizontally is through [**flexbox**](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
 
 1. First, let’s create the list of elements that will make up our Navbar. For now let’s say our elements are "RSVP", “Activity”, and “Map”
-2. **Problem:** How can we create 3 separate text elements on our screen as seen in the image below?
+2. **Problem:** How can we create 3 separate text elements on our screen as seen in the image below?  
 ![](img/ripple.jpg)  
 [Answer](https://pastebin.com/EZRfCC6C)
 
@@ -199,7 +199,7 @@ If you like your design better, keep it! Make this project your own. We want to 
     When we style an attribute to a parent container, such as the outer div, that style will apply to all children, grandchildren, etc. Do note that this only applies to **inheritable** css attributes.
     Now knowing this, we can move some of the styles to the `<div>` that *contains* the `<p>` tags like so:
 
-    ```js
+  ```js
     {/* PAGES */}
   <div className="flex flex-row gap-8 poppins-semibold text-2xl text-darkblue">
     <p className="hover:text-pastelgreen transition duration-300">map</p>

@@ -1,7 +1,7 @@
 ---
 title: Common Tailwind Attributes and Examples
 slug: tailwind
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 When declaring attributes you first specify the attribute itself, and apply additional parameters that are separated by hyphens e.g. `bg` - `gray` - `100` 

@@ -116,8 +116,8 @@ Once the project is setup and everyone has access to it, that is when you guys s
     1. To shut off your development server, click on the terminal and hit `ctrl+c` 
     To start up the server again, execute `run dev` in the terminal.
     You can find more useful shortcuts in our [All Resources](https://www.notion.so/All-Resources-cbd6054a4e4e4e619f4279490ef1d015?pvs=21) in the **Essential Shortcuts page.**
-7. Your file directory should like the screenshot below. We will now briefly explain the directory, but you can learn more about it [here](https://github.com/alan2207/bulletproof-react/blob/master/docs/project-structure.md). Though this may be confusing right now, eventually it’ll all come together.
-  ![](img/directory.jpg)
+7. Your file directory should like the screenshot below. We will now briefly explain the directory, but you can learn more about it [here](https://github.com/alan2207/bulletproof-react/blob/master/docs/project-structure.md). Though this may be confusing right now, eventually it'll all come together.
+    <img src="/img/directory.jpg" alt="Directory structure" width="300" />
     1. `\root\src\`
         1. This folder is where **all** our code will go. This includes our components, hooks, utilities, and more.
     2. `\root\public\`

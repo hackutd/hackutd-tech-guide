@@ -1,4 +1,241 @@
-/* Enhanced modern card styles with neutral tech colors */
+/**
+ * Custom CSS for Docusaurus
+ * Modern, clean color palette with unique inline code styling
+ */
+
+/* ============================================
+   ROOT COLOR VARIABLES - Light Mode
+   ============================================ */
+:root {
+    /* Primary brand colors - Indigo theme (professional & modern) */
+    --ifm-color-primary: #6366f1;
+    --ifm-color-primary-dark: #4f46e5;
+    --ifm-color-primary-darker: #4338ca;
+    --ifm-color-primary-darkest: #3730a3;
+    --ifm-color-primary-light: #818cf8;
+    --ifm-color-primary-lighter: #a5b4fc;
+    --ifm-color-primary-lightest: #c7d2fe;
+
+    /* Text colors - Clean and readable */
+    --ifm-font-color-base: #1e293b; /* Body text - dark slate */
+    --ifm-heading-color: #0f172a; /* Headings - darker slate */
+    --ifm-link-color: #6366f1; /* Links - indigo (NOT default blue) */
+    --ifm-link-hover-color: #4f46e5; /* Link hover - darker indigo */
+
+    /* Code colors */
+    --ifm-code-font-size: 90%;
+
+    /* Background colors */
+    --ifm-background-color: #ffffff;
+    --ifm-background-surface-color: #f8fafc;
+
+    /* Inline code - unique style with left accent */
+    --inline-code-bg: #f1f5f9; /* Light slate background */
+    --inline-code-color: #dc2626; /* Red text for visibility */
+    --inline-code-border: #6366f1; /* Indigo left border accent */
+
+    /* Fonts */
+    --ifm-font-family-base:
+        -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    --ifm-font-family-monospace:
+        'Fira Code', 'JetBrains Mono', 'Consolas', 'Monaco', 'Courier New',
+        monospace;
+}
+
+/* ============================================
+   DARK MODE COLOR VARIABLES
+   ============================================ */
+[data-theme='dark'] {
+    /* Primary colors remain the same for consistency */
+    --ifm-color-primary: #818cf8;
+    --ifm-color-primary-dark: #6366f1;
+    --ifm-color-primary-darker: #4f46e5;
+    --ifm-color-primary-darkest: #4338ca;
+    --ifm-color-primary-light: #a5b4fc;
+    --ifm-color-primary-lighter: #c7d2fe;
+    --ifm-color-primary-lightest: #e0e7ff;
+
+    /* Text colors for dark mode */
+    --ifm-font-color-base: #e2e8f0; /* Light slate */
+    --ifm-heading-color: #f1f5f9; /* Lighter slate for headings */
+    --ifm-link-color: #a5b4fc; /* Lighter indigo for dark mode */
+    --ifm-link-hover-color: #c7d2fe; /* Even lighter on hover */
+
+    /* Background colors */
+    --ifm-background-color: #0f172a;
+    --ifm-background-surface-color: #1e293b;
+
+    /* Inline code - dark mode */
+    --inline-code-bg: #1e293b; /* Dark slate background */
+    --inline-code-color: #fca5a5; /* Light red/pink for visibility */
+    --inline-code-border: #818cf8; /* Lighter indigo accent */
+}
+
+/* ============================================
+   INLINE CODE STYLING - Unique Design
+   ============================================ */
+code {
+    background-color: var(--inline-code-bg) !important;
+    color: var(--inline-code-color) !important;
+    border: none !important;
+    border-left: 3px solid var(--inline-code-border) !important;
+    border-radius: 4px !important;
+    padding: 2px 8px 2px 8px !important;
+    font-size: 0.9em !important;
+    font-family: var(--ifm-font-family-monospace) !important;
+    font-weight: 500 !important;
+    transition: all 0.2s ease !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* Hover effect for inline code */
+code:hover {
+    background-color: var(--inline-code-bg) !important;
+    box-shadow: 0 2px 6px rgba(99, 102, 241, 0.15) !important;
+    transform: translateY(-1px);
+}
+
+/* Make sure code blocks (not inline) use different styling */
+pre code {
+    background-color: transparent !important;
+    color: inherit !important;
+    border: none !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    font-weight: normal !important;
+}
+
+pre code:hover {
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+/* ============================================
+   LINK STYLING - Clear but not default blue
+   ============================================ */
+a {
+    color: var(--ifm-link-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: var(--ifm-link-hover-color);
+    text-decoration: underline;
+}
+
+/* ============================================
+   HEADING CUSTOMIZATION
+   ============================================ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--ifm-heading-color);
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--ifm-color-primary-lightest);
+    padding-bottom: 0.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+/* ============================================
+   CODE BLOCK STYLING
+   ============================================ */
+pre {
+    background-color: #1e293b;
+    border-radius: 8px;
+    padding: 1.5rem !important;
+    border: 1px solid rgba(148, 163, 184, 0.2);
+    margin: 1.5rem 0 !important;
+    line-height: 1.6 !important;
+}
+
+[data-theme='light'] pre {
+    background-color: #f8fafc;
+    border: 1px solid rgba(148, 163, 184, 0.3);
+}
+
+/* Add padding to the code element inside pre blocks */
+pre code {
+    padding: 0 !important;
+    display: block !important;
+}
+
+/* Add some breathing room between lines in code blocks */
+pre .token-line {
+    line-height: 1.6 !important;
+    padding: 0.125rem 0 !important;
+}
+
+/* Highlighted lines in code blocks - yellow accent */
+.token-line.theme-code-block-highlighted-line,
+.theme-code-block-highlighted-line,
+.theme-code-block .token-line.highlight-line,
+.theme-code-block .code-line.highlight-line,
+.theme-code-block .line-highlight,
+.theme-code-block .line--highlighted,
+.theme-code-block .prism-line-highlight,
+.theme-code-block [data-line].highlighted,
+.theme-code-block .highlighted,
+.rehype-pretty-code .line-highlight,
+.code-block .line-highlight,
+.prism-code .line-highlight,
+pre .token-line.highlight-line,
+pre .code-line.highlight-line,
+pre .highlighted,
+.prism-code .highlighted,
+.language-js .highlighted,
+.language-javascript .highlighted {
+    background-color: rgba(255, 235, 59, 0.2) !important;
+    border-left: 4px solid #fdd835 !important;
+    padding-left: 12px !important;
+    display: block !important;
+    margin-left: -16px !important;
+    margin-right: -16px !important;
+    padding-right: 16px !important;
+}
+
+[data-theme='dark'] .token-line.theme-code-block-highlighted-line,
+[data-theme='dark'] .theme-code-block-highlighted-line,
+[data-theme='dark'] .theme-code-block .token-line.highlight-line,
+[data-theme='dark'] .theme-code-block .code-line.highlight-line,
+[data-theme='dark'] .theme-code-block .line-highlight,
+[data-theme='dark'] .theme-code-block .line--highlighted,
+[data-theme='dark'] .theme-code-block .prism-line-highlight,
+[data-theme='dark'] .theme-code-block [data-line].highlighted,
+[data-theme='dark'] .theme-code-block .highlighted,
+[data-theme='dark'] pre .token-line.highlight-line,
+[data-theme='dark'] pre .code-line.highlight-line,
+[data-theme='dark'] pre .highlighted,
+[data-theme='dark'] .prism-code .highlighted,
+[data-theme='dark'] .language-js .highlighted,
+[data-theme='dark'] .language-javascript .highlighted {
+    background-color: rgba(255, 235, 59, 0.15) !important;
+    border-left-color: #ffeb3b !important;
+}
+
+/* ============================================
+   NOTION-STYLE CARDS (from your original CSS)
+   ============================================ */
 
 /* Remove underlines and improve link styling */
 .notion-card-link {
@@ -96,12 +333,12 @@
     margin-bottom: 16px;
     font-size: 20px;
     font-weight: 700;
-    color: #1e293b; /* Dark slate for light mode */
+    color: #1e293b;
     line-height: 1.3;
 }
 
 [data-theme='dark'] .notion-card-header {
-    color: #f1f5f9; /* Light slate for dark mode */
+    color: #f1f5f9;
 }
 
 .notion-card-emoji {
@@ -112,7 +349,7 @@
 
 /* Card description with better typography and neutral colors */
 .notion-card-description {
-    color: #475569; /* Medium slate for light mode */
+    color: #475569;
     font-size: 15px;
     line-height: 1.6;
     margin: 0;
@@ -120,7 +357,7 @@
 }
 
 [data-theme='dark'] .notion-card-description {
-    color: #cbd5e1; /* Light slate for dark mode */
+    color: #cbd5e1;
 }
 
 /* Primary cards styling */
@@ -149,19 +386,19 @@
     line-height: 1.65;
 }
 
-/* Color variations for different categories - using tech-friendly colors */
+/* Color variations for different categories */
 .notion-card--volunteer {
     background: linear-gradient(
         135deg,
-        rgba(14, 165, 233, 0.08) 0%,
-        rgba(2, 132, 199, 0.08) 100%
+        rgba(99, 102, 241, 0.08) 0%,
+        rgba(79, 70, 229, 0.08) 100%
     );
-    border-color: rgba(14, 165, 233, 0.2);
+    border-color: rgba(99, 102, 241, 0.2);
 }
 
 .notion-card--volunteer:hover {
-    border-color: rgba(14, 165, 233, 0.4);
-    box-shadow: 0 12px 40px rgba(14, 165, 233, 0.15);
+    border-color: rgba(99, 102, 241, 0.4);
+    box-shadow: 0 12px 40px rgba(99, 102, 241, 0.15);
 }
 
 .notion-card--travel {
@@ -306,52 +543,4 @@
 
 .notion-card:hover::before {
     left: 100%;
-}
-
-/* Make highlighted code lines yellow instead of grey - target the exact class */
-.token-line.theme-code-block-highlighted-line,
-.theme-code-block-highlighted-line,
-.theme-code-block .token-line.highlight-line,
-.theme-code-block .code-line.highlight-line,
-.theme-code-block .line-highlight,
-.theme-code-block .line--highlighted,
-.theme-code-block .prism-line-highlight,
-.theme-code-block [data-line].highlighted,
-.theme-code-block .highlighted,
-.rehype-pretty-code .line-highlight,
-.code-block .line-highlight,
-.prism-code .line-highlight,
-pre .token-line.highlight-line,
-pre .code-line.highlight-line,
-pre .highlighted,
-.prism-code .highlighted,
-.language-js .highlighted,
-.language-javascript .highlighted {
-  background-color: rgba(255, 235, 59, 0.2) !important; /* yellow background - more opaque */
-  border-left: 4px solid #fdd835 !important;              /* yellow stripe - thicker */
-  padding-left: 12px !important;
-  display: block !important;
-  margin-left: -16px !important;
-  margin-right: -16px !important;
-  padding-right: 16px !important;
-}
-
-/* Dark theme - slightly different yellow for better contrast */
-[data-theme='dark'] .token-line.theme-code-block-highlighted-line,
-[data-theme='dark'] .theme-code-block-highlighted-line,
-[data-theme='dark'] .theme-code-block .token-line.highlight-line,
-[data-theme='dark'] .theme-code-block .code-line.highlight-line,
-[data-theme='dark'] .theme-code-block .line-highlight,
-[data-theme='dark'] .theme-code-block .line--highlighted,
-[data-theme='dark'] .theme-code-block .prism-line-highlight,
-[data-theme='dark'] .theme-code-block [data-line].highlighted,
-[data-theme='dark'] .theme-code-block .highlighted,
-[data-theme='dark'] pre .token-line.highlight-line,
-[data-theme='dark'] pre .code-line.highlight-line,
-[data-theme='dark'] pre .highlighted,
-[data-theme='dark'] .prism-code .highlighted,
-[data-theme='dark'] .language-js .highlighted,
-[data-theme='dark'] .language-javascript .highlighted {
-  background-color: rgba(255, 235, 59, 0.15) !important;
-  border-left-color: #ffeb3b !important;
 }

@@ -122,7 +122,7 @@ Questions or need help with something not covered here? We're here to help:
 <h2 className='section-header'>Guided Project Information</h2>
 
 <div className="custom-card-grid">
- <a href="/dayof/Guided Project/" className="notion-card notion-card--guide notion-card-link">
+ <a href="/guided-project/" className="notion-card notion-card--guide notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">✨</span>
       Guided Project
