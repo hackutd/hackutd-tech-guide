@@ -11,10 +11,14 @@ Parking Passes can be found here:
 
 ## 🛎️ Check-in Process
 
-We will be checking in at the **front doors of ECSW starting at** **8 AM**. This is for people who have QR codes from pre-registration. You will need your:
+We will be checking in at the **area in front of ECSW starting at** **8 AM**. This is for people who have QR codes from registration. You will need your:
 
 - Driver's License or Student ID
 - QR Code from the **[legend.hackutd.co](https://legend.hackutd.co)** site
+
+Here's a map for reference:
+
+![Check in map](../static/img/checkin.png)
 
 You need to checked-in by **10:00 AM**. If you aren’t checked-in by then, **your spot may be given away**, so make sure to show up by then.
 
@@ -192,4 +196,3 @@ The **info desk** will be located on the **1st floor Atrium of ECSW**, near the 
 **[Prizes/Challenge Statements](prizes-challenges.md)**
 
 **[HackUTD Lost in the Pages: Guided Project](/guided-project/)**
-
