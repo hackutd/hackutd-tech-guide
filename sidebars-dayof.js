@@ -71,6 +71,44 @@ module.exports = {
                         },
                     ],
                 },
+
+                // Workshops
+                {
+                    type: 'category',
+                    label: 'Workshops',
+                    items: [
+                        {
+                            type: 'doc',
+                            id: 'workshops/pnc',
+                            label: 'PNC',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'workshops/t-mobile',
+                            label: 'T-Mobile',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'workshops/goldman-sachs',
+                            label: 'Goldman Sachs',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'workshops/statefarm',
+                            label: 'State Farm',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'workshops/nmc',
+                            label: 'NMC',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'workshops/eog',
+                            label: 'EOG',
+                        }
+                    ],
+                },
             ],
         },
     ],

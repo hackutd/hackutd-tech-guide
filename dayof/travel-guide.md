@@ -36,6 +36,10 @@ Arriving at either DFW International Airport or Love Field Airport, you have 3 o
     3. Click the Plan tab (bottom left) and navigate to UTD or just use [Google Maps](https://www.google.com/maps/dir/DFW+International+Airport,+2400+Aviation+Dr,+DFW+Airport,+TX+75261/University+of+Texas+at+Dallas,+West+Campbell+Road,+Richardson,+TX/@32.8913835,-96.9523579,12z/data=!4m14!4m13!1m5!1m1!1s0x864c2a660d222aa7:0x73323f5e067d201c!2m2!1d-97.0403352!2d32.8998091!1m5!1m1!1s0x864c21ff895e4aa5:0xd9098b32e9aa1331!2m2!1d-96.7502474!2d32.9856974!3e3?entry=ttu)
 - Find a friend to pick you up - it’ll be better than the first two options!
 
+This is a map route from DFW to UTD using public transportation:
+
+![DFW to UTD Public Transport](../static/img/hackerpacks/map-of-line.png)
+
 ---
 
 ## 🗺️ Venue Information
