@@ -11,18 +11,20 @@ Parking Passes can be found here:
 
 ## 🛎️ Check-in Process
 
-We will be checking in at the **area in front of ECSW starting at** **8 AM**. This is for people who have QR codes from registration. You will need your:
+We will be checking in at the **area in front of ECSW starting at** **8 AM**. This is for people who have have been accepted. You will need your:
 
 - Driver's License or Student ID
 - QR Code from the **[legend.hackutd.co](https://legend.hackutd.co)** site
 
 Here's a map for reference:
 
-![Check in map](../static/img/checkin.png)
+![Check in map](../static/img/real_check_in.png)
 
 You need to checked-in by **10:00 AM**. If you aren’t checked-in by then, **your spot may be given away**, so make sure to show up by then.
 
-**_If you do not have a QR code, you have not been accepted. If you still want to attend you can try you luck at walk-ins._**
+:::info
+If you have any issues with your QR Code or account, please make your way to the tech help desk shown in the map above.
+:::
 
 Think you might be late? Check out **[Late Check-in](#late-check-in)**
 
@@ -31,11 +33,11 @@ Think you might be late? Check out **[Late Check-in](#late-check-in)**
 ## 🚶‍♀️ Walk-ins
 
 We will still be allowing walk-ins on a **first-come, first-served basis** on the day of the event. We start handing out tickets to walk-ins **starting at 6:00 AM** on Saturday, November 8th by **ECSW**. Spots are limited, so be sure to arrive early to secure your place. Once you get your walk-in ticket, you do not need to stay near ECSW. At **10:00 AM**, we will **start calling ticket numbers** to be let in, so make sure you’re back by then. Be on the lookout for a text message as well!
-:::warning
-Please stand in line at ECSW to receive your walk-in ticket, but come back at 10:00 AM to ECSS to complete the process.
+:::note
+Please stand in line at ECSW to receive your walk-in ticket. At 10:00 AM, **depending on availability**, we will be notifying walk-ins and if you're number is called, you can go to ECSW to join the check-in line and complete the [**check-in process**](#️-check-in-process).
 :::
 
-![ECSS to ECSW](../static/img/ecsstoecsw.png)
+![ECSS to ECSW](../static/img/walk_in.png)
 
 ---
 
@@ -79,7 +81,6 @@ Refer to the **[Mentor Guide](mentor-guide.md)** for instructions on how to requ
 | ----------------------------- | ----------------- | ----------------- | -------------- |
 | Saturday Lunch                | Banana Leaf       | 12:00pm - 1:30pm  | ECSW Courtyard |
 | Saturday Dinner               | Little Rome       | 7:30pm - 9:30pm   | ECSW Atrium    |
-| Goldman Sachs Drink Drop      | Mystery           | 9:30pm - TBD      | ECSW Courtyard |
 | Midnight Snack                | Mystery           | 11:30pm - 12:00am | ECSW Atrium    |
 | Sunday Breakfast              | 85 Degrees Bakery | 9:00am - 10:00am  | ECSW Atrium    |
 | Sunday Breakfast Refreshments | Mystery           | 8:00am - 11:00am  | ECSW Courtyard |
@@ -151,7 +152,7 @@ Incomplete
 
 | **Event** | **Time** | **Location** |
 | --------- | -------- | ------------ |
-| 🌘 **Midnight Snack**<br/>Come by for some free snacks! | 12:00–12:30 AM | TBD |
+| 🌘 **Midnight Snack**<br/>Come by for some free snacks! | 11:30 PM–12:00 AM | TBD |
 | ⭐ **Presented by PNC: HackUTD Olympics**<br/>Compete in funny team games to win the grand prize! | 12:00–1:00 AM | ECSW 1.315 |
 | 🍜 **Tavern Ramen Bar**<br/>Customize your own ramen bowl! | 12:00–2:00 AM | ECSW Bird's Nest (2nd Floor) |
 | 🎬 **World's Watch Party (LEAGUE OF LEGENDS)**<br/>Enjoy the League of Legends Worlds Finals with fellow hackers! | 2:00–4:00 AM | ECSW 1.365 |
