@@ -49,31 +49,18 @@ Non-UTD students will need a parking permit to park at UTD during HackUTD. Pleas
 
 ## Venue Interior Maps
 
-### ECSW (Erik Jonsson School - West)
 
-TBD
+![ECSW Interior Map](../static/img/hackerpacks/ecsw-1.png)
 
-#### 1st floor — Info desk (top corner)
+![ECSW 2nd Floor Map](../static/img/hackerpacks/ecsw-2.png)
 
-TBD
+![ECSW 3rd Floor Map](../static/img/hackerpacks/ecsw-3.png)
 
-#### 2nd floor
+![ECSW 4th Floor Map](../static/img/hackerpacks/ecsw-4.png)
 
-TBD
-
-#### 3rd floor
-
-TBD
-
-#### 4th floor
-
-TBD
-
-### ECSS (Erik Jonsson School - South)
-
-#### 1st floor
-
-TBD
+---
+---
+![ECSS 1st Floor Map](../static/img/hackerpacks/ecss-1.png)
 
 ---
 
