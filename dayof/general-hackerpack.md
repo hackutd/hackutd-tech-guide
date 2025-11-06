@@ -37,8 +37,15 @@ We will still be allowing walk-ins on a **first-come, first-served basis** on 
 Please stand in line at ECSW to receive your walk-in ticket. At 10:00 AM, **depending on availability**, we will be notifying walk-ins and if you're number is called, you can go to ECSW to join the check-in line and complete the [**check-in process**](#️-check-in-process).
 :::
 
-![ECSS to ECSW](../static/img/walk_in.png)
+![ECSS to ECSW](../static/img/hackerpacks/walk-in.png)
 
+When you get to the front of the Walk-in line, you will choose to either be notified via text message or email. You will need your student ID or driver's license to verify your identity when you are called.
+
+![Walk-in Line](../static/img/hackerpacks/walk-in-notification-method.png)
+
+After choosing your notification method, you will be able to view your waitlist number by logging into [legend.hackutd.co](https://legend.hackutd.co) with the same method you used to sign up for the hackathon.
+
+![Walk-in Waitlist Number](../static/img/hackerpacks/walk-in-status.png)
 ---
 
 ## Late Check-in
