@@ -80,11 +80,11 @@ Refer to the **[Mentor Guide](mentor-guide.md)** for instructions on how to requ
 | **Meal**                      | **Restaurant**    | **Time**          | **Location**   |
 | ----------------------------- | ----------------- | ----------------- | -------------- |
 | Saturday Lunch                | Banana Leaf       | 12:00pm - 1:30pm  | ECSW Courtyard |
-| Saturday Dinner               | Little Rome       | 7:30pm - 9:30pm   | ECSW Atrium    |
-| Midnight Snack                | Mystery           | 11:30pm - 12:00am | ECSW Atrium    |
-| Sunday Breakfast              | 85 Degrees Bakery | 9:00am - 10:00am  | ECSW Atrium    |
+| Saturday Dinner               | Little Rome       | 7:30pm - 9:30pm   | ECSW Atrium (1st Floor)    |
+| Midnight Snack                | Mystery           | 11:30pm - 12:00am | ECSW Atrium (1st Floor)    |
+| Sunday Breakfast              | 85 Degrees Bakery | 9:00am - 10:00am  | ECSW Atrium (1st Floor)    |
 | Sunday Breakfast Refreshments | Mystery           | 8:00am - 11:00am  | ECSW Courtyard |
-| Sunday Lunch                  | Modern Market     | 12pm - 1pm        | ECSW Atrium    |
+| Sunday Lunch                  | Modern Market     | 12pm - 1pm        | ECSW Atrium (1st Floor)    |
 
 ### 🫒Allergen Menu
 
@@ -102,6 +102,7 @@ TBD
   - These will open after midnight snack at 12:30AM on Sunday!
   - Hackers occupying these rooms will be asked to move!
 - Showers (single occupancy bathrooms): Back corner on **1st floor**
+  - We will provide shampoo, conditioner, and body wash, but you will have to bring your own towel and shower shoes!
 
 ![Showers map](../static/img/hackerpacks/showers-map.png)
 
@@ -152,7 +153,7 @@ Incomplete
 
 | **Event** | **Time** | **Location** |
 | --------- | -------- | ------------ |
-| 🌘 **Midnight Snack**<br/>Come by for some free snacks! | 11:30 PM–12:00 AM | TBD |
+| 🌘 **Midnight Snack**<br/>Come by for some free snacks! | 11:30 PM–12:00 AM | ECSW Atrium (1st Floor) |
 | ⭐ **Presented by PNC: HackUTD Olympics**<br/>Compete in funny team games to win the grand prize! | 12:00–1:00 AM | ECSW 1.315 |
 | 🍜 **Tavern Ramen Bar**<br/>Customize your own ramen bowl! | 12:00–2:00 AM | ECSW Bird's Nest (2nd Floor) |
 | 🎬 **World's Watch Party (LEAGUE OF LEGENDS)**<br/>Enjoy the League of Legends Worlds Finals with fellow hackers! | 2:00–4:00 AM | ECSW 1.365 |
@@ -161,8 +162,8 @@ Incomplete
 
 | **Event** | **Time** | **Location** |
 | --------- | -------- | ------------ |
-| 🐶 **Dog Petting Zoo**<br/>Come pet some dogs to start your day! | 9:00–11:00 AM | TBD |
-| 🏪 **Tavern Shop**<br/>Come check out our merchandise before we close up forever! | 4:15–4:45 PM | TBD |
+| 🐶 **Dog Petting Zoo**<br/>Come pet some dogs to start your day! | 9:00–11:00 AM | ECSW 2.325 |
+| 🏪 **Tavern Shop**<br/>Come check out our merchandise before we close up forever! | 4:15–4:45 PM | ECSW Bird's Nest (2nd Floor) |
 
 ---
 
