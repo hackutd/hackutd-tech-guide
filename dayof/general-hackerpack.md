@@ -34,7 +34,7 @@ Think you might be late? Check out **[Late Check-in](#late-check-in)**
 
 We will still be allowing walk-ins on a **first-come, first-served basis** on the day of the event. We start handing out tickets to walk-ins **starting at 6:00 AM** on Saturday, November 8th by **ECSW**. Spots are limited, so be sure to arrive early to secure your place. Once you get your walk-in ticket, you do not need to stay near ECSW. At **10:00 AM**, we will **start calling ticket numbers** to be let in, so make sure you’re back by then. Be on the lookout for a text message as well!
 :::note
-Please stand in line at ECSW to receive your walk-in ticket. At 10:00 AM, **depending on availability**, we will be notifying walk-ins and if you're number is called, you can go to ECSW to join the check-in line and complete the [**check-in process**](#️-check-in-process).
+Please stand in line at ECSW to receive your walk-in ticket. At 10:00 AM, **depending on availability**, we will be notifying walk-ins and if you're number is called, you must verify your ticket first at the Help Desk (pictured below). Afteward, you can join the [**check-in process**](#️-check-in-process).
 :::
 
 ![ECSS to ECSW](../static/img/hackerpacks/walk-in.png)
@@ -45,8 +45,7 @@ When you get to the front of the Walk-in line, you will choose to either be noti
 
 After choosing your notification method, you will be able to view your waitlist number by logging into [legend.hackutd.co](https://legend.hackutd.co) with the same method you used to sign up for the hackathon.
 
-![Walk-in Waitlist Number](../static/img/hackerpacks/walk-in-status.png)
----
+## ![Walk-in Waitlist Number](../static/img/hackerpacks/walk-in-status.png)
 
 ## Late Check-in
 
@@ -84,14 +83,14 @@ Refer to the **[Mentor Guide](mentor-guide.md)** for instructions on how to requ
 
 ## 🥪 Meals
 
-| **Meal**                      | **Restaurant**    | **Time**          | **Location**   |
-| ----------------------------- | ----------------- | ----------------- | -------------- |
-| Saturday Lunch                | Banana Leaf       | 12:00pm - 1:30pm  | ECSW Courtyard |
-| Saturday Dinner               | Little Rome       | 7:30pm - 9:30pm   | ECSW Atrium (1st Floor)    |
-| Midnight Snack                | Mystery           | 11:30pm - 12:00am | ECSW Atrium (1st Floor)    |
-| Sunday Breakfast              | 85 Degrees Bakery | 9:00am - 10:00am  | ECSW Atrium (1st Floor)    |
-| Sunday Breakfast Refreshments | Mystery           | 8:00am - 11:00am  | ECSW Courtyard |
-| Sunday Lunch                  | Modern Market     | 12pm - 1pm        | ECSW Atrium (1st Floor)    |
+| **Meal**                      | **Restaurant**    | **Time**          | **Location**            |
+| ----------------------------- | ----------------- | ----------------- | ----------------------- |
+| Saturday Lunch                | Banana Leaf       | 12:00pm - 1:30pm  | ECSW Courtyard          |
+| Saturday Dinner               | Little Rome       | 7:30pm - 9:30pm   | ECSW Atrium (1st Floor) |
+| Midnight Snack                | Mystery           | 11:30pm - 12:00am | ECSW Atrium (1st Floor) |
+| Sunday Breakfast              | 85 Degrees Bakery | 9:00am - 10:00am  | ECSW Atrium (1st Floor) |
+| Sunday Breakfast Refreshments | Mystery           | 8:00am - 11:00am  | ECSW Courtyard          |
+| Sunday Lunch                  | Modern Market     | 12pm - 1pm        | ECSW Atrium (1st Floor) |
 
 ### 🫒Allergen Menu
 
@@ -125,21 +124,21 @@ Note that all of these workshops are held on Saturday except for "How to Pitch y
 Incomplete
 :::
 
-| **Workshop**                                                 | **Company**   | **Time**        | **Location** |
-| ------------------------------------------------------------ | ------------- | --------------- | ------------ |
+| **Workshop**                                                                         | **Company**   | **Time**        | **Location** |
+| ------------------------------------------------------------------------------------ | ------------- | --------------- | ------------ |
 | **[AI-Powered Product Management: A Day in the Life, Reimagined](workshops/pnc.md)** | PNC           | 1:00pm - 1:45pm | ECSW 1.315   |
-| **[Pitch to Win](workshops/t-mobile.md)**                    | T-Mobile      | 1:55pm - 2:35pm | ECSW 1.315   |
-| **[TBD](workshops/goldman-sachs.md)**                        | Goldman Sachs | 2:45pm - 3:30pm | ECSW 1.355   |
-| **[AI, APIs, and the Future of Building Fast](workshops/statefarm.md)** | StateFarm     | 3:40pm - 4:25pm | ECSW 1.355   |
-| **[Infrastructure Decoded: The Anatomy of HPC Data Centers](workshops/nmc.md)** | NMC           | 4:35pm - 5:20pm | ECSW 1.355   |
-| **[Intro to React Development: Your First Web Application](workshops/eog.md)**                                  | EOG           | 5:30pm - 6:15pm | ECSW 1.355   |
+| **[Pitch to Win](workshops/t-mobile.md)**                                            | T-Mobile      | 1:55pm - 2:35pm | ECSW 1.315   |
+| **[TBD](workshops/goldman-sachs.md)**                                                | Goldman Sachs | 2:45pm - 3:30pm | ECSW 1.355   |
+| **[AI, APIs, and the Future of Building Fast](workshops/statefarm.md)**              | StateFarm     | 3:40pm - 4:25pm | ECSW 1.355   |
+| **[Infrastructure Decoded: The Anatomy of HPC Data Centers](workshops/nmc.md)**      | NMC           | 4:35pm - 5:20pm | ECSW 1.355   |
+| **[Intro to React Development: Your First Web Application](workshops/eog.md)**       | EOG           | 5:30pm - 6:15pm | ECSW 1.355   |
 
 ### Other Workshops
 
-| **Workshop**                       | **Company** | **Time**                   | **Location** |
-| ---------------------------------- | ----------- | -------------------------- | ------------ |
-| TBD                                | MLH         | 6:30pm - 7:10pm            | ECSW 1.355   |
-| Networking Bingo — Chill & Connect | WEHACK      | 7:30pm - 8:30pm           | ECSW 1.355   |
+| **Workshop**                       | **Company** | **Time**        | **Location** |
+| ---------------------------------- | ----------- | --------------- | ------------ |
+| TBD                                | MLH         | 6:30pm - 7:10pm | ECSW 1.355   |
+| Networking Bingo — Chill & Connect | WEHACK      | 7:30pm - 8:30pm | ECSW 1.355   |
 
 ---
 
@@ -147,30 +146,30 @@ Incomplete
 
 ### Saturday
 
-| **Event** | **Time** | **Location** |
-| --------- | -------- | ------------ |
-| 💪 **Team Building**<br/>Come find teammates! | 12:30–1:00 PM | ECSW 1.355 |
-| 🍹 **Tavern Mocktail**<br/>Come try our drinks! | 2:00–6:00 PM | ECSW Bird's Nest (2nd Floor) |
-| 👩‍💻 **Typing Competition**<br/>Show off your typing skills! | 7:00–7:30 PM | ECSW 1.365 |
-| 📐 **Estimathon**<br/>How well can you estimate? | 8:00–9:00 PM | ECSW 1.365 |
-| 🎤 **Karaoke**<br/>Sing your heart out! | 9:30–10:30 PM | ECSW 1.365 |
-| 🤝 **Hackathon Organizer Meetup**<br/>For Hackathon Organizers Only | 10:30–11:30 PM | ECSW 1.365 |
+| **Event**                                                           | **Time**       | **Location**                 |
+| ------------------------------------------------------------------- | -------------- | ---------------------------- |
+| 💪 **Team Building**<br/>Come find teammates!                       | 12:30–1:00 PM  | ECSW 1.355                   |
+| 🍹 **Tavern Mocktail**<br/>Come try our drinks!                     | 2:00–6:00 PM   | ECSW Bird's Nest (2nd Floor) |
+| 👩‍💻 **Typing Competition**<br/>Show off your typing skills!          | 7:00–7:30 PM   | ECSW 1.365                   |
+| 📐 **Estimathon**<br/>How well can you estimate?                    | 8:00–9:00 PM   | ECSW 1.365                   |
+| 🎤 **Karaoke**<br/>Sing your heart out!                             | 9:30–10:30 PM  | ECSW 1.365                   |
+| 🤝 **Hackathon Organizer Meetup**<br/>For Hackathon Organizers Only | 10:30–11:30 PM | ECSW 1.365                   |
 
 ### 🌙 Late Night Events
 
-| **Event** | **Time** | **Location** |
-| --------- | -------- | ------------ |
-| 🌘 **Midnight Snack**<br/>Come by for some free snacks! | 11:30 PM–12:00 AM | ECSW Atrium (1st Floor) |
-| ⭐ **Presented by PNC: HackUTD Olympics**<br/>Compete in funny team games to win the grand prize! | 12:00–1:00 AM | ECSW 1.315 |
-| 🍜 **Tavern Ramen Bar**<br/>Customize your own ramen bowl! | 12:00–2:00 AM | ECSW Bird's Nest (2nd Floor) |
-| 🎬 **World's Watch Party (LEAGUE OF LEGENDS)**<br/>Enjoy the League of Legends Worlds Finals with fellow hackers! | 2:00–4:00 AM | ECSW 1.365 |
+| **Event**                                                                                                         | **Time**          | **Location**                 |
+| ----------------------------------------------------------------------------------------------------------------- | ----------------- | ---------------------------- |
+| 🌘 **Midnight Snack**<br/>Come by for some free snacks!                                                           | 11:30 PM–12:00 AM | ECSW Atrium (1st Floor)      |
+| ⭐ **Presented by PNC: HackUTD Olympics**<br/>Compete in funny team games to win the grand prize!                 | 12:00–1:00 AM     | ECSW 1.315                   |
+| 🍜 **Tavern Ramen Bar**<br/>Customize your own ramen bowl!                                                        | 12:00–2:00 AM     | ECSW Bird's Nest (2nd Floor) |
+| 🎬 **World's Watch Party (LEAGUE OF LEGENDS)**<br/>Enjoy the League of Legends Worlds Finals with fellow hackers! | 2:00–4:00 AM      | ECSW 1.365                   |
 
 ### Sunday
 
-| **Event** | **Time** | **Location** |
-| --------- | -------- | ------------ |
-| 🐶 **Dog Petting Zoo**<br/>Come pet some dogs to start your day! | 9:00–11:00 AM | ECSW 2.325 |
-| 🏪 **Tavern Shop**<br/>Come check out our merchandise before we close up forever! | 4:15–4:45 PM | ECSW Bird's Nest (2nd Floor) |
+| **Event**                                                                         | **Time**      | **Location**                 |
+| --------------------------------------------------------------------------------- | ------------- | ---------------------------- |
+| 🐶 **Dog Petting Zoo**<br/>Come pet some dogs to start your day!                  | 9:00–11:00 AM | ECSW 2.325                   |
+| 🏪 **Tavern Shop**<br/>Come check out our merchandise before we close up forever! | 4:15–4:45 PM  | ECSW Bird's Nest (2nd Floor) |
 
 ---
 
