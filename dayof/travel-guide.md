@@ -10,17 +10,19 @@ If you have a valid reason for checking in late, you can email [hello@hackutd.co
 
 ## ⛅ Weather
 
-This weekend, we're expecting lows of 60°F (15°C) and highs of 80°F (27°C) so pack accordingly!
+This weekend, we're expecting lows of 55°F (13°C) and highs of 80°F (27°C) so pack accordingly!
+
+![Weather Forecast](../static/img/hackerpacks/weather.png)
 
 ## 🧳 Packing List
 
-- 🚿 Towel & clothes to change into (yes, we have showers!!!)
-- 🧥 LAYERS (Jackets, pants, etc) - the building can get cold and it can also get windy!
-- 😴 Blanket/Pillow - there will be sleeping rooms if you need somewhere quiet
-- 🪥Toiletries
 - 💻 Laptop, chargers
-- 📄 Travel documents (driver’s license, student ID) /
-- ☂️ Umbrella - It doesn't look like it's gonna rain, but you never know ¯\\\_(ツ)\_/¯
+- 📄 Travel documents (driver’s license, student ID)
+- 😴 Blanket/Pillow - there will be sleeping rooms if you need somewhere quiet
+- 🚿 Towel, shower shoes, & clothes to change into (yes, we have showers!!!)
+- 🥤 Water bottle - We will have disposable water bottles as well, but we highly encourage you to bring your own refillable bottles because we have many stations to fill them up
+- 🧥 LAYERS (Jackets, pants, etc) - the building can get cold and it can also get windy!
+- 🪥 Toiletries (We will have shampoo, conditioner, and body wash, but you bring the rest)
 
 ---
 
@@ -35,6 +37,12 @@ Arriving at either DFW International Airport or Love Field Airport, you have 3 o
     2. Download the GoPass app and buy an AM, PM, or day pass
     3. Click the Plan tab (bottom left) and navigate to UTD or just use [Google Maps](https://www.google.com/maps/dir/DFW+International+Airport,+2400+Aviation+Dr,+DFW+Airport,+TX+75261/University+of+Texas+at+Dallas,+West+Campbell+Road,+Richardson,+TX/@32.8913835,-96.9523579,12z/data=!4m14!4m13!1m5!1m1!1s0x864c2a660d222aa7:0x73323f5e067d201c!2m2!1d-97.0403352!2d32.8998091!1m5!1m1!1s0x864c21ff895e4aa5:0xd9098b32e9aa1331!2m2!1d-96.7502474!2d32.9856974!3e3?entry=ttu)
 - Find a friend to pick you up - it’ll be better than the first two options!
+
+This is a map route from DFW to UTD using public transportation (DART):
+
+![DFW to UTD Public Transport](../static/img/hackerpacks/map-of-line.png)
+
+You can find more information about DART routes and schedules on the [DART website](https://www.dart.org/).
 
 ---
 

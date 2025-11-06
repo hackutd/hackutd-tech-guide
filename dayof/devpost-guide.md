@@ -23,7 +23,7 @@ If you need help at any point, ask a HackUTD officer or reach out through the ev
 <details>
 <summary><strong>When do I have to register my team?</strong></summary>
 
-We would like for your team to be registered on Devpost by 11:00pm on Saturday, 11/8! **When registering your team please choose all the Companies and Tracks you are most interested in competing for!** _If you are unable to, don't worry, you have until the end of hacking to create your post._
+Your team needs to be registered on Devpost by 11:00pm on Saturday, 11/8! **When registering your team please choose all the Companies and Tracks you are most interested in competing for!** _If you are unable to, don't worry, you have until the end of hacking to create your post._
 
 </details>
 
@@ -73,7 +73,13 @@ Welcome to this step-by-step guide on how to setup and create a devpost submissi
 
 ---
 
-4. Fill out the short form and register.
+4. If you don't already have a Devpost account, you will be prompted to create one. If you already have an account, simply log in.
+
+![Devpost Sign Up](/img/hackerpacks/devpost-sign-up.png)
+
+---
+
+5. Fill out the short form and register.
 
 ---
 
@@ -119,7 +125,7 @@ Quick tip: creating a registration project early helps avoid last-minute Devpost
 
 ---
 
-## ✅ Submitting your final project
+## Submitting your final project
 
 Before you submit, make sure the following are ready:
 
