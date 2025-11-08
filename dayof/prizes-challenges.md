@@ -7,7 +7,7 @@ title: Challenges and Prizes
 Unless otherwise stated, each member of a winning team will receive the same prize. Sponsors will bring four copies of each prize; if a team has more than four members, organizers will coordinate alternative arrangements.
 
 1. [Sponsor Challenges](#sponsor-challenges--prizes)
-2. [General Prizes](#general-prizes)
+2. [General Prizes](#general-prizes)çç
 
 ## Sponsor Challenges & Prizes
 
@@ -51,11 +51,11 @@ Automation & Intelligent Agents: Automating repetitive Product Manager workflows
 Build the T-Mobile Customer Happiness Index — a real-time, data-driven solution that captures how customers feel about T-Mobile. Engineer a system that streams live sentiment, feedback, and network data to detect issues before they spread, highlight moments of delight, and empower teams to enhance the customer experience. Use your skills in data engineering, APIs, analytics, and visualization to turn customer emotion into actionable insight.
 
 #### Prizes
-1st: iPhones
+1st: iPhone 17
 
-2nd: iPads
+2nd: iPad Air
 
-3rd: Beats Earbuds
+3rd: Beats Studio Pro Headphones
 
 ---
 
@@ -158,9 +158,9 @@ Prizes: I’ve put in a request and am currently awaiting approval from HR leade
 
 1st place will choose first, followed by 2nd and 3rd. The prizes are as follows:
 
-- Nintendo Switch 2
-- Sony WH-1000XM5 Headphones
-- DJI Tello Drones
+1. Nintendo Switch 2
+2. Sony WH-1000XM5 Headphones
+3. DJI Tello Drones
 
 ---
 
@@ -201,11 +201,11 @@ Build. Iterate. Execute. Let’s see what you create."
 
 #### Prizes
 
-1st: 3 RTX 5080 GPUs 3 NVIDIA Logo Hats
+1st: 3 RTX 5080 GPUs + 3 NVIDIA Logo Hats
 
-2nd: 2 RTX 5080 GPUs 3 NVIDIA Backpacks 3 $100 Brev Credits
+2nd: 2 RTX 5080 GPUs + 3 NVIDIA Backpacks + 3 $100 Brev Credits
 
-3rd: 3 NVIDIA Backpacks 3 $200 Brev Credits
+3rd: 3 NVIDIA Backpacks + 3 $200 Brev Credits
 
 ---
 
