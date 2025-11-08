@@ -84,6 +84,16 @@ Questions or need help with something not covered here? We're here to help:
       Complete travel logistics including transportation options, accommodation tips, and local area insights.
     </p>
   </a>
+
+  <a href="/dayof/points-guide" className="notion-card notion-card--volunteer notion-card-link">
+    <div className="notion-card-header">
+      <span className="notion-card-emoji">🏅</span>
+      Points Guide
+    </div>
+    <p className="notion-card-description">
+      Learn more about the HackUTD Points System.
+    </p>
+  </a>
 </div>
 
 <h2 className="section-header">Event Logistics</h2>

@@ -26,7 +26,6 @@ module.exports = {
                         },
                     ],
                 },
-                // Team Resources (renamed from "Other Information")
                 {
                     type: 'category',
                     label: 'Other Resources',
@@ -50,7 +49,12 @@ module.exports = {
                             type: 'doc',
                             id: 'travel-reimbursement',
                             label: 'Travel Reimbursement',
-                        }
+                        },
+                        {
+                            type: 'doc',
+                            id: 'points-guide',
+                            label: 'Points Guide',
+                        },
                     ],
                 },
 
@@ -106,7 +110,7 @@ module.exports = {
                             type: 'doc',
                             id: 'workshops/eog',
                             label: 'EOG',
-                        }
+                        },
                     ],
                 },
             ],
