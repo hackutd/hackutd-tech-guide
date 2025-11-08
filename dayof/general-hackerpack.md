@@ -85,7 +85,7 @@ Refer to the **[Mentor Guide](mentor-guide.md)** for instructions on how to requ
 
 | **Meal**                      | **Restaurant**    | **Time**          | **Location**            |
 | ----------------------------- | ----------------- | ----------------- | ----------------------- |
-| Saturday Lunch                | Banana Leaf       | 1:00pm - 1:30pm   | ECSW Courtyard          |
+| Saturday Lunch                | Banana Leaf       | 1:15pm - 2:15pm  | ECSW Courtyard          |
 | Saturday Dinner               | Little Rome       | 7:30pm - 9:30pm   | ECSW Atrium (1st Floor) |
 | Midnight Snack                | Mystery           | 11:30pm - 12:00am | ECSW Atrium (1st Floor) |
 | Sunday Breakfast              | 85 Degrees Bakery | 9:00am - 10:00am  | ECSW Atrium (1st Floor) |
@@ -94,7 +94,7 @@ Refer to the **[Mentor Guide](mentor-guide.md)** for instructions on how to requ
 
 ### 🫒Allergen Menu
 
-TBD
+![Allergen Menu Image](../static/img/hackerpacks/menu.png)
 
 ---
 
@@ -134,7 +134,7 @@ Note that all of these workshops are held on Saturday except for "How to Pitch y
 
 | **Workshop**                       | **Company** | **Time**        | **Location** |
 | ---------------------------------- | ----------- | --------------- | ------------ |
-| TBD                                | MLH         | 7:30pm - 8:30pm | ECSW 1.355   |
+| Vibecoding                                | MLH         | 7:30pm - 8:10pm | ECSW 1.355   |
 | Networking Bingo — Chill & Connect | WEHACK      | 8:30pm - 9:30pm | ECSW 1.355   |
 
 ---
@@ -145,11 +145,11 @@ Note that all of these workshops are held on Saturday except for "How to Pitch y
 
 | **Event**                                                           | **Time**       | **Location**                 |
 | ------------------------------------------------------------------- | -------------- | ---------------------------- |
-| 💪 **Team Building**<br/>Come find teammates!                       | 1:30–2:00 PM   | ECSW 1.355                   |
+| 💪 **Team Building**<br/>Come find teammates!                       | 1:30–2:00 PM  | ECSW 1.355                   |
 | 🍹 **Tavern Mocktail**<br/>Come try our drinks!                     | 3:00–7:00 PM   | ECSW Bird's Nest (2nd Floor) |
 | 👩‍💻 **Typing Competition**<br/>Show off your typing skills!          | 8:00–8:30 PM   | ECSW 1.365                   |
-| 📐 **Estimathon**<br/>How well can you estimate?                    | 9:00–10:00 PM  | ECSW 1.365                   |
-| 🎤 **Karaoke**<br/>Sing your heart out!                             | 10:30–11:30 PM | ECSW 1.365                   |
+| 📐 **Estimathon**<br/>How well can you estimate?                    | 9:00–10:00 PM   | ECSW 1.365                   |
+| 🎤 **Karaoke**<br/>Sing your heart out!                             | 10:30–11:30 PM  | ECSW 1.365                   |
 | 🤝 **Hackathon Organizer Meetup**<br/>For Hackathon Organizers Only | 10:30–11:30 PM | ECSW 1.365                   |
 
 ### 🌙 Late Night Events
