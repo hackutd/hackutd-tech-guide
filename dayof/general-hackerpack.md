@@ -85,7 +85,7 @@ Refer to the **[Mentor Guide](mentor-guide.md)** for instructions on how to requ
 
 | **Meal**                      | **Restaurant**    | **Time**          | **Location**            |
 | ----------------------------- | ----------------- | ----------------- | ----------------------- |
-| Saturday Lunch                | Banana Leaf       | 12:00pm - 1:30pm  | ECSW Courtyard          |
+| Saturday Lunch                | Banana Leaf       | 1:00pm - 1:30pm   | ECSW Courtyard          |
 | Saturday Dinner               | Little Rome       | 7:30pm - 9:30pm   | ECSW Atrium (1st Floor) |
 | Midnight Snack                | Mystery           | 11:30pm - 12:00am | ECSW Atrium (1st Floor) |
 | Sunday Breakfast              | 85 Degrees Bakery | 9:00am - 10:00am  | ECSW Atrium (1st Floor) |
@@ -126,19 +126,19 @@ Incomplete
 
 | **Workshop**                                                                         | **Company**   | **Time**        | **Location** |
 | ------------------------------------------------------------------------------------ | ------------- | --------------- | ------------ |
-| **[AI-Powered Product Management: A Day in the Life, Reimagined](workshops/pnc.md)** | PNC           | 1:00pm - 1:45pm | ECSW 1.315   |
-| **[Pitch to Win](workshops/t-mobile.md)**                                            | T-Mobile      | 1:55pm - 2:35pm | ECSW 1.315   |
-| **[TBD](workshops/goldman-sachs.md)**                                                | Goldman Sachs | 2:45pm - 3:30pm | ECSW 1.355   |
-| **[AI, APIs, and the Future of Building Fast](workshops/statefarm.md)**              | StateFarm     | 3:40pm - 4:25pm | ECSW 1.355   |
-| **[Infrastructure Decoded: The Anatomy of HPC Data Centers](workshops/nmc.md)**      | NMC           | 4:35pm - 5:20pm | ECSW 1.355   |
-| **[Intro to React Development: Your First Web Application](workshops/eog.md)**       | EOG           | 5:30pm - 6:15pm | ECSW 1.355   |
+| **[AI-Powered Product Management: A Day in the Life, Reimagined](workshops/pnc.md)** | PNC           | 2:00pm - 2:45pm | ECSW 1.315   |
+| **[Pitch to Win](workshops/t-mobile.md)**                                            | T-Mobile      | 2:55pm - 3:35pm | ECSW 1.315   |
+| **[TBD](workshops/goldman-sachs.md)**                                                | Goldman Sachs | 3:45pm - 4:30pm | ECSW 1.355   |
+| **[AI, APIs, and the Future of Building Fast](workshops/statefarm.md)**              | StateFarm     | 4:40pm - 5:25pm | ECSW 1.355   |
+| **[Infrastructure Decoded: The Anatomy of HPC Data Centers](workshops/nmc.md)**      | NMC           | 5:35pm - 6:20pm | ECSW 1.355   |
+| **[Intro to React Development: Your First Web Application](workshops/eog.md)**       | EOG           | 6:30pm - 7:15pm | ECSW 1.355   |
 
 ### Other Workshops
 
 | **Workshop**                       | **Company** | **Time**        | **Location** |
 | ---------------------------------- | ----------- | --------------- | ------------ |
-| TBD                                | MLH         | 6:30pm - 7:10pm | ECSW 1.355   |
-| Networking Bingo — Chill & Connect | WEHACK      | 7:30pm - 8:30pm | ECSW 1.355   |
+| TBD                                | MLH         | 7:30pm - 8:30pm | ECSW 1.355   |
+| Networking Bingo — Chill & Connect | WEHACK      | 8:30pm - 9:30pm | ECSW 1.355   |
 
 ---
 
@@ -148,11 +148,11 @@ Incomplete
 
 | **Event**                                                           | **Time**       | **Location**                 |
 | ------------------------------------------------------------------- | -------------- | ---------------------------- |
-| 💪 **Team Building**<br/>Come find teammates!                       | 12:30–1:00 PM  | ECSW 1.355                   |
-| 🍹 **Tavern Mocktail**<br/>Come try our drinks!                     | 2:00–6:00 PM   | ECSW Bird's Nest (2nd Floor) |
-| 👩‍💻 **Typing Competition**<br/>Show off your typing skills!          | 7:00–7:30 PM   | ECSW 1.365                   |
-| 📐 **Estimathon**<br/>How well can you estimate?                    | 8:00–9:00 PM   | ECSW 1.365                   |
-| 🎤 **Karaoke**<br/>Sing your heart out!                             | 9:30–10:30 PM  | ECSW 1.365                   |
+| 💪 **Team Building**<br/>Come find teammates!                       | 1:30–2:00 PM   | ECSW 1.355                   |
+| 🍹 **Tavern Mocktail**<br/>Come try our drinks!                     | 3:00–7:00 PM   | ECSW Bird's Nest (2nd Floor) |
+| 👩‍💻 **Typing Competition**<br/>Show off your typing skills!          | 8:00–8:30 PM   | ECSW 1.365                   |
+| 📐 **Estimathon**<br/>How well can you estimate?                    | 9:00–10:00 PM  | ECSW 1.365                   |
+| 🎤 **Karaoke**<br/>Sing your heart out!                             | 10:30–11:30 PM | ECSW 1.365                   |
 | 🤝 **Hackathon Organizer Meetup**<br/>For Hackathon Organizers Only | 10:30–11:30 PM | ECSW 1.365                   |
 
 ### 🌙 Late Night Events
