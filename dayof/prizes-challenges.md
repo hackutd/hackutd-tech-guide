@@ -2,16 +2,17 @@
 title: Challenges and Prizes
 ---
 
-## Prize distribution
-
-Unless otherwise stated, each member of a winning team will receive the same prize. Sponsors will bring four copies of each prize; if a team has more than four members, organizers will coordinate alternative arrangements.
-
-1. [Sponsor Challenges](#sponsor-challenges--prizes)
-2. [General Prizes](#general-prizes)çç
-
-## Sponsor Challenges & Prizes
+## Important Sponsor Prize Info!
+Each team may submit to a maximum of two sponsor challenges. When you submit on Devpost, select up to two sponsors — you’ll present to each one and can win both awards. Teams are still eligible for all general prizes and MLH Prizes (Best Overall, Best Design, Best Hardware, Best Startup, Best Beginner, Best Use of ElevenLabs, Best Use of Auth0, etc.); the only restriction is the number of sponsor challenges you enter.
 
 ---
+
+## Table of Contents
+
+1. [Sponsor Challenges](#sponsor-challenges--prizes)
+2. [General Prizes](#general-prizes)
+
+## Sponsor Challenges & Prizes
 
 ![PNC Logo](../static/img/hackerpacks/pnc.png)
 
@@ -259,6 +260,102 @@ You’ll receive historical and real-time cauldron level data, Potion Transport 
 ## Need help?
 
 If you're unsure which challenge to pick or want to clarify something about the challenge, visit the sponsor's channel in the discord or their booth if they are available.
+
+---
+
+![MLH](../static/img/hackerpacks/mlh.png)
+
+## View all MLH Information for HackUTD: Lost in the Pages **[here](https://mlh.link/hackutd-25)**
+
+---
+
+## Best Use of Gemini API
+
+#### Challenge
+It’s time to push the boundaries of what's possible with AI using Google Gemini. Check out the Gemini API to build AI-powered apps that make your friends say WHOA. So, what can Gemini do for your hackathon project?
+
+    Understand language like a human and build a chatbot that gives personalized advice
+
+    Analyze info like a supercomputer and create an app that summarizes complex research papers
+
+    Generate creative content like code, scripts, music, and more
+
+Think of the possibilities… what will you build with the Google Gemini API this weekend?
+#### Prizes
+Google Swag Kits
+---
+
+## Best Use of Solana
+
+#### Challenge
+The world of development is evolving fast and Solana is leading the charge with a network built to handle all of your infrastructure needs. Forget high fees and slow confirmations, it’s time to build applications that are fast, efficient, and scalable. 
+
+Harness Solana's core advantages like blazing fast execution and near-zero transaction costs to make your hackathon ideas become real world projects. With Solana, the possibilities are endless.
+
+    Create a game, social app, or consumer product that relies on instant, high-frequency transactions.
+
+    Design a sophisticated trading, lending, or decentralized exchange (DEX).
+
+    Build a prototype for supply chain, identity, or payments that can handle massive, real-world volume.
+
+Show us how you can innovate with Solana for a chance to win some cool prizes for you and each member of your team!
+#### Prizes
+SenseCAP Card Tracker
+---
+
+## Best Use of Digital Ocean Gradient AI
+
+#### Challenge
+DigitalOcean GradientTM AI is a unified AI cloud for building, training, and deploying machine learning models and AI agents. Get access to GPU infrastructure like DigitalOcean GPU Droplets and Bare Metal servers, along with serverless inference and 1-Click Models for instant deployment of your favorite LLMs!
+
+Sign up for DigitalOcean today and get $200 worth of free credits that you can use towards building your next Gradient-powered hack. Enable your next project with DigitalOcean GradientTM AI for a chance to win some great prizes for you and each of your team mates!
+
+#### Prizes
+Retro Wireless Mouse
+
+---
+
+## Best Use of Vultr
+
+#### Challenge
+Vultr empowers hackers to bring their high-performance projects to life instantly; providing everything from the speed of one-click deployment and scalable cloud compute, to specialized Vultr Cloud GPUs that can power AI-driven applications. We want you to push the limits of what can be built when infrastructure is no longer the bottleneck!
+
+Sign up for a Vultr account today and claim your free cloud credits! Take your next hack to the cloud with Vultr for a chance to win some awesome portable screens for you and your team!
+
+#### Prizes
+Portable Screens
+
+---
+## Best Use of ElevenLabs
+#### Challenge
+Deploy natural, human-sounding audio with ElevenLabs. Create realistic, dynamic, and emotionally expressive voices for any project, from interactive AI companions to narrated stories and voice-enabled apps. ElevenLabs will empower you to build rich, immersive experiences without the need for actors or complex audio production, using simply the power of AI. 
+
+Integrate fully autonomous audio experiences into your hack with ElevenLabs and give your project a voice, along with giving your team the chance to win some wireless earbuds! 
+
+
+#### Prizes
+Wireless Earbuds
+
+---
+## Best Use of Auth0
+
+#### Challenge
+Auth0 wants your applications to be secure! Why spend hours building features like social sign-in, Multi-Factor Authentication, and passwordless log-in when you can enable them through Auth0 straight out of the box? You can also secure your AI applications with Auth0 for AI Agents. 
+
+Auth0 is free to try, doesn’t require a credit card, and allows for up to 7,000 free active users and unlimited log-ins. Make your new account today and use any of the Auth0 APIs for a chance to win a pair of wireless headphones for you and each member of your team!
+
+#### Prizes
+Wireless Headphones
+
+---
+
+## Best Domain Name from GoDaddy Registry 
+
+#### Challenge
+GoDaddy Registry is giving you everything you need to be the best hacker no matter where you are. Register your domain name with GoDaddy Registry for a chance to win some amazing prizes! 
+
+#### Prizes
+Digital Gift Card
 
 ---
 
