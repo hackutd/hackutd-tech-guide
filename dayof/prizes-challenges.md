@@ -10,6 +10,7 @@ Each team may submit to a maximum of two sponsor challenges. When you submit on 
 ## Table of Contents
 
 1. [Sponsor Challenges](#sponsor-challenges--prizes)
+2. [MLH Challenges](#view-all-mlh-information-for-hackutd-lost-in-the-pages-here)
 2. [General Prizes](#general-prizes)
 
 ## Sponsor Challenges & Prizes
