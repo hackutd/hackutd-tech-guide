@@ -274,16 +274,15 @@ If you're unsure which challenge to pick or want to clarify something about the 
 
 #### Challenge
 It’s time to push the boundaries of what's possible with AI using Google Gemini. Check out the Gemini API to build AI-powered apps that make your friends say WHOA. So, what can Gemini do for your hackathon project?
-
-    Understand language like a human and build a chatbot that gives personalized advice
-
-    Analyze info like a supercomputer and create an app that summarizes complex research papers
-
-    Generate creative content like code, scripts, music, and more
+- Understand language like a human and build a chatbot that gives personalized advice
+- Analyze info like a supercomputer and create an app that summarizes complex research papers
+- Generate creative content like code, scripts, music, and more
 
 Think of the possibilities… what will you build with the Google Gemini API this weekend?
+
 #### Prizes
 Google Swag Kits
+
 ---
 
 ## Best Use of Solana
@@ -292,16 +291,14 @@ Google Swag Kits
 The world of development is evolving fast and Solana is leading the charge with a network built to handle all of your infrastructure needs. Forget high fees and slow confirmations, it’s time to build applications that are fast, efficient, and scalable. 
 
 Harness Solana's core advantages like blazing fast execution and near-zero transaction costs to make your hackathon ideas become real world projects. With Solana, the possibilities are endless.
-
-    Create a game, social app, or consumer product that relies on instant, high-frequency transactions.
-
-    Design a sophisticated trading, lending, or decentralized exchange (DEX).
-
-    Build a prototype for supply chain, identity, or payments that can handle massive, real-world volume.
+- Create a game, social app, or consumer product that relies on instant, high-frequency transactions.
+- Design a sophisticated trading, lending, or decentralized exchange (DEX).
+- Build a prototype for supply chain, identity, or payments that can handle massive, real-world volume.
 
 Show us how you can innovate with Solana for a chance to win some cool prizes for you and each member of your team!
 #### Prizes
 SenseCAP Card Tracker
+
 ---
 
 ## Best Use of Digital Ocean Gradient AI
