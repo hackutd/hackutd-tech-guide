@@ -3,7 +3,7 @@ title: Goldman Sachs Workshop
 sidebar_label: Goldman Sachs
 ---
 
-# Goldman Sachs Workshop
+# Cloud in Financial Services
 
 **Company:** Goldman Sachs
 
@@ -13,11 +13,6 @@ sidebar_label: Goldman Sachs
 
 ---
 
-## Workshop Description
-
-TBD
-
----
 
 ## About the Company
 

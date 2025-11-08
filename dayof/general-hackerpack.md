@@ -120,15 +120,12 @@ TBD
 
 Note that all of these workshops are held on Saturday except for "How to Pitch your Project" by HackUTD, which will be held on Sunday morning!
 
-:::warning
-Incomplete
-:::
 
 | **Workshop**                                                                         | **Company**   | **Time**        | **Location** |
 | ------------------------------------------------------------------------------------ | ------------- | --------------- | ------------ |
 | **[AI-Powered Product Management: A Day in the Life, Reimagined](workshops/pnc.md)** | PNC           | 2:00pm - 2:45pm | ECSW 1.315   |
 | **[Pitch to Win](workshops/t-mobile.md)**                                            | T-Mobile      | 2:55pm - 3:35pm | ECSW 1.315   |
-| **[TBD](workshops/goldman-sachs.md)**                                                | Goldman Sachs | 3:45pm - 4:30pm | ECSW 1.355   |
+| **[Cloud in Financial Services](workshops/goldman-sachs.md)**                                                | Goldman Sachs | 3:45pm - 4:30pm | ECSW 1.355   |
 | **[AI, APIs, and the Future of Building Fast](workshops/statefarm.md)**              | StateFarm     | 4:40pm - 5:25pm | ECSW 1.355   |
 | **[Infrastructure Decoded: The Anatomy of HPC Data Centers](workshops/nmc.md)**      | NMC           | 5:35pm - 6:20pm | ECSW 1.355   |
 | **[Intro to React Development: Your First Web Application](workshops/eog.md)**       | EOG           | 6:30pm - 7:15pm | ECSW 1.355   |
