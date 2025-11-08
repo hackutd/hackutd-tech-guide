@@ -75,6 +75,7 @@ Your tool must perform a deep comparison of the responses, clearly reporting all
 
 This challenge tests your ability to design, implement, and validate service behavior across versions, ensuring smooth evolution and reliable upgrades.
 
+[StateFarm Challenge](https://drive.google.com/file/d/1V_p9st5uslzHcCUF07sheeg-hOfclC4x/view)
 
 #### Prizes
 1st: HOVERair X1 Drone w/Camera
@@ -199,7 +200,10 @@ Projects must demonstrate:
  
 Top teams will compete for NVIDIA prizes, including RTX 5080 GPUs, NVIDIA backpacks, merch, and Brev credits to continue prototyping. Whether you’re new to agentic AI or already building autonomous systems, this is your chance to shape what’s next.
  
-Build. Iterate. Execute. Let’s see what you create."
+Build. Iterate. Execute. Let’s see what you create.
+
+
+[NVIDIA Challenge PDF](../static/img/hackerpacks/nvidia.pdf)
 
 #### Prizes
 
