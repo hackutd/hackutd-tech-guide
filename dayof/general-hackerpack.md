@@ -85,7 +85,7 @@ Refer to the **[Mentor Guide](mentor-guide.md)** for instructions on how to requ
 
 | **Meal**                      | **Restaurant**    | **Time**          | **Location**            |
 | ----------------------------- | ----------------- | ----------------- | ----------------------- |
-| Saturday Lunch                | Banana Leaf       | 1:15pm - 2:15pm  | ECSW Courtyard          |
+| Saturday Lunch                | Banana Leaf       | 1:15pm - 2:15pm   | ECSW Courtyard          |
 | Saturday Dinner               | Little Rome       | 7:30pm - 9:30pm   | ECSW Atrium (1st Floor) |
 | Midnight Snack                | Mystery           | 11:30pm - 12:00am | ECSW Atrium (1st Floor) |
 | Sunday Breakfast              | 85 Degrees Bakery | 9:00am - 10:00am  | ECSW Atrium (1st Floor) |
@@ -120,12 +120,11 @@ Refer to the **[Mentor Guide](mentor-guide.md)** for instructions on how to requ
 
 Note that all of these workshops are held on Saturday except for "How to Pitch your Project" by HackUTD, which will be held on Sunday morning!
 
-
 | **Workshop**                                                                         | **Company**   | **Time**        | **Location** |
 | ------------------------------------------------------------------------------------ | ------------- | --------------- | ------------ |
 | **[AI-Powered Product Management: A Day in the Life, Reimagined](workshops/pnc.md)** | PNC           | 2:00pm - 2:45pm | ECSW 1.315   |
 | **[Pitch to Win](workshops/t-mobile.md)**                                            | T-Mobile      | 2:55pm - 3:35pm | ECSW 1.315   |
-| **[Cloud in Financial Services](workshops/goldman-sachs.md)**                                                | Goldman Sachs | 3:45pm - 4:30pm | ECSW 1.355   |
+| **[Cloud in Financial Services](workshops/goldman-sachs.md)**                        | Goldman Sachs | 3:45pm - 4:30pm | ECSW 1.355   |
 | **[AI, APIs, and the Future of Building Fast](workshops/statefarm.md)**              | StateFarm     | 4:40pm - 5:25pm | ECSW 1.355   |
 | **[Infrastructure Decoded: The Anatomy of HPC Data Centers](workshops/nmc.md)**      | NMC           | 5:35pm - 6:20pm | ECSW 1.355   |
 | **[Intro to React Development: Your First Web Application](workshops/eog.md)**       | EOG           | 6:30pm - 7:15pm | ECSW 1.355   |
@@ -134,7 +133,7 @@ Note that all of these workshops are held on Saturday except for "How to Pitch y
 
 | **Workshop**                       | **Company** | **Time**        | **Location** |
 | ---------------------------------- | ----------- | --------------- | ------------ |
-| Vibecoding                                | MLH         | 7:30pm - 8:10pm | ECSW 1.355   |
+| Vibecoding                         | MLH         | 7:30pm - 8:10pm | ECSW 1.355   |
 | Networking Bingo — Chill & Connect | WEHACK      | 8:30pm - 9:30pm | ECSW 1.355   |
 
 ---
@@ -145,12 +144,12 @@ Note that all of these workshops are held on Saturday except for "How to Pitch y
 
 | **Event**                                                           | **Time**       | **Location**                 |
 | ------------------------------------------------------------------- | -------------- | ---------------------------- |
-| 💪 **Team Building**<br/>Come find teammates!                       | 1:30–2:00 PM  | ECSW 1.355                   |
+| 💪 **Team Building**<br/>Come find teammates!                       | 1:30–2:00 PM   | ECSW 1.355                   |
 | 🍹 **Tavern Mocktail**<br/>Come try our drinks!                     | 3:00–7:00 PM   | ECSW Bird's Nest (2nd Floor) |
 | 👩‍💻 **Typing Competition**<br/>Show off your typing skills!          | 8:00–8:30 PM   | ECSW 1.365                   |
-| 📐 **Estimathon**<br/>How well can you estimate?                    | 9:00–10:00 PM   | ECSW 1.365                   |
-| 🎤 **Karaoke**<br/>Sing your heart out!                             | 10:30–11:30 PM  | ECSW 1.365                   |
+| 🎤 **Karaoke**<br/>Sing your heart out!                             | 9:30–11:00 PM  | ECSW 1.365                   |
 | 🤝 **Hackathon Organizer Meetup**<br/>For Hackathon Organizers Only | 10:30–11:30 PM | ECSW 1.365                   |
+| 📐 **Estimathon**<br/>How well can you estimate?                    | 10:45–11:30 PM | ECSW 1.365                   |
 
 ### 🌙 Late Night Events
 
