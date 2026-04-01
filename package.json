@@ -26,6 +26,7 @@
     "devDependencies": {
         "@docusaurus/module-type-aliases": "^3.9.2",
         "@tsconfig/docusaurus": "^1.0.5",
+        "baseline-browser-mapping": "^2.10.0",
         "typescript": "^4.7.4"
     },
     "browserslist": {
