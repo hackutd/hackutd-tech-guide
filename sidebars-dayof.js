@@ -4,11 +4,12 @@ module.exports = {
     dayOfSidebar: [
         {
             type: 'category',
-            label: 'HackUTD 2025: Lost in the Pages',
+            label: 'Hackerpack 2026',
             link: {
                 type: 'doc',
                 id: 'index',
             },
+            
             items: [
                 {
                     type: 'category',
@@ -16,13 +17,38 @@ module.exports = {
                     items: [
                         {
                             type: 'doc',
-                            id: 'general-hackerpack',
-                            label: 'Hackerpack',
+                            id: 'newMDS/check-in-guide',
+                            label: 'Check-In Guide',
                         },
                         {
                             type: 'doc',
-                            id: 'devpost-guide',
-                            label: 'Devpost Guide',
+                            id: 'newMDS/schedule2026',
+                            label: 'Schedule',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'newMDS/discord-wifi',
+                            label: 'Discord & WiFi',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'newMDS/mentors',
+                            label: 'Mentors',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'newMDS/food',
+                            label: 'Food',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'newMDS/maps-hacker-spaces',
+                            label: 'Maps & Hacker Spaces',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'newMDS/help',
+                            label: 'Help',
                         },
                     ],
                 },
