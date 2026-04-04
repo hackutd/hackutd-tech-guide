@@ -138,7 +138,7 @@ const config = {
                         // Fixed: remove docId and use proper link format
                         to: '/dayof/',
                         position: 'left',
-                        label: 'HackUTD 2025: Lost in the Pages',
+                        label: 'HackUTD 2026 Hackerpack',
                     },
                     {
                         href: 'https://github.com/acmutd/hackutd-tech-guide',

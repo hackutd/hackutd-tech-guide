@@ -9,7 +9,7 @@ module.exports = {
                 type: 'doc',
                 id: 'index',
             },
-            
+
             items: [
                 {
                     type: 'category',
@@ -54,40 +54,36 @@ module.exports = {
                 },
                 {
                     type: 'category',
-                    label: 'Other Resources',
+                    label: 'Workshops & Fun Events',
                     items: [
                         {
                             type: 'doc',
-                            id: 'travel-guide',
-                            label: 'Travel Guide',
+                            id: 'newMDS/workshops',
+                            label: 'Workshops',
                         },
                         {
                             type: 'doc',
-                            id: 'mentor-guide',
-                            label: 'Need a Mentor?',
+                            id: 'newMDS/fun-events',
+                            label: 'Fun Events',
                         },
                         {
                             type: 'doc',
-                            id: 'judge-guide',
-                            label: 'Submission & Judging Guide',
-                        },
-                        {
-                            type: 'doc',
-                            id: 'travel-reimbursement',
-                            label: 'Travel Reimbursement',
-                        },
-                        {
-                            type: 'doc',
-                            id: 'points-guide',
+                            id: 'newMDS/points-guide',
                             label: 'Points Guide',
-                        },
+                        }
                     ],
                 },
 
-                // Event Information
+                // sponsor tracks
                 {
                     type: 'category',
-                    label: 'Event Logistics',
+                    label: 'Sponsor Tracks and Prizes',
+                    link:{
+                        type: 'doc',
+                        id: 'newMDS/sponsor-tracks',
+                    },
+                    items:[],
+                    /*
                     items: [
                         {
                             type: 'doc',
@@ -100,45 +96,64 @@ module.exports = {
                             label: 'Prizes & Challenges',
                         },
                     ],
+                    */
                 },
 
-                // Workshops
+                // Submission and judging
                 {
                     type: 'category',
-                    label: 'Workshops',
+                    label: 'Submission & Judging',
                     items: [
                         {
                             type: 'doc',
-                            id: 'workshops/pnc',
-                            label: 'PNC',
+                            id: 'newMDS/devpost',
+                            label: 'Devpost Guide',
                         },
                         {
                             type: 'doc',
-                            id: 'workshops/t-mobile',
-                            label: 'T-Mobile',
+                            id: 'newMDS/teams',
+                            label: 'Teams',
                         },
                         {
                             type: 'doc',
-                            id: 'workshops/goldman-sachs',
-                            label: 'Goldman Sachs',
+                            id: 'newMDS/judging',
+                            label: 'Judging',
                         },
                         {
                             type: 'doc',
-                            id: 'workshops/statefarm',
-                            label: 'State Farm',
+                            id: 'newMDS/pitching',
+                            label: 'Pitching',
                         },
-                        {
-                            type: 'doc',
-                            id: 'workshops/nmc',
-                            label: 'NMC',
-                        },
-                        {
-                            type: 'doc',
-                            id: 'workshops/eog',
-                            label: 'EOG',
-                        },
+                    
                     ],
                 },
+
+
+                // event logistics
+                {
+                    type: 'category',
+                    label: 'Event Logistics',
+                    items: [
+                        {
+                            type: 'doc',
+                            id: 'newMDS/venue-parking',
+                            label: 'Venue & Parking',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'newMDS/travel-guide',
+                            label: 'Travel Guide',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'newMDS/reimbursement',
+                            label: 'Reimbursement',
+                        },
+                    
+                    ],
+                },
+
+
             ],
         },
     ],
