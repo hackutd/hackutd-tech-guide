@@ -1,0 +1,113 @@
+.actionCard {
+    border: 1px solid var(--ifm-toc-border-color, #e2e8f0);
+    border-radius: 10px;
+    padding: 0;
+    overflow: hidden;
+    background: #ffffff;
+    cursor: pointer;
+    text-align: left;
+    transition: transform 0.15s, box-shadow 0.15s;
+    display: inline-flex;
+    flex-direction: column;
+    vertical-align: top;
+    margin: 0.75rem 0.75rem 0.75rem 0;
+    width: 260px;
+    max-width: 100%;
+}
+
+[data-theme='dark'] .actionCard {
+    background: #0f172a;
+}
+
+.actionCard:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.1);
+}
+
+.actionCard img {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+    display: block;
+    background: #f8fafc;
+}
+
+[data-theme='dark'] .actionCard img {
+    background: #1e293b;
+}
+
+.actionCap {
+    padding: 0.45rem 0.5rem 0.55rem;
+    font-size: 0.72rem;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #0f172a;
+}
+
+[data-theme='dark'] .actionCap {
+    color: #f1f5f9;
+}
+
+.lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: calc(var(--ifm-z-index-fixed) + 200);
+    background: rgba(15, 23, 42, 0.92);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    cursor: zoom-out;
+    animation: eiFade 0.2s ease;
+}
+
+@keyframes eiFade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.lightboxInner {
+    max-width: min(920px, 100%);
+    max-height: 90vh;
+    cursor: default;
+}
+
+.lightboxInner img {
+    max-width: 100%;
+    max-height: 78vh;
+    object-fit: contain;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+.lightboxCap {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 0.75rem;
+    font-size: 0.9rem;
+}
+
+.lightboxClose {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 44px;
+    height: 44px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.lightboxClose:hover {
+    background: rgba(255, 255, 255, 0.25);
+}

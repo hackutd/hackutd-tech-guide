@@ -111,6 +111,11 @@ module.exports = {
                         },
                         {
                             type: 'doc',
+                            id: 'newMDS/devpost-markdown',
+                            label: 'Devpost Guide (Markdown)',
+                        },
+                        {
+                            type: 'doc',
                             id: 'newMDS/teams',
                             label: 'Teams',
                         },

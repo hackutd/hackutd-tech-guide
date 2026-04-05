@@ -17,6 +17,7 @@ keywords:
     - student hackathon
     - Dallas hackathon
     - Texas hackathon
+wrapperClassName: hackerpack-home
 ---
 
 # HackUTD 2025: Lost in the Pages
@@ -27,109 +28,209 @@ Welcome to your complete guide for **HackUTD 2025: Lost in the Pages**! This pla
 
 Questions or need help with something not covered here? We're here to help:
 
-<h2 className="section-header">Essential Resources</h2>
+## Essential Resources
 
 <div className="primary-cards">
-  <a href="/dayof/general-hackerpack" className="notion-card notion-card--primary notion-card-link">
+  <a href="/dayof/newMDS/check-in-guide" className="notion-card notion-card--primary notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">🎒</span>
-      Hackerpack
+      Check-in Guide
     </div>
     <p className="notion-card-description">
-      Your comprehensive guide to navigating every aspect of HackUTD. From check-in procedures to event schedules, find everything you need right here.
+      What to bring and how check-in works.
     </p>
   </a>
   
-  <a href="/dayof/devpost-guide" className="notion-card notion-card--primary notion-card-link">
+  <a href="/dayof/newMDS/schedule2026" className="notion-card notion-card--primary notion-card-link">
     <div className="notion-card-header">
-      <span className="notion-card-emoji">💻</span>
-      Devpost Guide
+      <span className="notion-card-emoji">📅</span>
+      Schedule
     </div>
     <p className="notion-card-description">
-      Master the art of project submission with our complete Devpost walkthrough. Learn to create compelling project pages that showcase your innovation.
+      Opening, workshops, meals, submissions, and judging times.
+    </p>
+  </a>
+
+  <a href="/dayof/newMDS/discord-wifi" className="notion-card notion-card--primary notion-card-link">
+    <div className="notion-card-header">
+      <span className="notion-card-emoji">💬</span>
+      Discord &amp; Wi‑Fi
+    </div>
+    <p className="notion-card-description">
+      Discord for updates and event Wi‑Fi details.
+    </p>
+  </a>
+
+  <a href="/dayof/newMDS/mentors" className="notion-card notion-card--primary notion-card-link">
+    <div className="notion-card-header">
+      <span className="notion-card-emoji">🧑‍🏫</span>
+      Mentors
+    </div>
+    <p className="notion-card-description">
+      How to get mentor help on your project.
+    </p>
+  </a>
+
+  <a href="/dayof/newMDS/food" className="notion-card notion-card--primary notion-card-link">
+    <div className="notion-card-header">
+      <span className="notion-card-emoji">🍽️</span>
+      Meals
+    </div>
+    <p className="notion-card-description">
+      Meal times, locations, and dietary notes.
+    </p>
+  </a>
+
+  <a href="/dayof/newMDS/maps-hacker-spaces" className="notion-card notion-card--primary notion-card-link">
+    <div className="notion-card-header">
+      <span className="notion-card-emoji">🗺️</span>
+      Maps &amp; Hacker Spaces
+    </div>
+    <p className="notion-card-description">
+      Rooms, hack spaces, and venue map.
+    </p>
+  </a>
+
+  <a href="/dayof/newMDS/help" className="notion-card notion-card--primary notion-card-link">
+    <div className="notion-card-header">
+      <span className="notion-card-emoji">❓</span>
+      Help
+    </div>
+    <p className="notion-card-description">
+      Who to ask and how to reach organizers.
     </p>
   </a>
 </div>
 
-<h2 className="section-header">Other Resources</h2>
+## Workshops & Fun Events
 
 <div className="custom-card-grid">
-  
-  <a href="/dayof/mentor-guide" className="notion-card notion-card--volunteer notion-card-link">
+  <a href="/dayof/newMDS/workshops" className="notion-card notion-card--volunteer notion-card-link">
     <div className="notion-card-header">
-      <span className="notion-card-emoji">🎯</span>
-      Mentor Information
+      <span className="notion-card-emoji">🛠️</span>
+      Workshops
     </div>
     <p className="notion-card-description">
-      Get in touch with mentors that will help you with your questions pertaining to your project.
-    </p>
-  </a>
-  
-  <a href="/dayof/judge-guide" className="notion-card notion-card--volunteer notion-card-link">
-    <div className="notion-card-header">
-      <span className="notion-card-emoji">⚖️</span>
-      Judge Handbook
-    </div>
-    <p className="notion-card-description">
-      Learn how to ace the judging process. You'll need more than just a good project to win.
-    </p>
-  </a>
-  
-  <a href="/dayof/travel-guide" className="notion-card notion-card--volunteer notion-card-link">
-    <div className="notion-card-header">
-      <span className="notion-card-emoji">🧳</span>
-      Travel Guide
-    </div>
-    <p className="notion-card-description">
-      Complete travel logistics including transportation options, accommodation tips, and local area insights.
+      Technical and career sessions—times, topics, and how to join.
     </p>
   </a>
 
-  <a href="/dayof/points-guide" className="notion-card notion-card--volunteer notion-card-link">
+  <a href="/dayof/newMDS/fun-events" className="notion-card notion-card--volunteer notion-card-link">
+    <div className="notion-card-header">
+      <span className="notion-card-emoji">🎉</span>
+      Fun Events
+    </div>
+    <p className="notion-card-description">
+      Social activities and side events during the hackathon.
+    </p>
+  </a>
+
+  <a href="/dayof/newMDS/points-guide" className="notion-card notion-card--volunteer notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">🏅</span>
       Points Guide
     </div>
     <p className="notion-card-description">
-      Learn more about the HackUTD Points System.
+      How HackUTD points work and how to earn them.
     </p>
   </a>
 </div>
 
-<h2 className="section-header">Event Logistics</h2>
+## Sponsor Tracks & Prizes
 
 <div className="custom-card-grid">
-  <a href="/dayof/travel-reimbursement" className="notion-card notion-card--travel notion-card-link">
-    <div className="notion-card-header">
-      <span className="notion-card-emoji">✈️</span>
-      Travel Reimbursement
-    </div>
-    <p className="notion-card-description">
-      Step-by-step process for eligible participants to claim travel expenses and receive timely reimbursements.
-    </p>
-  </a>
-  
-  <a href="/dayof/venue-parking" className="notion-card notion-card--travel notion-card-link">
-    <div className="notion-card-header">
-      <span className="notion-card-emoji">🏢</span>
-      Venue Guide
-    </div>
-    <p className="notion-card-description">
-      Navigate the venue like a pro with detailed maps, parking information, and facility locations.
-    </p>
-  </a>
-  
-  <a href="/dayof/prizes-challenges" className="notion-card notion-card--prizes notion-card-link">
+  <a href="/dayof/newMDS/sponsor-tracks" className="notion-card notion-card--prizes notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">🏆</span>
-      Prizes & Challenges
+      Sponsor Tracks
     </div>
     <p className="notion-card-description">
-      Discover exciting prizes and challenge tracks that will inspire your next breakthrough innovation.
+      Company challenges, prizes, and how to opt in on Devpost.
     </p>
   </a>
 </div>
-<h2 className='section-header'>Guided Project Information</h2>
+
+## Submissions & Judging
+
+<div className="custom-card-grid">
+  <a href="/dayof/devpost" className="notion-card notion-card--travel notion-card-link">
+    <div className="notion-card-header">
+      <span className="notion-card-emoji">📮</span>
+      Devpost Guide
+    </div>
+    <p className="notion-card-description">
+      Register your team and submit your project on Devpost.
+    </p>
+  </a>
+
+  <a href="/dayof/newMDS/teams" className="notion-card notion-card--travel notion-card-link">
+    <div className="notion-card-header">
+      <span className="notion-card-emoji">👥</span>
+      Teams
+    </div>
+    <p className="notion-card-description">
+      Forming teams, sizes, and collaboration tips.
+    </p>
+  </a>
+
+  <a href="/dayof/newMDS/judging" className="notion-card notion-card--prizes notion-card-link">
+    <div className="notion-card-header">
+      <span className="notion-card-emoji">⚖️</span>
+      Judging
+    </div>
+    <p className="notion-card-description">
+      How projects are evaluated and what judges look for.
+    </p>
+  </a>
+
+  <a href="/dayof/newMDS/pitching" className="notion-card notion-card--prizes notion-card-link">
+    <div className="notion-card-header">
+      <span className="notion-card-emoji">🎤</span>
+      Pitching
+    </div>
+    <p className="notion-card-description">
+      Demo and pitch expectations for sponsor or finals rounds.
+    </p>
+  </a>
+</div>
+
+## Event Logistics
+
+<div className="custom-card-grid">
+  <a href="/dayof/newMDS/venue-parking" className="notion-card notion-card--travel notion-card-link">
+    <div className="notion-card-header">
+      <span className="notion-card-emoji">🏢</span>
+      Venue &amp; Parking
+    </div>
+    <p className="notion-card-description">
+      Building access, maps, and where to park.
+    </p>
+  </a>
+
+  <a href="/dayof/newMDS/travel-guide" className="notion-card notion-card--travel notion-card-link">
+    <div className="notion-card-header">
+      <span className="notion-card-emoji">🧳</span>
+      Travel Guide
+    </div>
+    <p className="notion-card-description">
+      Getting to campus—flights, rides, and local tips.
+    </p>
+  </a>
+
+  <a href="/dayof/newMDS/reimbursement" className="notion-card notion-card--travel notion-card-link">
+    <div className="notion-card-header">
+      <span className="notion-card-emoji">💵</span>
+      Reimbursement
+    </div>
+    <p className="notion-card-description">
+      Eligibility and steps to request travel reimbursement.
+    </p>
+  </a>
+</div>
+
+
+
+## Guided Project Information
 
 <div className="custom-card-grid">
  <a href="/guided-project/" className="notion-card notion-card--guide notion-card-link">
@@ -138,22 +239,19 @@ Questions or need help with something not covered here? We're here to help:
       Guided Project
     </div>
     <p className="notion-card-description">
-      If this is your first ever hackathon, or you just need some guidance with web-application setup, this guide is for you!
-      Follow our curated project path complete with resources and expert guidance.
+      First hackathon or need setup help? Follow our curated path with resources and guidance.
     </p>
   </a>
 </div>
 
 ---
 
-<div style={{textAlign: 'center', marginTop: '48px', padding: '12px', background: 'rgba(0,0,0,0.1)', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.1)'}}>
+## Need assistance?
 
-<h2 className='section-header'>
-Need assistance?
-</h2>
+<div style={{textAlign: 'center', marginTop: '24px', padding: '12px', background: 'rgba(0,0,0,0.1)', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.1)'}}>
 
 🚨 **Emergency**: We recommend opening a ticket in our [discord server](https://discord.gg/sCJb7J98QD) or finding an organizer.
 
-📍 **Help Desk**: Located in the [Atrium](../dayof/venue-parking.md) where check-in was.
+📍 **Help Desk**: Located in the [Atrium](/dayof/newMDS/venue-parking) where check-in was.
 
 </div>

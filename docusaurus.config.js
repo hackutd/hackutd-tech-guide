@@ -24,6 +24,9 @@ const config = {
         locales: ['en'],
     },
     plugins: [
+        // Day-of hackerpack: all pages under dayof/ are picked up automatically.
+        // Devpost: primary URL /dayof/devpost → newMDS/devpost.mdx (renders DevpostGuide.jsx).
+        // Markdown-only copy for easy edits → newMDS/devpost-markdown.mdx at /dayof/devpost-markdown (sidebar + sidebar-dayof.js).
         [
             '@docusaurus/plugin-content-docs',
             {
@@ -43,6 +46,25 @@ const config = {
                 routeBasePath: 'guided-project',
                 sidebarPath: require.resolve('./sidebars-guided-project.js'),
                 sidebarCollapsed: false,
+            },
+        ],
+    ],
+    /* Local search (build-time index, no Algolia account). See https://github.com/easyops-cn/docusaurus-search-local */
+    themes: [
+        [
+            require.resolve('@easyops-cn/docusaurus-search-local'),
+            {
+                hashed: true,
+                language: ['en'],
+                highlightSearchTermsOnTargetPage: true,
+                explicitSearchResultPath: true,
+                /* Main docs use routeBasePath '/'; use '/' not '' (Joi rejects empty string). Plugin normalizes to root. */
+                docsRouteBasePath: ['/', 'dayof', 'guided-project'],
+                docsDir: ['docs', 'dayof', 'guided-project'],
+                blogRouteBasePath: ['archive'],
+                indexDocs: true,
+                indexBlog: true,
+                indexPages: false,
             },
         ],
     ],
@@ -139,6 +161,10 @@ const config = {
                         to: '/dayof/',
                         position: 'left',
                         label: 'HackUTD 2026 Hackerpack',
+                    },
+                    {
+                        type: 'search',
+                        position: 'right',
                     },
                     {
                         href: 'https://github.com/acmutd/hackutd-tech-guide',
