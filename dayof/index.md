@@ -19,7 +19,6 @@ keywords:
     - Texas hackathon
 wrapperClassName: hackerpack-home
 ---
-
 # HackUTD 2025: Lost in the Pages
 
 > _"Every great journey begins with a single page..."_
@@ -31,6 +30,7 @@ Questions or need help with something not covered here? We're here to help:
 ## Essential Resources
 
 <div className="primary-cards">
+  <a href="/dayof/newMDS/check-in-guide" className="notion-card notion-card--primary notion-card-link">
   <a href="/dayof/newMDS/check-in-guide" className="notion-card notion-card--primary notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">🎒</span>

@@ -18,7 +18,7 @@ module.exports = {
                         {
                             type: 'doc',
                             id: 'newMDS/check-in-guide',
-                            label: 'Check-In Guide',
+                            label: 'Check-in Guide',
                         },
                         {
                             type: 'doc',
