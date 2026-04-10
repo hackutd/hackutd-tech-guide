@@ -31,7 +31,6 @@ Questions or need help with something not covered here? We're here to help:
 
 <div className="primary-cards">
   <a href="/dayof/newMDS/check-in-guide" className="notion-card notion-card--primary notion-card-link">
-  <a href="/dayof/newMDS/check-in-guide" className="notion-card notion-card--primary notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">🎒</span>
       Check-in Guide
