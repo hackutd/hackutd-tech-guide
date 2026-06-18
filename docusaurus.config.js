@@ -25,8 +25,8 @@ const config = {
     },
     plugins: [
         // Day-of hackerpack: all pages under dayof/ are picked up automatically.
-        // Devpost: primary URL /dayof/devpost → newMDS/devpost.mdx (renders DevpostGuide.jsx).
-        // Markdown-only copy for easy edits → newMDS/devpost-markdown.mdx at /dayof/devpost-markdown (sidebar + sidebar-dayof.js).
+        // Devpost: /dayof/newMDS/submission-judging/devpost (devpost.mdx + DevpostGuide.jsx).
+        // Markdown-only copy → newMDS/submission-judging/devpost-markdown.md at /dayof/newMDS/submission-judging/devpost-markdown.
         [
             '@docusaurus/plugin-content-docs',
             {
@@ -35,7 +35,7 @@ const config = {
                 routeBasePath: 'dayof',
                 sidebarPath: require.resolve('./sidebars-dayof.js'), // Fixed: point to correct sidebar
 
-                sidebarCollapsed: false, // Default to expanded for dayof docs too
+                sidebarCollapsed: true, // Start categories collapsed
             },
         ],
         [
@@ -109,6 +109,7 @@ const config = {
             docs: {
                 sidebar: {
                     autoCollapseCategories: false,
+                    hideable: true,
                 },
             },
             metadata: [
@@ -140,6 +141,10 @@ const config = {
                     src: 'img/logo.svg',
                 },
                 items: [
+                    {
+                        type: 'custom-sidebarToggle',
+                        position: 'left',
+                    },
                     {
                         type: 'doc',
                         docId: 'resources',

@@ -6,7 +6,7 @@ title: Submission & Judging Guide
 
 Your team needs to be **registered by 11:00pm on Saturday**. **YOU MUST HIT SUBMIT ON THE FINAL SCREEN OR YOU WILL NOT BE REGISTERED.** Don’t worry, you do not have to have your whole project done by this time. This is just to make sure your team is registered on **[Devpost](https://hackutd-2025.devpost.com/).** You will have until 12:00pm on Sunday to fully submit your project.
 
-Follow this guide on how to register your team: **[Devpost Guide](/dayof/devpost)**
+Follow this guide on how to register your team: **[Devpost Guide](/dayof/newMDS/submission-judging/devpost)**
 
 ---
 
@@ -27,7 +27,7 @@ Your project needs to be finalized by **12:00pm** (**noon) on Sunday**! No edits
 
 **You will submit your project [here](https://hackutd-2025.devpost.com/)**
 
-If you need help using Devpost, please refer to the **[Devpost Guide](/dayof/devpost)** for step-by-step instructions.
+If you need help using Devpost, please refer to the **[Devpost Guide](/dayof/newMDS/submission-judging/devpost)** for step-by-step instructions.
 
 ### Submission Rules
 

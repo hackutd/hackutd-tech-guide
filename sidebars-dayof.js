@@ -14,40 +14,44 @@ module.exports = {
                 {
                     type: 'category',
                     label: 'Essential Resources',
+                    link: {
+                        type: 'doc',
+                        id: 'newMDS/essential-resources/index'
+                    },
                     items: [
                         {
                             type: 'doc',
-                            id: 'newMDS/check-in-guide',
+                            id: 'newMDS/essential-resources/check-in-guide',
                             label: 'Check-in Guide',
                         },
                         {
                             type: 'doc',
-                            id: 'newMDS/schedule2026',
+                            id: 'newMDS/essential-resources/schedule2026',
                             label: 'Schedule',
                         },
                         {
                             type: 'doc',
-                            id: 'newMDS/discord-wifi',
+                            id: 'newMDS/essential-resources/discord-wifi',
                             label: 'Discord & WiFi',
                         },
                         {
                             type: 'doc',
-                            id: 'newMDS/mentors',
+                            id: 'newMDS/essential-resources/mentors',
                             label: 'Mentors',
                         },
                         {
                             type: 'doc',
-                            id: 'newMDS/food',
+                            id: 'newMDS/essential-resources/food',
                             label: 'Food',
                         },
                         {
                             type: 'doc',
-                            id: 'newMDS/maps-hacker-spaces',
+                            id: 'newMDS/essential-resources/maps-hacker-spaces',
                             label: 'Maps & Hacker Spaces',
                         },
                         {
                             type: 'doc',
-                            id: 'newMDS/help',
+                            id: 'newMDS/essential-resources/help',
                             label: 'Help',
                         },
                     ],
@@ -55,20 +59,24 @@ module.exports = {
                 {
                     type: 'category',
                     label: 'Workshops & Fun Events',
+                    link: {
+                        type: 'doc',
+                        id: 'newMDS/workshop-fun-events/index'
+                    },
                     items: [
                         {
                             type: 'doc',
-                            id: 'newMDS/workshops',
+                            id: 'newMDS/workshop-fun-events/workshops',
                             label: 'Workshops',
                         },
                         {
                             type: 'doc',
-                            id: 'newMDS/fun-events',
+                            id: 'newMDS/workshop-fun-events/fun-events',
                             label: 'Fun Events',
                         },
                         {
                             type: 'doc',
-                            id: 'newMDS/points-guide',
+                            id: 'newMDS/workshop-fun-events/points-guide',
                             label: 'Points Guide',
                         }
                     ],
@@ -103,30 +111,34 @@ module.exports = {
                 {
                     type: 'category',
                     label: 'Submission & Judging',
+                    link: {
+                        type: 'doc',
+                        id: 'newMDS/submission-judging/index'
+                    },
                     items: [
                         {
                             type: 'doc',
-                            id: 'newMDS/devpost',
+                            id: 'newMDS/submission-judging/devpost',
                             label: 'Devpost Guide',
                         },
                         {
                             type: 'doc',
-                            id: 'newMDS/devpost-markdown',
+                            id: 'newMDS/submission-judging/devpost-markdown',
                             label: 'Devpost Guide (Markdown)',
                         },
                         {
                             type: 'doc',
-                            id: 'newMDS/teams',
+                            id: 'newMDS/submission-judging/teams',
                             label: 'Teams',
                         },
                         {
                             type: 'doc',
-                            id: 'newMDS/judging',
+                            id: 'newMDS/submission-judging/judging',
                             label: 'Judging',
                         },
                         {
                             type: 'doc',
-                            id: 'newMDS/pitching',
+                            id: 'newMDS/submission-judging/pitching',
                             label: 'Pitching',
                         },
                     
@@ -138,20 +150,24 @@ module.exports = {
                 {
                     type: 'category',
                     label: 'Event Logistics',
+                    link: {
+                        type: 'doc',
+                        id: 'newMDS/event-logistics/index'
+                    },
                     items: [
                         {
                             type: 'doc',
-                            id: 'newMDS/venue-parking',
+                            id: 'newMDS/event-logistics/venue-parking',
                             label: 'Venue & Parking',
                         },
                         {
                             type: 'doc',
-                            id: 'newMDS/travel-guide',
+                            id: 'newMDS/event-logistics/travel-guide',
                             label: 'Travel Guide',
                         },
                         {
                             type: 'doc',
-                            id: 'newMDS/reimbursement',
+                            id: 'newMDS/event-logistics/reimbursement',
                             label: 'Reimbursement',
                         },
                     

@@ -1,8 +1,8 @@
 ---
 id: index
-title: HackUTD 2025 Lost in the Pages
+title: HackUTD 2026 Zero Days
 slug: /
-description: Complete day-of event guide for HackUTD 2025 Lost in the Pages hackathon. Find hackerpacks, submission guides, travel info, and everything you need for UT Dallas's premier coding competition.
+description: 'Complete day-of event guide for HackUTD 2026: Zero Days hackathon at the University of Texas at Dallas. Find essential resources, schedules, workshops, sponsor tracks, submission guides, and event logistics.'
 keywords:
     - HackUTD 2025
     - HackUTD
@@ -19,18 +19,18 @@ keywords:
     - Texas hackathon
 wrapperClassName: hackerpack-home
 ---
-# HackUTD 2025: Lost in the Pages
+# HackUTD 2026: Zero Days
 
 > _"Every great journey begins with a single page..."_
 
-Welcome to your complete guide for **HackUTD 2025: Lost in the Pages**! This platform brings together all the resources, schedules, and information you'll need for an amazing hackathon experience.
+Welcome to your complete guide for **HackUTD 2026: Lost in the Pages**!
 
-Questions or need help with something not covered here? We're here to help:
+Questions or need help with something not covered here? We're here to [help](/dayof/newMDS/essential-resources/help):
 
-## Essential Resources
+## [Essential Resources](/dayof/essential-resources)
 
 <div className="primary-cards">
-  <a href="/dayof/newMDS/check-in-guide" className="notion-card notion-card--primary notion-card-link">
+  <a href="/dayof/newMDS/essential-resources/check-in-guide" className="notion-card notion-card--primary notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">🎒</span>
       Check-in Guide
@@ -40,7 +40,7 @@ Questions or need help with something not covered here? We're here to help:
     </p>
   </a>
   
-  <a href="/dayof/newMDS/schedule2026" className="notion-card notion-card--primary notion-card-link">
+  <a href="/dayof/newMDS/essential-resources/schedule2026" className="notion-card notion-card--primary notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">📅</span>
       Schedule
@@ -50,7 +50,7 @@ Questions or need help with something not covered here? We're here to help:
     </p>
   </a>
 
-  <a href="/dayof/newMDS/discord-wifi" className="notion-card notion-card--primary notion-card-link">
+  <a href="/dayof/newMDS/essential-resources/discord-wifi" className="notion-card notion-card--primary notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">💬</span>
       Discord &amp; Wi‑Fi
@@ -60,7 +60,7 @@ Questions or need help with something not covered here? We're here to help:
     </p>
   </a>
 
-  <a href="/dayof/newMDS/mentors" className="notion-card notion-card--primary notion-card-link">
+  <a href="/dayof/newMDS/essential-resources/mentors" className="notion-card notion-card--primary notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">🧑‍🏫</span>
       Mentors
@@ -70,7 +70,7 @@ Questions or need help with something not covered here? We're here to help:
     </p>
   </a>
 
-  <a href="/dayof/newMDS/food" className="notion-card notion-card--primary notion-card-link">
+  <a href="/dayof/newMDS/essential-resources/food" className="notion-card notion-card--primary notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">🍽️</span>
       Meals
@@ -80,7 +80,7 @@ Questions or need help with something not covered here? We're here to help:
     </p>
   </a>
 
-  <a href="/dayof/newMDS/maps-hacker-spaces" className="notion-card notion-card--primary notion-card-link">
+  <a href="/dayof/newMDS/essential-resources/maps-hacker-spaces" className="notion-card notion-card--primary notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">🗺️</span>
       Maps &amp; Hacker Spaces
@@ -90,7 +90,7 @@ Questions or need help with something not covered here? We're here to help:
     </p>
   </a>
 
-  <a href="/dayof/newMDS/help" className="notion-card notion-card--primary notion-card-link">
+  <a href="/dayof/newMDS/essential-resources/help" className="notion-card notion-card--primary notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">❓</span>
       Help
@@ -101,10 +101,10 @@ Questions or need help with something not covered here? We're here to help:
   </a>
 </div>
 
-## Workshops & Fun Events
+## [Workshops & Fun Events](/dayof/workshop-fun-events)
 
 <div className="custom-card-grid">
-  <a href="/dayof/newMDS/workshops" className="notion-card notion-card--volunteer notion-card-link">
+  <a href="/dayof/newMDS/workshop-fun-events/workshops" className="notion-card notion-card--volunteer notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">🛠️</span>
       Workshops
@@ -114,7 +114,7 @@ Questions or need help with something not covered here? We're here to help:
     </p>
   </a>
 
-  <a href="/dayof/newMDS/fun-events" className="notion-card notion-card--volunteer notion-card-link">
+  <a href="/dayof/newMDS/workshop-fun-events/fun-events" className="notion-card notion-card--volunteer notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">🎉</span>
       Fun Events
@@ -124,7 +124,7 @@ Questions or need help with something not covered here? We're here to help:
     </p>
   </a>
 
-  <a href="/dayof/newMDS/points-guide" className="notion-card notion-card--volunteer notion-card-link">
+  <a href="/dayof/newMDS/workshop-fun-events/points-guide" className="notion-card notion-card--volunteer notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">🏅</span>
       Points Guide
@@ -135,7 +135,7 @@ Questions or need help with something not covered here? We're here to help:
   </a>
 </div>
 
-## Sponsor Tracks & Prizes
+## [Sponsor Tracks & Prizes](/dayof/newMDS/sponsor-tracks)
 
 <div className="custom-card-grid">
   <a href="/dayof/newMDS/sponsor-tracks" className="notion-card notion-card--prizes notion-card-link">
@@ -149,10 +149,10 @@ Questions or need help with something not covered here? We're here to help:
   </a>
 </div>
 
-## Submissions & Judging
+## [Submissions & Judging](/dayof/submission-judging)
 
 <div className="custom-card-grid">
-  <a href="/dayof/devpost" className="notion-card notion-card--travel notion-card-link">
+  <a href="/dayof/newMDS/submission-judging/devpost" className="notion-card notion-card--travel notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">📮</span>
       Devpost Guide
@@ -162,7 +162,7 @@ Questions or need help with something not covered here? We're here to help:
     </p>
   </a>
 
-  <a href="/dayof/newMDS/teams" className="notion-card notion-card--travel notion-card-link">
+  <a href="/dayof/newMDS/submission-judging/teams" className="notion-card notion-card--travel notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">👥</span>
       Teams
@@ -172,7 +172,7 @@ Questions or need help with something not covered here? We're here to help:
     </p>
   </a>
 
-  <a href="/dayof/newMDS/judging" className="notion-card notion-card--prizes notion-card-link">
+  <a href="/dayof/newMDS/submission-judging/judging" className="notion-card notion-card--prizes notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">⚖️</span>
       Judging
@@ -182,7 +182,7 @@ Questions or need help with something not covered here? We're here to help:
     </p>
   </a>
 
-  <a href="/dayof/newMDS/pitching" className="notion-card notion-card--prizes notion-card-link">
+  <a href="/dayof/newMDS/submission-judging/pitching" className="notion-card notion-card--prizes notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">🎤</span>
       Pitching
@@ -193,10 +193,10 @@ Questions or need help with something not covered here? We're here to help:
   </a>
 </div>
 
-## Event Logistics
+## [Event Logistics](/dayof/event-logistics)
 
 <div className="custom-card-grid">
-  <a href="/dayof/newMDS/venue-parking" className="notion-card notion-card--travel notion-card-link">
+  <a href="/dayof/newMDS/event-logistics/venue-parking" className="notion-card notion-card--travel notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">🏢</span>
       Venue &amp; Parking
@@ -206,7 +206,7 @@ Questions or need help with something not covered here? We're here to help:
     </p>
   </a>
 
-  <a href="/dayof/newMDS/travel-guide" className="notion-card notion-card--travel notion-card-link">
+  <a href="/dayof/newMDS/event-logistics/travel-guide" className="notion-card notion-card--travel notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">🧳</span>
       Travel Guide
@@ -216,29 +216,13 @@ Questions or need help with something not covered here? We're here to help:
     </p>
   </a>
 
-  <a href="/dayof/newMDS/reimbursement" className="notion-card notion-card--travel notion-card-link">
+  <a href="/dayof/newMDS/event-logistics/reimbursement" className="notion-card notion-card--travel notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">💵</span>
       Reimbursement
     </div>
     <p className="notion-card-description">
       Eligibility and steps to request travel reimbursement.
-    </p>
-  </a>
-</div>
-
-
-
-## Guided Project Information
-
-<div className="custom-card-grid">
- <a href="/guided-project/" className="notion-card notion-card--guide notion-card-link">
-    <div className="notion-card-header">
-      <span className="notion-card-emoji">✨</span>
-      Guided Project
-    </div>
-    <p className="notion-card-description">
-      First hackathon or need setup help? Follow our curated path with resources and guidance.
     </p>
   </a>
 </div>
@@ -251,6 +235,6 @@ Questions or need help with something not covered here? We're here to help:
 
 🚨 **Emergency**: We recommend opening a ticket in our [discord server](https://discord.gg/sCJb7J98QD) or finding an organizer.
 
-📍 **Help Desk**: Located in the [Atrium](/dayof/newMDS/venue-parking) where check-in was.
+📍 **Help Desk**: Located in the [Atrium](/dayof/newMDS/event-logistics/venue-parking) where check-in was.
 
 </div>

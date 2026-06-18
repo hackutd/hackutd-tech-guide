@@ -12,7 +12,7 @@ If you have a valid reason for checking in late, you can email [hello@hackutd.co
 
 This weekend, we're expecting lows of 55°F (13°C) and highs of 80°F (27°C) so pack accordingly!
 
-![Weather Forecast](../../static/img/hackerpacks/weather.png)
+![Weather Forecast](../../../static/img/hackerpacks/weather.png)
 
 ## 🧳 Packing List
 
@@ -40,7 +40,7 @@ Arriving at either DFW International Airport or Love Field Airport, you have 3 o
 
 This is a map route from DFW to UTD using public transportation (DART):
 
-![DFW to UTD Public Transport](../../static/img/hackerpacks/map-of-line.png)
+![DFW to UTD Public Transport](../../../static/img/hackerpacks/map-of-line.png)
 
 You can find more information about DART routes and schedules on the [DART website](https://www.dart.org/).
 

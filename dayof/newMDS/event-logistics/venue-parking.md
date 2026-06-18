@@ -33,7 +33,7 @@ You can access the **parking permit** directly from this link **[legend.hackutd.
 
 ## Parking Locations
 
-![Parking Map](../../static/img/hackerpacks/parking-map.jpg)
+![Parking Map](../../../static/img/hackerpacks/parking-map.jpg)
 
 ### Parking Lot Addresses (Hyperlinked to Google Maps)
 
@@ -49,6 +49,6 @@ You can access the **parking permit** directly from this link **[legend.hackutd.
 
 ## Getting to Opening Ceremony
 
-![ECSW to ATEC](../../static/img/hackerpacks/ECSW-TO-ATEC.png)
+![ECSW to ATEC](../../../static/img/hackerpacks/ECSW-TO-ATEC.png)
 
 From ECSW (GREEN) walk to ATEC (GOLD) building for the Opening Ceremony. Follow the campus signs or the route on the map above.

@@ -17,6 +17,6 @@ title: Food Information
 
 ### 🫒Allergen Menu
 
-![Allergen Menu Image](../../static/img/hackerpacks/menu.png)
+![Allergen Menu Image](../../../static/img/hackerpacks/menu.png)
 
 ---

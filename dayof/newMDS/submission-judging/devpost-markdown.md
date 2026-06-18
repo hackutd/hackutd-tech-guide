@@ -1,12 +1,11 @@
 ---
 title: Devpost Guide (Markdown)
-slug: /devpost-markdown
 description: Markdown-only Devpost walkthrough — same info as the main guide, easier to edit without React.
 ---
 
 {/*
   Markdown edition — edit text and images here. No React.
-  Main interactive page: /dayof/devpost (devpost.mdx + DevpostGuide component).
+  Main interactive page: /dayof/newMDS/submission-judging/devpost (devpost.mdx + DevpostGuide component).
 
   Devpost URL: search "hackutd-2025.devpost.com"
   Images: static/img/hackerpacks/
