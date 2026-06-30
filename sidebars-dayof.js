@@ -4,64 +4,94 @@ module.exports = {
     dayOfSidebar: [
         {
             type: 'category',
-            label: 'HackUTD 2025: Lost in the Pages',
+            label: 'Hackerpack 2026',
             link: {
                 type: 'doc',
                 id: 'index',
             },
+
             items: [
                 {
                     type: 'category',
                     label: 'Essential Resources',
+                    link: {
+                        type: 'doc',
+                        id: 'newMDS/essential-resources/index'
+                    },
                     items: [
                         {
                             type: 'doc',
-                            id: 'general-hackerpack',
-                            label: 'Hackerpack',
+                            id: 'newMDS/essential-resources/check-in-guide',
+                            label: 'Check-in Guide',
                         },
                         {
                             type: 'doc',
-                            id: 'devpost-guide',
-                            label: 'Devpost Guide',
+                            id: 'newMDS/essential-resources/schedule2026',
+                            label: 'Schedule',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'newMDS/essential-resources/discord-wifi',
+                            label: 'Discord & WiFi',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'newMDS/essential-resources/mentors',
+                            label: 'Mentors',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'newMDS/essential-resources/food',
+                            label: 'Food',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'newMDS/essential-resources/maps-hacker-spaces',
+                            label: 'Maps & Hacker Spaces',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'newMDS/essential-resources/help',
+                            label: 'Help',
                         },
                     ],
                 },
                 {
                     type: 'category',
-                    label: 'Other Resources',
+                    label: 'Workshops & Fun Events',
+                    link: {
+                        type: 'doc',
+                        id: 'newMDS/workshop-fun-events/index'
+                    },
                     items: [
                         {
                             type: 'doc',
-                            id: 'travel-guide',
-                            label: 'Travel Guide',
+                            id: 'newMDS/workshop-fun-events/workshops',
+                            label: 'Workshops',
                         },
                         {
                             type: 'doc',
-                            id: 'mentor-guide',
-                            label: 'Need a Mentor?',
+                            id: 'newMDS/workshop-fun-events/fun-events',
+                            label: 'Fun Events',
                         },
                         {
                             type: 'doc',
-                            id: 'judge-guide',
-                            label: 'Submission & Judging Guide',
-                        },
-                        {
-                            type: 'doc',
-                            id: 'travel-reimbursement',
-                            label: 'Travel Reimbursement',
-                        },
-                        {
-                            type: 'doc',
-                            id: 'points-guide',
+                            id: 'newMDS/workshop-fun-events/points-guide',
                             label: 'Points Guide',
-                        },
+                        }
                     ],
                 },
 
-                // Event Information
+                // sponsor tracks
                 {
                     type: 'category',
-                    label: 'Event Logistics',
+                    label: 'Sponsor Tracks and Prizes',
+                    link:{
+                        type: 'doc',
+                        id: 'newMDS/sponsor-tracks',
+                    },
+                    items:[],
+                    /*
                     items: [
                         {
                             type: 'doc',
@@ -74,45 +104,77 @@ module.exports = {
                             label: 'Prizes & Challenges',
                         },
                     ],
+                    */
                 },
 
-                // Workshops
+                // Submission and judging
                 {
                     type: 'category',
-                    label: 'Workshops',
+                    label: 'Submission & Judging',
+                    link: {
+                        type: 'doc',
+                        id: 'newMDS/submission-judging/index'
+                    },
                     items: [
                         {
                             type: 'doc',
-                            id: 'workshops/pnc',
-                            label: 'PNC',
+                            id: 'newMDS/submission-judging/devpost',
+                            label: 'Devpost Guide',
                         },
                         {
                             type: 'doc',
-                            id: 'workshops/t-mobile',
-                            label: 'T-Mobile',
+                            id: 'newMDS/submission-judging/devpost-markdown',
+                            label: 'Devpost Guide (Markdown)',
                         },
                         {
                             type: 'doc',
-                            id: 'workshops/goldman-sachs',
-                            label: 'Goldman Sachs',
+                            id: 'newMDS/submission-judging/teams',
+                            label: 'Teams',
                         },
                         {
                             type: 'doc',
-                            id: 'workshops/statefarm',
-                            label: 'State Farm',
+                            id: 'newMDS/submission-judging/judging',
+                            label: 'Judging',
                         },
                         {
                             type: 'doc',
-                            id: 'workshops/nmc',
-                            label: 'NMC',
+                            id: 'newMDS/submission-judging/pitching',
+                            label: 'Pitching',
                         },
-                        {
-                            type: 'doc',
-                            id: 'workshops/eog',
-                            label: 'EOG',
-                        },
+                    
                     ],
                 },
+
+
+                // event logistics
+                {
+                    type: 'category',
+                    label: 'Event Logistics',
+                    link: {
+                        type: 'doc',
+                        id: 'newMDS/event-logistics/index'
+                    },
+                    items: [
+                        {
+                            type: 'doc',
+                            id: 'newMDS/event-logistics/venue-parking',
+                            label: 'Venue & Parking',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'newMDS/event-logistics/travel-guide',
+                            label: 'Travel Guide',
+                        },
+                        {
+                            type: 'doc',
+                            id: 'newMDS/event-logistics/reimbursement',
+                            label: 'Reimbursement',
+                        },
+                    
+                    ],
+                },
+
+
             ],
         },
     ],

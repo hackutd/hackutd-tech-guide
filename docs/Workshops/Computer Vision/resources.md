@@ -1,5 +1,5 @@
 ---
-title: External Resources
+title: Resources
 slug: resources
 sidebar_position: 1
 ---

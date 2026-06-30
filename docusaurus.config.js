@@ -24,6 +24,9 @@ const config = {
         locales: ['en'],
     },
     plugins: [
+        // Day-of hackerpack: all pages under dayof/ are picked up automatically.
+        // Devpost: /dayof/newMDS/submission-judging/devpost (devpost.mdx + DevpostGuide.jsx).
+        // Markdown-only copy → newMDS/submission-judging/devpost-markdown.md at /dayof/newMDS/submission-judging/devpost-markdown.
         [
             '@docusaurus/plugin-content-docs',
             {
@@ -32,7 +35,7 @@ const config = {
                 routeBasePath: 'dayof',
                 sidebarPath: require.resolve('./sidebars-dayof.js'), // Fixed: point to correct sidebar
 
-                sidebarCollapsed: false, // Default to expanded for dayof docs too
+                sidebarCollapsed: true, // Start categories collapsed
             },
         ],
         [
@@ -43,6 +46,25 @@ const config = {
                 routeBasePath: 'guided-project',
                 sidebarPath: require.resolve('./sidebars-guided-project.js'),
                 sidebarCollapsed: false,
+            },
+        ],
+    ],
+    /* Local search (build-time index, no Algolia account). See https://github.com/easyops-cn/docusaurus-search-local */
+    themes: [
+        [
+            require.resolve('@easyops-cn/docusaurus-search-local'),
+            {
+                hashed: true,
+                language: ['en'],
+                highlightSearchTermsOnTargetPage: true,
+                explicitSearchResultPath: true,
+                /* Main docs use routeBasePath '/'; use '/' not '' (Joi rejects empty string). Plugin normalizes to root. */
+                docsRouteBasePath: ['/', 'dayof', 'guided-project'],
+                docsDir: ['docs', 'dayof', 'guided-project'],
+                blogRouteBasePath: ['archive'],
+                indexDocs: true,
+                indexBlog: true,
+                indexPages: false,
             },
         ],
     ],
@@ -87,6 +109,7 @@ const config = {
             docs: {
                 sidebar: {
                     autoCollapseCategories: false,
+                    hideable: true,
                 },
             },
             metadata: [
@@ -119,6 +142,10 @@ const config = {
                 },
                 items: [
                     {
+                        type: 'custom-sidebarToggle',
+                        position: 'left',
+                    },
+                    {
                         type: 'doc',
                         docId: 'resources',
                         position: 'left',
@@ -138,7 +165,11 @@ const config = {
                         // Fixed: remove docId and use proper link format
                         to: '/dayof/',
                         position: 'left',
-                        label: 'HackUTD 2025: Lost in the Pages',
+                        label: 'HackUTD 2026 Hackerpack',
+                    },
+                    {
+                        type: 'search',
+                        position: 'right',
                     },
                     {
                         href: 'https://github.com/acmutd/hackutd-tech-guide',

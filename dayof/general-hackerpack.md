@@ -30,7 +30,7 @@ Think you might be late? Check out **[Late Check-in](#late-check-in)**
 
 ---
 
-## 🚶‍♀️ Walk-ins
+## Walk-ins 🚶‍♀️ 
 
 We will still be allowing walk-ins on a **first-come, first-served basis** on the day of the event. We start handing out tickets to walk-ins **starting at 6:00 AM** on Saturday, November 8th by **ECSW**. Spots are limited, so be sure to arrive early to secure your place. Once you get your walk-in ticket, you do not need to stay near ECSW. At **10:00 AM**, we will **start calling ticket numbers** to be let in, so make sure you’re back by then. Be on the lookout for a text message as well!
 :::note
