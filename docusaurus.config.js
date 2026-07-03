@@ -88,3 +88,139 @@ const config = {
                                     }),
                                 ],
                 ],
+
+        themeConfig:
+                    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+                    ({
+                                    docs: {
+                                                        sidebar: {
+                                                                                autoCollapseCategories: false,
+                                                                                hideable: true,
+                                                        },
+                                    },
+                                    metadata: [
+                                                        {
+                                                                                name: 'keywords',
+                                                                                content:
+                                                                                                            'HackUTD, HackUTD 2025, hackathon, UT Dallas, UTD, programming, coding competition, student hackathon, Dallas, Texas, Lost in the Pages',
+                                                        },
+                                                        {
+                                                                                name: 'description',
+                                                                                content:
+                                                                                                            'Complete guide and resources for HackUTD 2025: Lost in the Pages hackathon at University of Texas at Dallas. Find day-of guides, technical resources, and everything you need for the event.',
+                                                        },
+                                                        {
+                                                                                property: 'og:image',
+                                                                                content: 'https://guide.hackutd.co/img/hackutd-2025-og.png',
+                                                        },
+                                                        { property: 'og:type', content: 'website' },
+                                                        { property: 'og:site_name', content: 'HackUTD Tech Guide' },
+                                                        { name: 'twitter:card', content: 'summary_large_image' },
+                                                        { name: 'twitter:site', content: '@HackUTD' },
+                                                        { name: 'author', content: 'HackUTD Team' },
+                                                        { name: 'robots', content: 'index, follow' },
+                                    ],
+                                    navbar: {
+                                                        title: 'HackUTD Tech Guide',
+                                                        logo: {
+                                                                                alt: 'HackUTD Logo',
+                                                                                src: 'img/logo.svg',
+                                                        },
+                                                        items: [
+                                                                                {
+                                                                                                            type: 'custom-sidebarToggle',
+                                                                                                            position: 'left',
+                                                                                },
+                                                                                {
+                                                                                                            type: 'doc',
+                                                                                                            docId: 'resources',
+                                                                                                            position: 'left',
+                                                                                                            label: 'Resources',
+                                                                                },
+                                                                                {
+                                                                                                            to: 'archive',
+                                                                                                            label: 'Blog',
+                                                                                                            position: 'left',
+                                                                                },
+                                                                                {
+                                                                                                            to: '/guided-project/',
+                                                                                                            position: 'left',
+                                                                                                            label: 'Guided Project',
+                                                                                },
+                                                                                {
+                                                                                                            type: 'search',
+                                                                                                            position: 'right',
+                                                                                },
+                                                                                {
+                                                                                                            href: 'https://github.com/acmutd/hackutd-tech-guide',
+                                                                                                            label: 'GitHub',
+                                                                                                            position: 'right',
+                                                                                },
+                                                                                {
+                                                                                                            href: 'https://www.instagram.com/hackutd/',
+                                                                                                            label: 'Instagram',
+                                                                                                            position: 'right',
+                                                                                },
+                                                        ],
+                                    },
+                                    footer: {
+                                                        style: 'dark',
+                                                        links: [
+                                                                                {
+                                                                                                            title: 'Docs',
+                                                                                                            items: [
+                                                                                                                                        {
+                                                                                                                                                                    label: 'Resources',
+                                                                                                                                                                    to: '/resources',
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                                                    label: 'Blog',
+                                                                                                                                                                    to: '/archive',
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                                                    label: 'Concepts',
+                                                                                                                                                                    to: '/conceptual-directory/concepts',
+                                                                                                                                        },
+                                                                                                            ],
+                                                                                },
+                                                                                {
+                                                                                                            title: 'Community',
+                                                                                                            items: [
+                                                                                                                                        {
+                                                                                                                                                                    label: 'Main Organizer Site',
+                                                                                                                                                                    href: 'https://hackutd.co',
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                                                    label: 'ACM Discord',
+                                                                                                                                                                    href: 'https://acmutd.co/discord',
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                                                    label: 'Instagram',
+                                                                                                                                                                    href: 'https://instagram.com/hackutd',
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                                                    label: 'YouTube',
+                                                                                                                                                                    href: 'https://www.youtube.com/channel/UCEM6btSfs7X7Yvv1dLMoyfA',
+                                                                                                                                        },
+                                                                                                            ],
+                                                                                },
+                                                                                {
+                                                                                                            title: 'More',
+                                                                                                            items: [
+                                                                                                                                        {
+                                                                                                                                                                    label: 'GitHub',
+                                                                                                                                                                    href: 'https://github.com/acmutd/hackutd-tech-guide',
+                                                                                                                                        },
+                                                                                                            ],
+                                                                                },
+                                                        ],
+                                                        copyright: `Copyright © ${new Date().getFullYear()} ACM HackUTD. Built with Docusaurus.`,
+                                    },
+                                    prism: {
+                                                        theme: lightCodeTheme,
+                                                        darkTheme: darkCodeTheme,
+                                    },
+                    }),
+};
+
+module.exports = config;
