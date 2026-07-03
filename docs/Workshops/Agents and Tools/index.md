@@ -6,7 +6,7 @@ sidebar_position: 7
 
 
 ## 1. What is an Agent?
-An agent is an LLM that has the ability to decide what actions to take, use "tools" to interface with other systems, and store relevant information from previous conversations. Instead of just chatting with a user, agents are built to automate tasks, like customer service, or save time, like coding assistants
+An agent is an LLM that has the ability to **decide** what **actions** to take, use "tools" to interface with other systems, and store relevant information from previous conversations. Instead of just chatting with a user, agents are built to **automate tasks**, like customer service, or save time, like coding assistants
 
 
 
@@ -17,8 +17,8 @@ To achieve complex goals, an agent needs an advanced framework involving specifi
 
 ### ReAct Prompting
 ReAct is a format for prompting that allows LLMs to use longer-term problem solving.
-*   The LLM is asked to repeatedly perform actions and evaluate the results until they have accomplished their goal.
-*   At each step, the LLM can decide what tool to use
+*   The LLM is asked to **repeatedly** perform actions and **evaluate** the results until they have accomplished their goal.
+*   At each step, the LLM can decide what **tool** to use
 
 
 ### Memory Systems
@@ -40,7 +40,7 @@ There are four primary types of tools you can give an agent:
 
 
 ### The Model Context Protocol (MCP)
-Writing separate integrations for each tool can be time-consuming, and typically only works for that specific tool and model. An MCP is a collection of standardized tools that an LLM can connect to. By connecting the agent to an MCP, it can immediately use all the tools stored in the MCP.
+Writing separate integrations for each tool can be time-consuming, and typically only works for that specific tool and model. An MCP is a collection of **standardized** tools that an LLM can connect to. By connecting the agent to an MCP, it can immediately use all the tools stored in the MCP.
 
 
 ## 4. When to Use Agents
@@ -67,8 +67,8 @@ without a giant framework: an LLM can ask Python to run tools, Python runs them,
 and the results go back to the LLM.
 
 
-The fun twist: we break the work into one extra layer. The top-level agent does
-not do every task itself. It calls smaller specialist subagents.
+**The fun twist:** we break the work into one extra layer. The top-level agent does
+not do every task itself. It calls smaller **specialist subagents**.
 
 
 ## Start It Up
@@ -346,4 +346,4 @@ uses MCP. It just asks for `GetRMPScore`, and Python handles the implementation.
 ## Summary
 
 
-What we created is an LLM orchestrator that can call specialized subagents, and those subagents can call Python functions as tools. By breaking the task into smaller parts, each subagent handles one focused job and passes its result back to the orchestrator. The orchestrator then combines those results to reason across multiple steps and produce the final answer. This lets the system gather information it knows how to access through tools instead of relying only on the model's memory.
+What we created is an **LLM orchestrator** that can call specialized subagents, and those subagents can call Python functions as tools. By breaking the task into smaller parts, each subagent handles one focused job and passes its result back to the orchestrator. The orchestrator then **combines** those results to reason across multiple steps and produce the final answer. This lets the system gather information it knows how to access through **tools** instead of relying only on the model's memory.

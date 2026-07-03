@@ -11,24 +11,24 @@ Before we begin, we need to set up a few things.
 
 
 #### Pinecone
-- Head over to [Pinecone](https://www.pinecone.io)
-- Create an account or sign in with Google
-- As soon as you sign in, you should see an API key generated for you, copy that!
+1. Head over to [Pinecone](https://www.pinecone.io)
+2. Create an account or sign in with Google
+3. As soon as you sign in, you should see an API key generated for you, copy that!
 ![Pinecone API key screen](/img/rag/api_key.png)
 
-- Head back to the Colab notebook, click on the key icon to add a new secret. Enter the name as shown below and paste the API key in the value. Also make sure to give notebook access.
+4. Head back to the Colab notebook, click on the key icon to add a new secret. Enter the name as shown below and paste the API key in the value. Also make sure to give notebook access.
 ![Colab secret screen](/img/rag/colab_pinecone_key.png)
 
-- Go back to Pinecone and click on Create Index.
+5. Go back to Pinecone and click on Create Index.
 ![Create index screen](/img/rag/create_index.png)
 
-- Name the index `poyobot` and click on Custom settings. Enter the config shown below and hit Create index.
+6. Name the index `poyobot` and click on Custom settings. Enter the config shown below and hit Create index.
 ![db config screen](/img/rag/config.png)
 
 #### Gemini API Key
-- Head over to [aistudio.google.com](https://aistudio.google.com) and go to the dashboard to create a new API key or use an existing one.
+1. Head over to [aistudio.google.com](https://aistudio.google.com) and go to the dashboard to create a new API key or use an existing one.
 
-- Go back to the secrets tab, name the key as shown and paste it in the value.
+2. Go back to the secrets tab, name the key as shown and paste it in the value.
 ![colab secret screen](/img/rag/colab_gemini_key.png)
 
 Now that you have everything you need, we can start building Poyobot. Head back to the Colab notebook.
@@ -107,9 +107,9 @@ index.upsert(vectors = vectors_to_upsert)
 ```
 
 ### Step 5: Take input and generate context
-We're almost there. Now we will be taking a question from the user and using the same embedder model to vectorize the question.
+We're almost there. Now we will be taking a **question** from the user and using the same **embedder** model to **vectorize** the question.
 
-After vectorizing, we will be querying this vector against our vector store and returning the top 5 most relevant vectors.
+After vectorizing, we will be querying this vector against our **vector store** and returning the top 5 most **relevant vectors**.
 
 ```python
 user_query= input("Enter your question: ")
