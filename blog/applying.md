@@ -1,5 +1,5 @@
 ---
-title: Appyling to HackUTD 2025 Lost in the Pages
+title: Appyling to HackUTD
 description: Learn how to write a strong application for HackUTD or any other hackathon.
 date: 2024-09-19
 authors:
