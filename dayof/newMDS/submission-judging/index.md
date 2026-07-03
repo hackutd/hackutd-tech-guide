@@ -21,7 +21,7 @@ wrapperClassName: hackerpack-home
 # Submission & Judging
 
 <div className="custom-card-grid">
-  <a href="/dayof/newMDS/submission-judging/devpost" className="notion-card notion-card--travel notion-card-link">
+  <a href="/dayof/newMDS/submission-judging/devpost" className="notion-card notion-card--primary notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">📮</span>
       Devpost Guide
@@ -31,7 +31,7 @@ wrapperClassName: hackerpack-home
     </p>
   </a>
 
-  <a href="/dayof/newMDS/submission-judging/devpost-markdown" className="notion-card notion-card--travel notion-card-link">
+  <a href="/dayof/newMDS/submission-judging/devpost-markdown" className="notion-card notion-card--primary notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">📝</span>
       Devpost Guide (Markdown)
@@ -41,7 +41,7 @@ wrapperClassName: hackerpack-home
     </p>
   </a>
 
-  <a href="/dayof/newMDS/submission-judging/teams" className="notion-card notion-card--travel notion-card-link">
+  <a href="/dayof/newMDS/submission-judging/teams" className="notion-card notion-card--primary notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">👥</span>
       Teams
@@ -51,7 +51,7 @@ wrapperClassName: hackerpack-home
     </p>
   </a>
 
-  <a href="/dayof/newMDS/submission-judging/judging" className="notion-card notion-card--prizes notion-card-link">
+  <a href="/dayof/newMDS/submission-judging/judging" className="notion-card notion-card--primary notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">⚖️</span>
       Judging
@@ -61,7 +61,7 @@ wrapperClassName: hackerpack-home
     </p>
   </a>
 
-  <a href="/dayof/newMDS/submission-judging/pitching" className="notion-card notion-card--prizes notion-card-link">
+  <a href="/dayof/newMDS/submission-judging/pitching" className="notion-card notion-card--primary notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">🎤</span>
       Pitching

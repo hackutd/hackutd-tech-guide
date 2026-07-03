@@ -21,7 +21,7 @@ wrapperClassName: hackerpack-home
 # Workshop & Fun Events
 
 <div className="custom-card-grid">
-  <a href="/dayof/newMDS/workshops" className="notion-card notion-card--volunteer notion-card-link">
+  <a href="/dayof/newMDS/workshop-fun-events/workshops" className="notion-card notion-card--primary notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">🛠️</span>
       Workshops
@@ -31,7 +31,7 @@ wrapperClassName: hackerpack-home
     </p>
   </a>
 
-  <a href="/dayof/newMDS/fun-events" className="notion-card notion-card--volunteer notion-card-link">
+  <a href="/dayof/newMDS/workshop-fun-events/fun-events" className="notion-card notion-card--primary notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">🎉</span>
       Fun Events
@@ -41,7 +41,7 @@ wrapperClassName: hackerpack-home
     </p>
   </a>
 
-  <a href="/dayof/newMDS/points-guide" className="notion-card notion-card--volunteer notion-card-link">
+  <a href="/dayof/newMDS/workshop-fun-events/points-guide" className="notion-card notion-card--primary notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">🏅</span>
       Points Guide

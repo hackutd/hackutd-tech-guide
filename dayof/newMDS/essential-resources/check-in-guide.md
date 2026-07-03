@@ -4,7 +4,7 @@ title: Check-in Guide
 
 import ExpandableImage from '@site/src/components/ExpandableImage';
 
-## Accepted Hacker Check-in
+## ✅ Accepted Hacker Check-in
 
 We will be checking in at the **area in front of ECSW starting at** **8 AM**. This is for people who have have been accepted. You will need your:
 
@@ -21,7 +21,7 @@ If you have any issues with your QR Code or account, please make your way to the
 
 ---
 
-## Walk-ins 🚶‍♀️ 
+## 🚶‍♀️ Walk-ins 
 
 We will still be allowing walk-ins on a **first-come, first-served basis** on the day of the event. We start handing out tickets to walk-ins **starting at 6:00 AM** on Saturday, November 8th by **ECSW**. Spots are limited, so be sure to arrive early to secure your place. Once you get your walk-in ticket, you do not need to stay near ECSW. At **10:00 AM**, we will **start calling ticket numbers** to be let in, so make sure you’re back by then. Be on the lookout for a text message as well!
 :::note
@@ -36,7 +36,7 @@ When you get to the front of the Walk-in line, you will choose to either be noti
 
 After choosing your notification method, you will be able to view your waitlist number by logging into [legend.hackutd.co](https://legend.hackutd.co) with the same method you used to sign up for the hackathon.
 
-## Late Check-in
+## ⏰ Late Check-in
 
 If you can't make it to check-in by 10:00 AM for one of the following reasons, you may email [hello@hackutd.co](mailto:hello@hackutd.co):
 

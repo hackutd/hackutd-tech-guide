@@ -21,7 +21,7 @@ wrapperClassName: hackerpack-home
 # Event Logistics
 
 <div className="custom-card-grid">
-  <a href="/dayof/newMDS/event-logistics/venue-parking" className="notion-card notion-card--travel notion-card-link">
+  <a href="/dayof/newMDS/event-logistics/venue-parking" className="notion-card notion-card--primary notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">🏢</span>
       Venue &amp; Parking
@@ -31,7 +31,7 @@ wrapperClassName: hackerpack-home
     </p>
   </a>
 
-  <a href="/dayof/newMDS/travel-guide" className="notion-card notion-card--travel notion-card-link">
+  <a href="/dayof/newMDS/event-logistics/travel-guide" className="notion-card notion-card--primary notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">🧳</span>
       Travel Guide
@@ -41,7 +41,7 @@ wrapperClassName: hackerpack-home
     </p>
   </a>
 
-  <a href="/dayof/newMDS/reimbursement" className="notion-card notion-card--travel notion-card-link">
+  <a href="/dayof/newMDS/event-logistics/reimbursement" className="notion-card notion-card--primary notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">💵</span>
       Reimbursement

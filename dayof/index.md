@@ -104,7 +104,7 @@ Questions or need help with something not covered here? We're here to [help](/da
 ## [Workshops & Fun Events](/dayof/workshop-fun-events)
 
 <div className="custom-card-grid">
-  <a href="/dayof/newMDS/workshop-fun-events/workshops" className="notion-card notion-card--volunteer notion-card-link">
+  <a href="/dayof/newMDS/workshop-fun-events/workshops" className="notion-card notion-card--primary notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">🛠️</span>
       Workshops
@@ -114,7 +114,7 @@ Questions or need help with something not covered here? We're here to [help](/da
     </p>
   </a>
 
-  <a href="/dayof/newMDS/workshop-fun-events/fun-events" className="notion-card notion-card--volunteer notion-card-link">
+  <a href="/dayof/newMDS/workshop-fun-events/fun-events" className="notion-card notion-card--primary notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">🎉</span>
       Fun Events
@@ -124,7 +124,7 @@ Questions or need help with something not covered here? We're here to [help](/da
     </p>
   </a>
 
-  <a href="/dayof/newMDS/workshop-fun-events/points-guide" className="notion-card notion-card--volunteer notion-card-link">
+  <a href="/dayof/newMDS/workshop-fun-events/points-guide" className="notion-card notion-card--primary notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">🏅</span>
       Points Guide
@@ -138,7 +138,7 @@ Questions or need help with something not covered here? We're here to [help](/da
 ## [Sponsor Tracks & Prizes](/dayof/newMDS/sponsor-tracks)
 
 <div className="custom-card-grid">
-  <a href="/dayof/newMDS/sponsor-tracks" className="notion-card notion-card--prizes notion-card-link">
+  <a href="/dayof/newMDS/sponsor-tracks" className="notion-card notion-card--primary notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">🏆</span>
       Sponsor Tracks
@@ -152,7 +152,7 @@ Questions or need help with something not covered here? We're here to [help](/da
 ## [Submissions & Judging](/dayof/submission-judging)
 
 <div className="custom-card-grid">
-  <a href="/dayof/newMDS/submission-judging/devpost" className="notion-card notion-card--travel notion-card-link">
+  <a href="/dayof/newMDS/submission-judging/devpost" className="notion-card notion-card--primary notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">📮</span>
       Devpost Guide
@@ -162,7 +162,7 @@ Questions or need help with something not covered here? We're here to [help](/da
     </p>
   </a>
 
-  <a href="/dayof/newMDS/submission-judging/teams" className="notion-card notion-card--travel notion-card-link">
+  <a href="/dayof/newMDS/submission-judging/teams" className="notion-card notion-card--primary notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">👥</span>
       Teams
@@ -172,7 +172,7 @@ Questions or need help with something not covered here? We're here to [help](/da
     </p>
   </a>
 
-  <a href="/dayof/newMDS/submission-judging/judging" className="notion-card notion-card--prizes notion-card-link">
+  <a href="/dayof/newMDS/submission-judging/judging" className="notion-card notion-card--primary notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">⚖️</span>
       Judging
@@ -182,7 +182,7 @@ Questions or need help with something not covered here? We're here to [help](/da
     </p>
   </a>
 
-  <a href="/dayof/newMDS/submission-judging/pitching" className="notion-card notion-card--prizes notion-card-link">
+  <a href="/dayof/newMDS/submission-judging/pitching" className="notion-card notion-card--primary notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">🎤</span>
       Pitching
@@ -196,7 +196,7 @@ Questions or need help with something not covered here? We're here to [help](/da
 ## [Event Logistics](/dayof/event-logistics)
 
 <div className="custom-card-grid">
-  <a href="/dayof/newMDS/event-logistics/venue-parking" className="notion-card notion-card--travel notion-card-link">
+  <a href="/dayof/newMDS/event-logistics/venue-parking" className="notion-card notion-card--primary notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">🏢</span>
       Venue &amp; Parking
@@ -206,7 +206,7 @@ Questions or need help with something not covered here? We're here to [help](/da
     </p>
   </a>
 
-  <a href="/dayof/newMDS/event-logistics/travel-guide" className="notion-card notion-card--travel notion-card-link">
+  <a href="/dayof/newMDS/event-logistics/travel-guide" className="notion-card notion-card--primary notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">🧳</span>
       Travel Guide
@@ -216,7 +216,7 @@ Questions or need help with something not covered here? We're here to [help](/da
     </p>
   </a>
 
-  <a href="/dayof/newMDS/event-logistics/reimbursement" className="notion-card notion-card--travel notion-card-link">
+  <a href="/dayof/newMDS/event-logistics/reimbursement" className="notion-card notion-card--primary notion-card-link">
     <div className="notion-card-header">
       <span className="notion-card-emoji">💵</span>
       Reimbursement
