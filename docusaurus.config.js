@@ -6,245 +6,85 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'HackUTD Tech Guide',
-    tagline:
-        'The HackUTD tech platform. Where you can find guides, resources, and information for HackUTD!',
-    url: 'https://guide.hackutd.co',
-    baseUrl: '/',
-    favicon: 'img/favicon.ico',
+        title: 'HackUTD Tech Guide',
+        tagline:
+                    'The HackUTD tech platform. Where you can find guides, resources, and information for HackUTD!',
+        url: 'https://guide.hackutd.co',
+        baseUrl: '/',
+        favicon: 'img/favicon.ico',
 
-    // meta data for SEO:
+        // meta data for SEO:
 
-    // GitHub pages deployment config.
-    organizationName: 'hackutd',
-    projectName: 'hackutd-tech-guide',
+        // GitHub pages deployment config.
+        organizationName: 'hackutd',
+        projectName: 'hackutd-tech-guide',
 
-    i18n: {
-        defaultLocale: 'en',
-        locales: ['en'],
-    },
-    plugins: [
-        // Day-of hackerpack: all pages under dayof/ are picked up automatically.
-        // Devpost: /dayof/newMDS/submission-judging/devpost (devpost.mdx + DevpostGuide.jsx).
-        // Markdown-only copy → newMDS/submission-judging/devpost-markdown.md at /dayof/newMDS/submission-judging/devpost-markdown.
-        [
-            '@docusaurus/plugin-content-docs',
-            {
-                id: 'dayof',
-                path: 'dayof',
-                routeBasePath: 'dayof',
-                sidebarPath: require.resolve('./sidebars-dayof.js'), // Fixed: point to correct sidebar
-
-                sidebarCollapsed: true, // Start categories collapsed
-            },
-        ],
-        [
-            '@docusaurus/plugin-content-docs',
-            {
-                id: 'guided-project',
-                path: 'guided-project',
-                routeBasePath: 'guided-project',
-                sidebarPath: require.resolve('./sidebars-guided-project.js'),
-                sidebarCollapsed: false,
-            },
-        ],
-    ],
-    /* Local search (build-time index, no Algolia account). See https://github.com/easyops-cn/docusaurus-search-local */
-    themes: [
-        [
-            require.resolve('@easyops-cn/docusaurus-search-local'),
-            {
-                hashed: true,
-                language: ['en'],
-                highlightSearchTermsOnTargetPage: true,
-                explicitSearchResultPath: true,
-                /* Main docs use routeBasePath '/'; use '/' not '' (Joi rejects empty string). Plugin normalizes to root. */
-                docsRouteBasePath: ['/', 'dayof', 'guided-project'],
-                docsDir: ['docs', 'dayof', 'guided-project'],
-                blogRouteBasePath: ['archive'],
-                indexDocs: true,
-                indexBlog: true,
-                indexPages: false,
-            },
-        ],
-    ],
-    presets: [
-        [
-            'classic',
-            /** @type {import('@docusaurus/preset-classic').Options} */
-            ({
-                docs: {
-                    sidebarPath: require.resolve('./sidebars.js'),
-                    routeBasePath: '/',
-                },
-                blog: {
-                    showReadingTime: true,
-                    feedOptions: {
-                        type: 'all',
-                        copyright: `Copyright © ${new Date().getFullYear()} HackUTD`,
-                    },
-                    routeBasePath: 'archive',
-                    blogTitle: 'Blog',
-                    blogSidebarCount: 'ALL',
-                    truncateMarker: /<!--\s*(truncate|more)\s*-->/,
-                    blogSidebarTitle: 'All posts',
-                    postsPerPage: 5,
-                },
-                theme: {
-                    customCss: require.resolve('./src/css/custom.css'),
-                },
-                sitemap: {
-                    changefreq: 'weekly',
-                    priority: 0.5,
-                    ignorePatterns: ['/tags/**'],
-                    filename: 'sitemap.xml',
-                },
-            }),
-        ],
-    ],
-
-    themeConfig:
-        /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-        ({
-            docs: {
-                sidebar: {
-                    autoCollapseCategories: false,
-                    hideable: true,
-                },
-            },
-            metadata: [
-                {
-                    name: 'keywords',
-                    content:
-                        'HackUTD, HackUTD 2025, hackathon, UT Dallas, UTD, programming, coding competition, student hackathon, Dallas, Texas, Lost in the Pages',
-                },
-                {
-                    name: 'description',
-                    content:
-                        'Complete guide and resources for HackUTD 2025: Lost in the Pages hackathon at University of Texas at Dallas. Find day-of guides, technical resources, and everything you need for the event.',
-                },
-                {
-                    property: 'og:image',
-                    content: 'https://guide.hackutd.co/img/hackutd-2025-og.png',
-                },
-                { property: 'og:type', content: 'website' },
-                { property: 'og:site_name', content: 'HackUTD Tech Guide' },
-                { name: 'twitter:card', content: 'summary_large_image' },
-                { name: 'twitter:site', content: '@HackUTD' },
-                { name: 'author', content: 'HackUTD Team' },
-                { name: 'robots', content: 'index, follow' },
-            ],
-            navbar: {
-                title: 'HackUTD Tech Guide',
-                logo: {
-                    alt: 'HackUTD Logo',
-                    src: 'img/logo.svg',
-                },
-                items: [
-                    {
-                        type: 'custom-sidebarToggle',
-                        position: 'left',
-                    },
-                    {
-                        type: 'doc',
-                        docId: 'resources',
-                        position: 'left',
-                        label: 'Resources',
-                    },
-                    {
-                        to: 'archive',
-                        label: 'Blog',
-                        position: 'left',
-                    },
-                    {
-                        to: '/guided-project/',
-                        position: 'left',
-                        label: 'Guided Project',
-                    },
-                    {
-                        // Fixed: remove docId and use proper link format
-                        to: '/dayof/',
-                        position: 'left',
-                        label: 'HackUTD 2026 Hackerpack',
-                    },
-                    {
-                        type: 'search',
-                        position: 'right',
-                    },
-                    {
-                        href: 'https://github.com/acmutd/hackutd-tech-guide',
-                        label: 'GitHub',
-                        position: 'right',
-                    },
-                    {
-                        href: 'https://www.instagram.com/hackutd/',
-                        label: 'Instagram',
-                        position: 'right',
-                    },
+        i18n: {
+                    defaultLocale: 'en',
+                    locales: ['en'],
+        },
+        plugins: [
+                    [
+                                    '@docusaurus/plugin-content-docs',
+                        {
+                                            id: 'guided-project',
+                                            path: 'guided-project',
+                                            routeBasePath: 'guided-project',
+                                            sidebarPath: require.resolve('./sidebars-guided-project.js'),
+                                            sidebarCollapsed: false,
+                        },
+                                ],
                 ],
-            },
-            footer: {
-                style: 'dark',
-                links: [
-                    {
-                        title: 'Docs',
-                        items: [
-                            {
-                                label: 'Resources',
-                                to: '/resources',
-                            },
-                            {
-                                label: 'Blog',
-                                to: '/archive',
-                            },
-                            {
-                                label: 'Day of Event', // Added dayof to footer
-                                to: '/dayof/',
-                            },
-                            {
-                                label: 'Concepts',
-                                to: '/conceptual-directory/concepts',
-                            },
-                        ],
-                    },
-                    {
-                        title: 'Community',
-                        items: [
-                            {
-                                label: 'Main Organizer Site',
-                                href: 'https://hackutd.co',
-                            },
-                            {
-                                label: 'ACM Discord',
-                                href: 'https://acmutd.co/discord',
-                            },
-                            {
-                                label: 'Instagram',
-                                href: 'https://instagram.com/hackutd',
-                            },
-                            {
-                                label: 'YouTube',
-                                href: 'https://www.youtube.com/channel/UCEM6btSfs7X7Yvv1dLMoyfA',
-                            },
-                        ],
-                    },
-                    {
-                        title: 'More',
-                        items: [
-                            {
-                                label: 'GitHub',
-                                href: 'https://github.com/acmutd/hackutd-tech-guide',
-                            },
-                        ],
-                    },
+        /* Local search (build-time index, no Algolia account). See https://github.com/easyops-cn/docusaurus-search-local */
+        themes: [
+                    [
+                                    require.resolve('@easyops-cn/docusaurus-search-local'),
+                        {
+                                            hashed: true,
+                                            language: ['en'],
+                                            highlightSearchTermsOnTargetPage: true,
+                                            explicitSearchResultPath: true,
+                                            /* Main docs use routeBasePath '/'; use '/' not '' (Joi rejects empty string). Plugin normalizes to root. */
+                                            docsRouteBasePath: ['/', 'guided-project'],
+                                            docsDir: ['docs', 'guided-project'],
+                                            blogRouteBasePath: ['archive'],
+                                            indexDocs: true,
+                                            indexBlog: true,
+                                            indexPages: false,
+                        },
+                                ],
                 ],
-                copyright: `Copyright © ${new Date().getFullYear()} ACM HackUTD. Built with Docusaurus.`,
-            },
-            prism: {
-                theme: lightCodeTheme,
-                darkTheme: darkCodeTheme,
-            },
-        }),
-};
-
-module.exports = config;
+        presets: [
+                    [
+                                    'classic',
+                                    /** @type {import('@docusaurus/preset-classic').Options} */
+                                    ({
+                                                        docs: {
+                                                                                sidebarPath: require.resolve('./sidebars.js'),
+                                                                                routeBasePath: '/',
+                                                        },
+                                                        blog: {
+                                                                                showReadingTime: true,
+                                                                                feedOptions: {
+                                                                                                            type: 'all',
+                                                                                                            copyright: `Copyright © ${new Date().getFullYear()} HackUTD`,
+                                                                                    },
+                                                                                routeBasePath: 'archive',
+                                                                                blogTitle: 'Blog',
+                                                                                blogSidebarCount: 'ALL',
+                                                                                truncateMarker: /<!--\s*(truncate|more)\s*-->/,
+                                                                                blogSidebarTitle: 'All posts',
+                                                                                postsPerPage: 5,
+                                                        },
+                                                        theme: {
+                                                                                customCss: require.resolve('./src/css/custom.css'),
+                                                        },
+                                                        sitemap: {
+                                                                                changefreq: 'weekly',
+                                                                                priority: 0.5,
+                                                                                ignorePatterns: ['/tags/**'],
+                                                                                filename: 'sitemap.xml',
+                                                        },
+                                    }),
+                                ],
+                ],
