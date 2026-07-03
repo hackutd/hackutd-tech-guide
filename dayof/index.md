@@ -1,8 +1,8 @@
 ---
 id: index
-title: HackUTD 2026 Zero Days
+title: HackUTD 2026
 slug: /
-description: 'Complete day-of event guide for HackUTD 2026: Zero Days hackathon at the University of Texas at Dallas. Find essential resources, schedules, workshops, sponsor tracks, submission guides, and event logistics.'
+description: 'Complete day-of event guide for HackUTD 2026: hackathon at the University of Texas at Dallas. Find essential resources, schedules, workshops, sponsor tracks, submission guides, and event logistics.'
 keywords:
     - HackUTD 2025
     - HackUTD
@@ -19,11 +19,11 @@ keywords:
     - Texas hackathon
 wrapperClassName: hackerpack-home
 ---
-# HackUTD 2026: Zero Days
+# HackUTD 2026
 
 > _"Every great journey begins with a single page..."_
 
-Welcome to your complete guide for **HackUTD 2026: Lost in the Pages**!
+Welcome to your complete guide for **HackUTD 2026**!
 
 Questions or need help with something not covered here? We're here to [help](/dayof/newMDS/essential-resources/help):
 
