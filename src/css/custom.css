@@ -556,6 +556,52 @@ pre .highlighted,
 }
 
 /* ============================================
+   VIBE CODING WORKSHOP — PROMPTS & SUBSTEPS
+   ============================================ */
+pre.vibe-prompt,
+div.vibe-prompt {
+    color: #dc2626 !important;
+    background-color: transparent !important;
+    border: none !important;
+    border-left: 3px solid #dc2626 !important;
+    border-radius: 4px !important;
+    padding: 0.5rem 0 0.5rem 1rem !important;
+    margin: 0.75rem 0 1rem !important;
+    white-space: pre-wrap;
+    font-family: var(--ifm-font-family-monospace) !important;
+    font-size: 0.95em;
+    line-height: 1.6;
+    box-shadow: none !important;
+}
+
+pre.vibe-prompt strong,
+div.vibe-prompt strong {
+    font-weight: 700;
+    color: inherit;
+}
+
+.vibe-red-text {
+    color: #dc2626;
+    font-weight: 500;
+}
+
+[data-theme='dark'] .vibe-red-text {
+    color: #fca5a5;
+}
+
+[data-theme='dark'] pre.vibe-prompt,
+[data-theme='dark'] div.vibe-prompt {
+    color: #fca5a5 !important;
+    border-left-color: #fca5a5 !important;
+}
+
+.vibe-substep {
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* ============================================
    TABLE OF CONTENTS FONT SIZING
    ============================================ */
 .theme-doc-toc-desktop .table-of-contents__link {
