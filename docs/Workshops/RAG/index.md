@@ -5,15 +5,15 @@ sidebar_position: 8
 
 ## What is RAG?
 
-Retrieval-Augmented Generation (RAG) is a technique that improves the accuracy of Large Language Models (LLMs) by allowing them to access external information. Instead of relying only on the data they were trained on, a RAG system first retrieves relevant information from a knowledge base and then provides that context to the LLM. This helps reduce hallucinations and enables the model to answer questions using up-to-date or domain-specific information.
+Retrieval-Augmented Generation (RAG) is a technique that **improves the accuracy** of Large Language Models (LLMs) by allowing them to **access external information**. Instead of relying only on the data they were trained on, a RAG system first retrieves relevant information from a knowledge base and then provides that context to the LLM. This helps **reduce hallucinations** and enables the model to answer questions using **up-to-date** or **domain-specific information**.
 
 ## Vector Embeddings
 
-Vector embeddings are numerical representations of text that capture its meaning. An embedding model converts words, sentences, or document chunks into vectors, where semantically similar content is placed closer together in vector space. This allows a system to search based on meaning rather than exact keyword matches, making retrieval more effective for natural language questions.
+Vector embeddings are **numerical representations** of text that capture its meaning. An embedding model **converts** words, sentences, or document chunks into **vectors**, where **semantically similar** content is placed closer together in **vector space**. This allows a system to **search based on meaning** rather than exact keyword matches, making retrieval more effective for natural language questions.
 
 ## Vector Databases
 
-A vector database stores and indexes embeddings so they can be searched efficiently. When a user submits a question, the question is converted into an embedding and compared against the stored embeddings to find the most similar pieces of content. In this workshop, we use Pinecone as our vector database and cosine similarity to retrieve the most relevant document chunks for the LLM.
+A vector database **stores and indexes embeddings** so they can be searched **efficiently**. When a user submits a question, the question is converted into an embedding and compared against the stored embeddings to find the most similar pieces of content. In this workshop, we use **Pinecone** as our vector database and **cosine similarity** to retrieve the most relevant document chunks for the LLM.
 
 ## Demo Time
 
