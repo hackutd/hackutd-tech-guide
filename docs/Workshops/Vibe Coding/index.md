@@ -27,48 +27,42 @@ sidebar_position: 5
 <img src="/img/vibecoding/create-codespace.png" width="75%"/>
 
 **2.** In the codespace terminal, enter `cd hackconnect-starter && npm install && npm run dev` <br/>
-**3.** Then, open `localhost` and [claude.ai](https://claude.ai) in separate browsers <br/>
+**3.** Then, open `localhost` in a separate browser <br/>
 
-## Mini Demo 1: Prompt Engineering (Vague vs. Detailed)
+## Mini Demo 1: Prompt Engineering (Vague)
 
-**Goal: Show that a vague prompt forces the AI to guess, and guessing produces generic, disconnected code.**
+**Goal: Show that a vague prompt forces the AI to guess the framework, layout, content, and style.**
 
-**1.** Here, we use a vague prompt. In a fresh Claude chat, paste: <br/>
+### 1. Paste a Vague Prompt
+
+In a fresh Copilot chat, paste: <br/>
 
 <pre class="vibe-prompt">Add a profile page to my hackathon app.</pre>
 
-<img src="/img/vibecoding/vauge-prompt.png" width="75%"/>
+<img src="/img/vibecoding/profile-prompt.png" width="55%"/>
+
+### 2. Watch What Happens
+
 
 <div class="vibe-substep">
 
-**i.** Notice how it couldn't even create a profile page because it doesn't know your framework, your styling, your file structure, or how to wire it in. It's guessing. <br/>
-**ii.** Reply to Claude with: <br/>
+- Copilot can open your repo, find React Router, create `Profile.jsx`, and wire `App.jsx` + `Navbar.jsx` without you pasting anything.
 
-<pre class="vibe-prompt">I don't have those files handy right now. Just make your best guess and give me code anyway.</pre>
+- Copilot, or the AI of your choice, invents the page content. Profile header, bio, location, stats, skills, badges. Things you never asked for. The AI filled in a generic "profile page" idea.
 
-</div>
+- It also invented the look. The rest of HackConnect is intentionally bare (almost no CSS). Copilot still reaches for Tailwind classes and builds a polished card layout, because Tailwind is in the project and a "profile page" usually looks designed. So Profile looks styled while Home / Projects stay plain, inconsistent on purpose.
 
-**2.** Now, we use a detailed prompt. Paste this into Claude, filling in the actual contents of `Navbar.jsx` and `ProjectCard.jsx` where marked: <br/>
+- That's the lesson: without telling it your stack details or file/style rules, the AI guesses a look that doesn't match your existing site.
 
-<div class="vibe-prompt">
-
-{`I'm building a React + Tailwind CSS site called HackConnect, using React Router. Here's my Navbar.jsx:`}<br /><br />
-<strong>[paste Navbar.jsx contents]</strong><br /><br />
-{`Here's my ProjectCard.jsx:`}<br /><br />
-<strong>[paste ProjectCard.jsx contents]</strong><br /><br />
-{`Create a Profile.jsx page for src/pages/ that matches this existing
-style (rounded-xl cards, gray-500 subtext, the orange-pink-purple gradient
-accent bar). Then tell me exactly what to add to App.jsx and Navbar.jsx
-to wire the new page in.`}
+<img src="/img/vibecoding/profile-page.png" width="75%"/>
 
 </div>
 
-**3.** Implement it for real now. Paste Claude's `Profile.jsx` into `src/pages/Profile.jsx`, add the route to `App.jsx`, add the nav link to `Navbar.jsx`. Refresh the browser and see how it actually matches the site now. <br/>
+### 3. Compare in the Browser
 
-<img src="/img/vibecoding/detailed-prompt.png" width="75%"/>
+Open the Profile page and compare it to Home / Projects. Does it feel like the same website? <br/>
 
-<br/>
-<br/>
+
 <br/>
 
 # Key Concepts: Managing your Context 
@@ -118,130 +112,160 @@ To keep costs low, focus sharp, and prevent early context rot:
 - **React Engineer Skill:** _"Always use TypeScript, use Tailwind CSS, add descriptive comments, and write automated tests."_
 - **Hackathon Judge Skill:** _"Always evaluate submissions based on Novelty, Feasibility, and Demo quality."_
 
-## Mini Demo 2: Turning Instructions into a Real Skill
+## Mini Demo 2: Using Instructions as a Skill
 
-**Goal: Show the difference between a plain instructions file and a real Claude Skill, using the same rules both times.**
+**Goal: Show that the same request produces very different results once the AI is given written style/process rules, and that a random `INSTRUCTIONS.md` in Codespaces is not auto-loaded the way a real Claude Skill would be.**
 
-**1.** Open `INSTRUCTIONS.md` in the Codespace, and read the style/process. <br/>
+### 1. Ask Without Any Style Guidance
 
-**2.** In a fresh chat, prompt without referencing the file: <br/>
+In the Copilot chat, paste: <br/>
 
 <pre class="vibe-prompt">Add a Leaderboard page that ranks projects.</pre>
 
-<img src="/img/vibecoding/no-reference-prompt.png" width="75%"/>
+<img src="/img/vibecoding/leaderboard-initial-prompt.png" width="55%"/>
 
-Again, it can't do it because it has nothing to work with. Telling it to make its best guess creates a page unrelated to the current structure and theme.
-
-**3.** Turn `INSTRUCTIONS.md` into a real Skill. In Claude.ai: <br/>
 
 <div class="vibe-substep">
 
-**i.** Go to `Customize → Skills → Add → Write skill instructions` <br/>
-**ii.** Then, `name it`. Ex: HackConnect Style Guide <br/>
-**iii.** In the description, enter: `Apply HackConnect's Tailwind style rules and file structure whenever adding a new page or component to the project.` This description is what Claude scans to decide when to use this Skill, so it has to be specific. <br/>
-**iv.** In the instructions box, paste the full body of `INSTRUCTIONS.md` <br/>
-**v.** Then, hit `Create` <br/>
+- Copilot can still inspect the repo and wire a page into routing/nav.
+
+- Without style rules, it guesses again. Layout, colors, and structure may not match Home / Projects / Profile.
+
+- Compare the new Leaderboard to the rest of the site: same app, mixed looks.
+
+<img src="/img/vibecoding/leaderboard-initial.png" width="95%"/>
 
 </div>
 
-**4.** Now enter the same prompt, with the skill included: <br/>
+### 2. Ask Again With INSTRUCTIONS.md Attached
 
-<pre class="vibe-prompt">Add a Leaderboard page that ranks projects.</pre>
+<div class="vibe-substep">
 
-This time Claude should pull in the style/process rules on its own. Compare it with Step 2's result: same exact request, very different output, only difference is the Skill.
+- Add <a href="/vibecoding/INSTRUCTIONS.md" download>INSTRUCTIONS.md</a> to the root of `hackconnect-starter/` (same folder as `README.md` and `package.json`).
 
-**5.** Now, we can implement the result: <br/>
+- Open `INSTRUCTIONS.md` and look over the tech stack, style rules, and process rules.
 
-<div class="vibe-prompt">
-
-{`Add a Leaderboard.jsx page in src/pages/ that ranks the existing projects array by a new votes field (add sample vote counts to projects.js). Use the same card style as ProjectCard.jsx. Follow the process rules for wiring it into routing and the navbar.
-
-This is App.jsx`}<br /><br />
-<strong>[paste App.jsx contents]</strong><br /><br />
-{`Navbar.jsx,`}<br /><br />
-<strong>[paste Navbar.jsx contents]</strong><br /><br />
-{`ProjectCard.jsx`}<br /><br />
-<strong>[paste ProjectCard.jsx contents]</strong><br /><br />
-{`And projects.js`}<br /><br />
-<strong>[paste projects.js contents]</strong>
+- In the Copilot chat, upload (or @-mention) that root `INSTRUCTIONS.md`, then paste:
 
 </div>
 
-<img src="/img/vibecoding/prompted-instructions.png" width="75%"/>
-**The leaderboard tab shows up properly on the website now.**
+<pre class="vibe-prompt">Follow INSTRUCTIONS.md. Add a Leaderboard page that ranks projects.</pre>
 
-> The rules were identical both times; the only thing that changed was that Claude actually knew they existed. A Skill is Claude remembering your rules for you, automatically, in every future chat. Before we made it a Skill, that file was just sitting there completely useless to Claude until we told it to look.
+<img src="/img/vibecoding/leaderboard-instruction-prompt.png" width="55%"/>
+
+<div class="vibe-substep">
+
+- This time you're not hoping it "notices" the file. You're forcing the rules into context.
+
+- Codespaces / Copilot will not auto-load a random root `INSTRUCTIONS.md` the way a real Claude Skill would. That's why we attach it on purpose.
+
+- The Leaderboard should follow the written rules: Tailwind utilities, card style, gradient accent, files in `src/pages/`, route in `App.jsx`, link in `Navbar.jsx`.
+
+- Compare Step 1 vs Step 2: same request, better consistency, only because the instructions were actually in the chat.
+
+</div>
+
+<img src="/img/vibecoding/leaderboard-page.png" width="95%"/>
+
+### 3. Apply the style rules to the whole site
+
+With `INSTRUCTIONS.md` still attached (or re-attached), paste: <br/>
+
+<pre class="vibe-prompt">Apply these style rules to the whole site.</pre>
+
+<div class="vibe-substep">
+
+- Home, Projects, Navbar, and Footer should pick up the same Tailwind look.
+
+- Profile / Leaderboard should stop feeling like separate inventions and start feeling like one product.
+
+</div>
+
+### Takeaway
+
+> The rules in `INSTRUCTIONS.md` were useless until you told the AI to use them. A Skill is the same idea, but automatic: Claude remembers and loads those rules for you in future chats. Here we simulated that by uploading the file into the root ourselves.
+
+:::note
+
+If you want this to happen automatically in Copilot (no upload each chat), create a `.github` folder at the repo root and put the same rules in `.github/copilot-instructions.md`. Copilot can pick that file up on its own. We used a root `INSTRUCTIONS.md` on purpose so you could see what it looks like when the rules are not loaded unless you attach them.
+
+:::
 
 ## Main Demo: Giving Visual & Source Context
 
-**Goal: Show that "context" doesn't just mean pasting your own files. A screenshot or a page's raw HTML/CSS is context too, and the AI can restyle your site from either one.**
+**Goal: Show that "context" doesn't just mean pasting your own files. A screenshot or a page's raw HTML/CSS is context too, and the AI can pull one detail from a design and wire it into your site.**
 
-Pick one simple, well-designed reference site. We're using Prime Video. Have its URL opened in a tab before you start.
+### 1. Screenshot One Piece Into the Site
 
-### 1. Screenshot and Restyle
+We'll use a screenshot from the HackUTD site. The detail we want is the small downward arrow under the center card: it should bounce up and down on the homepage, and clicking it should route to the Projects page.
+
+<img src="/img/vibecoding/hackutd-arrow-reference.png" width="75%"/>
 
 <div class="vibe-substep">
 
-**i.** `Take a screenshot` of the reference site (or just one section: a hero, a card, a button) <br/>
-**ii.** In Claude.ai, `attach the screenshot image directly to the chat` <br/>
-**iii.** Prompt: <br/>
+- In Codespaces, `upload the screenshot`
 
-<pre class="vibe-prompt">{`Here's a screenshot of a design I like. Update my Home.jsx (and index.css/tailwind.config.js if needed) to use a similar layout, spacing, and color feel. Keep my existing content and structure, just restyle it to feel like this.`}</pre>
-
-**iv.** `Paste the resulting code into the Codespace`, refresh, and compare before/after on screen. <br/>
+- Prompt Copilot:
 
 </div>
 
-<img src="/img/vibecoding/main-demo-before1.png" width="75%"/>
-
-**Before**
-
-<br/>
-<br/>
-
-<img src="/img/vibecoding/main-demo-after1.png" width="75%"/>
-**After**
-
-### 2. View Page Source and Replicate the Structure
+<pre class="vibe-prompt">{`Here's a screenshot from a site I like. Recreate just the downward arrow under the center card on my Home page. Make it bounce / jump up and down with a CSS animation. When clicked, it should route to the Projects page (React Router link to /projects). Match my existing HackConnect style and Instructions.md where you can.`}</pre>
 
 <div class="vibe-substep">
 
-**i.** On the reference site, `right-click` → `View Page Source (or Inspect → Elements)` <br/>
-**ii.** Copy a relevant chunk of HTML/CSS. <br/>
+- Let Copilot apply the change, refresh, and check: does the arrow animate, and does the click go to Projects?
 
-<img src="/img/vibecoding/view-page-source.png" width="75%"/>
+</div>
 
-**iii.** Prompt in Claude.ai: <br/>
+<img src="/img/vibecoding/visual-context-home-page.png" width="95%"/>
+
+
+### 2. Inspect Elements and Paste the Code
+
+Same idea, but this time the context is real HTML from the page instead of a picture. We'll pull the decorative stars from the HackUTD site and add them to the HackConnect hero.
+
+<div class="vibe-substep">
+
+- On the reference site, `right-click` the stars (or the area around them) → `Inspect`
+
+- In the Elements panel, find the node that wraps the star SVGs. Right-click it → `Copy` → `Copy outerHTML`
+
+</div>
+
+<img src="/img/vibecoding/hack-elements.png" width="95%"/>
+
+<div class="vibe-substep">
+
+- In Copilot, paste the outerHTML and prompt:
+
+</div>
 
 <div class="vibe-prompt">
 
-{`Here's the HTML/CSS from a site I like:`}<br /><br />
-<strong>[paste the copied source]</strong><br /><br />
-{`Adapt this into a React + Tailwind component that matches my project's style (rounded-xl, existing gradient accent). Use it to update [Navbar.jsx / ProjectCard.jsx / etc.].`}
+{`Here's the outerHTML for the sparkle/star decorations from a site I like:`}<br /><br />
+<strong>[paste the copied outerHTML]</strong><br /><br />
+{`Add these stars to my Home page hero section. Recreate them as React + Tailwind (you can keep the SVGs). Scatter them over the hero, keep them black, and match my existing HackConnect style. Don't leave them static: make them twinkle / gently float or jump around the hero (CSS animation is fine). The outerHTML is just a snapshot of positions; invent the motion.`}
 
 </div>
 
-**iv.** Now, you can `implement it.` Paste the contents into the right file, refresh, and compare. <br/>
+<div class="vibe-substep">
+
+- Check that the stars show up on the hero and are animated.
 
 </div>
 
-<img src="/img/vibecoding/main-demo-before2.png" width="75%"/>
-**Before**
+<img src="/img/vibecoding/elements-home-page.png" width="95%"/>
 
-<br/>
-<br/>
 
-<img src="/img/vibecoding/main-demo-after2.png" width="75%"/>
-**After**
-
-> Neither of these was a written instruction. One was a screenshot of the idea you liked, the other was raw code from someone else's site. Context can be anything the AI can 'see,' not just text you type.
+> Neither of these was a written instruction. One was a screenshot of a single UI detail you liked; the other was raw HTML copied from Inspect. Context can be anything the AI can "see," not just text you type.
 
 ### 3. Free Build
 
 <div class="vibe-substep">
 
-**i.** `Pick your own reference now!` It can be a screenshot of any site/app they like, or a view-source snippet from one. <br/>
-**ii.** `Apply it to any part of your copy of HackConnect:` a button, the navbar, a card, the whole homepage. No fixed prompt here, just practice giving good context on your own and see what happens! <br/>
+- `Pick your own reference now!` A screenshot of any site/app you like, or outerHTML copied with Inspect.
+
+- `Apply one piece of it` to your copy of HackConnect: a button, the navbar, a card, an animation, stars, the whole homepage. No fixed prompt here, just practice giving good visual or source context on your own.
 
 </div>
 
