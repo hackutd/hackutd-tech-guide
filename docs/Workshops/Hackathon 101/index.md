@@ -78,34 +78,51 @@ Make sure to spend a lot of time brainstorming a solution via the following ques
 
 ### 2. Planning
 
-If you have a team, make sure you divide your responsibilities by role. If you have a team of 4, you can have two people working on the frontend and two people working on the backend. I’ve seen some teams do a 1-3 split because of the focus on impressive back-ends and functionality but don’t forget that it’s gotta look good too.
+If you have a team, make sure you divide your responsibilities by role. If you have a team of 4, you can have **2 people** working on the **frontend** and **2 people** working on the **backend**. I’ve seen some teams do a **1-3 split** because of the focus on impressive back-ends and functionality but don’t forget that it’s gotta look good too.
 
-You also want to have a relatively solid outline of tasks that you need to get done. But I advise that you be careful with this. If you go too granular and specific, then it can become counter productive. A good blueprint should start with your high level goals, and then split them down into manageable milestones. Bonus points if your high level goals are independent of one another, which allows your team to work on them in parallel!
+You also want to have a relatively solid outline of tasks that you need to get done. But I advise that you be careful with this. If you go too granular and specific, then it can become counter productive. 
+
+A good blueprint should start with your **high level goals**, and then split them down into manageable milestones. Bonus points if your high level goals are independent of one another, which allows your team to work on them in parallel!
 
 And of course it’s important to discuss the tech stack. Often times the project you want to build will have a specific tech stack best suited for it so make sure you do your due diligence and research what is, not really most common, rather most reliable and understood.
 
 ### 3. Implementation
 
-It’s almost guaranteed that you’re going to run into roadblocks and obstacles. Don’t be surprised or overwhelmed when issues arise. Google is your best friend, and nowadays chatgpt might be your
+It’s almost guaranteed that you’re going to run into roadblocks and obstacles. Don’t be surprised or overwhelmed when issues arise. Google, various AIs, and our mentors are all here to help.
 
 ### 4. Pitching
 
-We’ll be going into a little more detail about pitching with the next phase of the workshop, but in general, you should be extensively prepared to talk about your project. The purpose, the problem it’s solving, the tech stack, unexpected road blocks you ran into, etc.
+We’ll be going into detail in the last workshop of this series (October 20th at 7:30pm). But a brief overview,
+- Devpost is important (thumbnail, 2 min demo, etc.)
+- Pitch is 3 min, plus 2 min for questions
+- Divide up parts of the pitch and practice
+    - Problem
+    - Solution 
+    - Demo
+    - Impact
 
-## Alan Roybal's Hackathon Project Almanac
+
+
+## Activity
+Let's Look at Some Past Hackathon Winners:
 
 Here is the link to the [document](https://docs.google.com/document/d/1fqQDTMl69ZBE3Q06UOtNzUyd26_moiE3HHfRtmFxY20/edit?tab=t.0).
 In groups of 3-4, study the document and list your 3 favorite hackathon projects.
 And this is the link to the [jamboard](https://padlet.com/danielkim55/list-your-favorite-3-hackathon-projects-don-t-forget-to-add--s4u8quaewfeur7sn) to insert your list.
 
+
+List of challenge statements:
+
+
+Tasks:
+Come up with a new exciting feature, audience, or twist to make your project stand out.
+
+
+
 ## Final remarks
 
 Thanks for making it to the end! If you have any questions, shoot us an email at [hello@hackutd.co](mailto:hello@hackutd.co) or better yet, come out to our other workshops. More details can be found [here](https://www.instagram.com/p/DO1S2g5jrlE/?hl=en).
 
-Hope to see you there - HackUTD 2025
+Hope to see you there - HackUTD 2026
 
-## External Resources
 
-This is a great article, written by a seasoned hackathon participant, over what it truly takes to win a hackathon.
-
-[Link to article](https://medium.com/garyyauchan/ultimate-8-step-guide-to-winning-hackathons-84c9dacbe8e)
