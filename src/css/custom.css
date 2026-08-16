@@ -234,6 +234,28 @@ pre .highlighted,
 }
 
 /* ============================================
+   WORKSHOPS PAGE — SIDE-BY-SIDE COLUMNS
+   ============================================ */
+.workshops-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: start;
+    margin-top: 1.5rem;
+}
+
+.workshops-columns h2 {
+    margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    .workshops-columns {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+}
+
+/* ============================================
    NOTION-STYLE CARDS (from your original CSS)
    ============================================ */
 
