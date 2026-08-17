@@ -4,7 +4,7 @@ slug: hackathon-101
 sidebar_position: 1
 ---
 
-### [Slides (click me)](https://docs.google.com/presentation/d/1CbSyo2halRKO3Y1Ukg3KzfldL21XAjqr_HDvNnZMIts/edit?usp=sharing)
+## Slides - coming soon
 
 ## What is a Hackathon?
 
@@ -33,7 +33,15 @@ There's no perfect formula to _win_ a hackathon, but there are definitely a few 
 - Finished product
   - Try to avoid _overcooking_ and pumping out a project with a bunch of features that **barely work**. Instead, try to hone in on the defining purpose of the app and ensure that it performs that **one thing** proficiently.
 - Comprehensive pitch
-  - When you present your project to the judges, you're not just demoing the project and explaining what it does. You need to create a story. It's helpful to discuss your inspiration, the problem at hand, the target audience, and the obstacles that you overcame.
+  - When you present your project to the judges, you're not just demoing the project and explaining what it does. You need to create a story. It's helpful to discuss your inspiration, the problem at hand, the target 
+  audience, and the obstacles that you overcame.
+
+  ### Example Projects:
+  Let's Look at Some Past Hackathon Winners:
+
+  Here is the link to the [document](https://docs.google.com/document/d/1fqQDTMl69ZBE3Q06UOtNzUyd26_moiE3HHfRtmFxY20/edit?tab=t.0).
+  In groups of 3-4, study the document and list your 3 favorite hackathon projects.
+  And this is the link to the [jamboard](https://padlet.com/danielkim55/list-your-favorite-3-hackathon-projects-don-t-forget-to-add--s4u8quaewfeur7sn) to insert your list.
 
 ## What should I know to do well in a hackathon?
 
@@ -104,18 +112,14 @@ We’ll be going into detail in the last workshop of this series (October 20th a
 
 
 ## Activity
-Let's Look at Some Past Hackathon Winners:
+Challenge Statement:
+Develop an AI application combining outputs of open source generative AI models and openly available market and economic data that predicts company earnings and financial performance using alternative data sources, like news sentiment and social media trends.
 
-Here is the link to the [document](https://docs.google.com/document/d/1fqQDTMl69ZBE3Q06UOtNzUyd26_moiE3HHfRtmFxY20/edit?tab=t.0).
-In groups of 3-4, study the document and list your 3 favorite hackathon projects.
-And this is the link to the [jamboard](https://padlet.com/danielkim55/list-your-favorite-3-hackathon-projects-don-t-forget-to-add--s4u8quaewfeur7sn) to insert your list.
-
-
-List of challenge statements:
+Technology Trends: GenAI, Natural language processing, sentiment analysis, and machine learning for financial forecasting.
 
 
 Tasks:
-Come up with a new exciting feature, audience, or twist to make your project stand out.
+Come up with a new feature, specific audience, or twist to make your project stand out.
 
 
 
