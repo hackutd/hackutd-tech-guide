@@ -66,6 +66,7 @@ type ListItem = {
 
 type FeatureItem = {
     title: string;
+    subtitle?: string;
     Icon: (props: React.SVGProps<SVGSVGElement>) => JSX.Element;
     accent: 'gold' | 'coral' | 'magenta';
     href: string;
@@ -78,6 +79,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
     {
         title: 'Workshops',
+        subtitle: 'ECSS 2.203',
         Icon: WorkshopsIcon,
         accent: 'gold',
         href: '/resources',
@@ -130,6 +132,7 @@ const accentClass = {
 
 function Feature({
     title,
+    subtitle,
     Icon,
     accent,
     href,
@@ -147,6 +150,7 @@ function Feature({
                 <h3 className={styles.featureTitle}>
                     <Link to={href}>{title}</Link>
                 </h3>
+                {subtitle && <p className={styles.featureSubtitle}>{subtitle}</p>}
                 {description && <p className={styles.featureDescription}>{description}</p>}
                 {list && (
                     <ul className={styles.featureList}>

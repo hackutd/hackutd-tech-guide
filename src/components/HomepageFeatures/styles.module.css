@@ -76,7 +76,7 @@
 }
 
 .featureTitle {
-    margin: 0 0 0.75rem;
+    margin: 0 0 0.25rem;
     font-size: 1.4rem;
     text-align: center;
 }
@@ -89,6 +89,16 @@
 .featureTitle a:hover {
     color: var(--ifm-color-primary);
     text-decoration: none;
+}
+
+.featureSubtitle {
+    margin: 0 0 0.75rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--ifm-color-emphasis-600);
 }
 
 .featureDescription {

@@ -12,6 +12,8 @@ Looking to learn something new or sharpen your skills? You'll find all of our st
 
 ## 2026 Workshops
 
+**Location:** ECSS 2.203
+
 | Workshop | Date | Resources |
 | --- | --- | --- |
 | Hackathon 101 | 9/15 | [View resources](/Workshops/Hackathon%20101/hackathon-101) |
