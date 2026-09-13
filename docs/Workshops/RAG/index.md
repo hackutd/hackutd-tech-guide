@@ -1,6 +1,6 @@
 ---
 title: RAG
-sidebar_position: 8
+sidebar_position: 5
 ---
 
 ## What is RAG?

@@ -1,7 +1,7 @@
 ---
 title: Advanced Styling
 slug: advanced-styling
-sidebar_position: 5
+sidebar_position: 4
 ---
 ## Resources
 [Slides](https://docs.google.com/presentation/d/1Es58uedndROUObGrf-YaVs43nX6GMsCNXNHlGsbPMxU/edit?usp=sharing)

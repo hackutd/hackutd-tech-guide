@@ -1,7 +1,7 @@
 ---
 title: Hackathon 101
 slug: hackathon-101
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 ### [Slides (click me)](https://docs.google.com/presentation/d/1CbSyo2halRKO3Y1Ukg3KzfldL21XAjqr_HDvNnZMIts/edit?usp=sharing)

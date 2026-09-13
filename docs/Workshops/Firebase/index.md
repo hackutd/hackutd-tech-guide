@@ -1,6 +1,6 @@
 ---
 title: Firebase
-sidebar_position: 4
+sidebar_position: 3
 ---
 
 ### [Slides](https://docs.google.com/presentation/d/1X05MfpE11YSfsP6AReTVZ_nVT2v5RsdvROtCgJFrCTE/edit?usp=sharing)
