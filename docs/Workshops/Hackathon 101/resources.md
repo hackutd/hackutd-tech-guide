@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## Workshop Links
 
-- Slides - Coming Soon
+- [Slides (click me)](https://docs.google.com/presentation/d/1jvWX5oexabsgKR6OE79TvFH96xLJ570_HsMBU2wOGyU/edit?usp=sharing)
 
 ## Alan Roybal's Hackathon Project Almanac
 
