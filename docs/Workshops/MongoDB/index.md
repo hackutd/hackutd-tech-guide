@@ -1,6 +1,6 @@
 ---
 title: MongoDB
-sidebar_position: 11
+sidebar_position: 4
 ---
 # MongoDB Workshop
 

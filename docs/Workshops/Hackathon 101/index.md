@@ -1,7 +1,7 @@
 ---
 title: Hackathon 101
 slug: hackathon-101
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 ## Slides - coming soon
@@ -122,6 +122,11 @@ Tasks:
 Come up with a new feature, specific audience, or twist to make your project stand out.
 
 
+<<<<<<< HEAD
+=======
+Here is the link to the [document](https://docs.google.com/document/d/1e6F2BRyyKdW8jhclFTrC98tZ3Pb86rp1KqPWgZ7vnlY/edit?usp=sharing).
+In groups of 3-4, study the document and list your 3 favorite hackathon projects.
+>>>>>>> 5022177d4fca44f593cc8d776e93a49b63516a89
 
 ## Final remarks
 

@@ -34,6 +34,16 @@ const config = {
                                             sidebarCollapsed: false,
                         },
                                 ],
+                                [
+                                    '@docusaurus/plugin-content-docs',
+                        {
+                                            id: 'additional-resources',
+                                            path: 'additional-resources',
+                                            routeBasePath: 'additional-resources',
+                                            sidebarPath: require.resolve('./sidebars-additional-resources.js'),
+                                            sidebarCollapsed: true,
+                        },
+                                ],
                 ],
         /* Local search (build-time index, no Algolia account). See https://github.com/easyops-cn/docusaurus-search-local */
         themes: [
@@ -45,8 +55,8 @@ const config = {
                                             highlightSearchTermsOnTargetPage: true,
                                             explicitSearchResultPath: true,
                                             /* Main docs use routeBasePath '/'; use '/' not '' (Joi rejects empty string). Plugin normalizes to root. */
-                                            docsRouteBasePath: ['/', 'guided-project'],
-                                            docsDir: ['docs', 'guided-project'],
+                                            docsRouteBasePath: ['/', 'guided-project', 'additional-resources'],
+                                            docsDir: ['docs', 'guided-project', 'additional-resources'],
                                             blogRouteBasePath: ['archive'],
                                             indexDocs: true,
                                             indexBlog: true,
@@ -132,20 +142,24 @@ const config = {
                                                                                                             position: 'left',
                                                                                 },
                                                                                 {
-                                                                                                            type: 'doc',
-                                                                                                            docId: 'resources',
+                                                                                                            to: '/resources',
                                                                                                             position: 'left',
-                                                                                                            label: 'Resources',
+                                                                                                            label: 'Workshops',
                                                                                 },
                                                                                 {
                                                                                                             to: 'archive',
-                                                                                                            label: 'Blog',
+                                                                                                            label: 'Blogs',
                                                                                                             position: 'left',
                                                                                 },
                                                                                 {
                                                                                                             to: '/guided-project/',
                                                                                                             position: 'left',
                                                                                                             label: 'Guided Project',
+                                                                                },
+                                                                                {
+                                                                                                            to: '/additional-resources/',
+                                                                                                            position: 'left',
+                                                                                                            label: 'Additional Resources',
                                                                                 },
                                                                                 {
                                                                                                             type: 'search',
@@ -170,16 +184,20 @@ const config = {
                                                                                                             title: 'Docs',
                                                                                                             items: [
                                                                                                                                         {
-                                                                                                                                                                    label: 'Resources',
+                                                                                                                                                                    label: 'Workshops',
                                                                                                                                                                     to: '/resources',
                                                                                                                                         },
                                                                                                                                         {
-                                                                                                                                                                    label: 'Blog',
+                                                                                                                                                                    label: 'Blogs',
                                                                                                                                                                     to: '/archive',
                                                                                                                                         },
                                                                                                                                         {
-                                                                                                                                                                    label: 'Concepts',
-                                                                                                                                                                    to: '/conceptual-directory/concepts',
+                                                                                                                                                                    label: 'Guided Project',
+                                                                                                                                                                    to: '/guided-project/',
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                                                    label: 'Additional Resources',
+                                                                                                                                                                    to: '/additional-resources/',
                                                                                                                                         },
                                                                                                             ],
                                                                                 },

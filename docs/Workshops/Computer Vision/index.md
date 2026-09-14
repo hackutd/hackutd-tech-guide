@@ -1,6 +1,6 @@
 ---
 title: Computer Vision
-sidebar_position: 6
+sidebar_position: 5
 ---
 
 ## What is Computer Vision?

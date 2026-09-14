@@ -47,14 +47,14 @@ If you’re confident in all of these technologies, you don’t have to watch th
 - Installation: [Poppins Google Font](https://fonts.google.com/specimen/Poppins?query=poppins)
 - Installation: [Inter Google Font](https://fonts.google.com/specimen/Inter)
 - Documentation: [Custom Colors in Tailwind](https://tailwindcss.com/docs/customizing-colors)
-- Page: [Essential Shortcuts for VS Code](/conceptual-directory/frontend/shortcuts)
+- Page: [Essential Shortcuts for VS Code](/additional-resources/frontend/shortcuts)
 
 ## [🎲 Your first component!](/guided-project/Frontend/part2.md)
 
 - Documentation: [Importing and Exporting components](https://react.dev/learn/importing-and-exporting-components)
 - Documentation: [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS)
 - Documentation: [Tailwind](https://v2.tailwindcss.com/docs)
-- Page: [Common Tailwind Attributes and Examples](/conceptual-directory/frontend/tailwind)
+- Page: [Common Tailwind Attributes and Examples](/additional-resources/frontend/tailwind)
 
 ## [💡 Creating the Featured Item](/guided-project/Frontend/featured_items.md)
 
@@ -102,5 +102,5 @@ If you’re confident in all of these technologies, you don’t have to watch th
 - Documentation: [Chart.JS](https://www.chartjs.org/docs/latest/getting-started/usage.html)
 
 ## Extra Pages
-- [Essential Shortcuts for VS Code](/conceptual-directory/frontend/shortcuts)
-- [Common Tailwind Attributes and Examples](/conceptual-directory/frontend/tailwind)
+- [Essential Shortcuts for VS Code](/additional-resources/frontend/shortcuts)
+- [Common Tailwind Attributes and Examples](/additional-resources/frontend/tailwind)
