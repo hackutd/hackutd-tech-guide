@@ -1,6 +1,6 @@
 ---
 title: Pitching
-sidebar_position: 7
+sidebar_position: 1
 ---
 
 ## What is a Pitch?

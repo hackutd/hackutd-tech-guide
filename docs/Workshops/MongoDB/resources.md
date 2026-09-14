@@ -1,7 +1,7 @@
 ---
 title: Resources
 slug: resources
-sidebar_position: 1
+sidebar_position: 4
 ---
 ## Workshop Resources
 Slides: https://docs.google.com/presentation/d/1MUhXMZVx95B5gpvZHHSI0UqE_by2ffIY2ia9lSRfoKA/edit?usp=sharing

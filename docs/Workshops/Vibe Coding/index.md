@@ -1,7 +1,7 @@
 ---
 sidebar_label: 'Vibe Coding'
 title: 'Vibe Coding'
-sidebar_position: 3
+sidebar_position: 1
 ---
 
 # Vibe Coding

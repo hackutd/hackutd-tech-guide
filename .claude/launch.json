@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "docusaurus-serve",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["docusaurus", "serve", "--port", "3005"],
+      "port": 3005
+    }
+  ]
+}

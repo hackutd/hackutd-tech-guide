@@ -1,7 +1,7 @@
 ---
 title: Resources
 slug: resources
-sidebar_position: 1
+sidebar_position: 5
 ---
 ## Workshop Links
 - [Pinecone](https://www.pinecone.io)
