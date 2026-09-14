@@ -85,7 +85,7 @@ const FeatureList: FeatureItem[] = [
         href: '/resources',
         list: [
             { label: 'Hackathon 101', href: '/Workshops/Hackathon%20101/hackathon-101', date: '9/15' },
-            { label: 'DevDay (Full Stack Project)', href: '/Workshops/Webapp-Setup/installation-guide', date: '9/19' },
+            { label: 'DevDay (Full Stack Project)', href: '/Workshops/Webapp-Setup', date: '9/19' },
             { label: 'Agents and Tools', href: '/Workshops/Agents%20and%20Tools', date: '9/22' },
             { label: 'RAG', href: '/Workshops/RAG', date: '9/29' },
             { label: 'Vibe Coding', href: '/Workshops/Vibe%20Coding', date: '10/6' },

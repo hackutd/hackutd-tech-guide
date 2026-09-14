@@ -17,7 +17,7 @@ Looking to learn something new or sharpen your skills? You'll find all of our st
 | Workshop | Date | Resources |
 | --- | --- | --- |
 | Hackathon 101 | 9/15 | [View resources](/Workshops/Hackathon%20101/hackathon-101) |
-| DevDay (Full Stack Project) | 9/19 | [View resources](/Workshops/Webapp-Setup/installation-guide) |
+| DevDay (Full Stack Project) | 9/19 | [View resources](/Workshops/Webapp-Setup) |
 | Agents and Tools | 9/22 | [View resources](/Workshops/Agents%20and%20Tools) |
 | RAG | 9/29 | [View resources](/Workshops/RAG) |
 | Vibe Coding | 10/6 | [View resources](/Workshops/Vibe%20Coding) |
