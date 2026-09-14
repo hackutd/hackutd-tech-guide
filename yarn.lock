@@ -2163,10 +2163,10 @@
   dependencies:
     "@types/mdx" "^2.0.0"
 
-"@node-rs/jieba-darwin-arm64@1.10.4":
+"@node-rs/jieba-win32-x64-msvc@1.10.4":
   version "1.10.4"
-  resolved "https://registry.npmjs.org/@node-rs/jieba-darwin-arm64/-/jieba-darwin-arm64-1.10.4.tgz"
-  integrity sha512-G++RYEJ2jo0rxF9626KUy90wp06TRUjAsvY/BrIzEOX/ingQYV/HjwQzNPRR1P1o32a6/U8RGo7zEBhfdybL6w==
+  resolved "https://registry.npmjs.org/@node-rs/jieba-win32-x64-msvc/-/jieba-win32-x64-msvc-1.10.4.tgz"
+  integrity sha512-+sqemSfS1jjb+Tt7InNbNzrRh1Ua3vProVvC4BZRPg010/leCbGFFiQHpzcPRfpxAXZrzG5Y0YBTsPzN/I4yHQ==
 
 "@node-rs/jieba@^1.6.0":
   version "1.10.4"

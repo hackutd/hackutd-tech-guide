@@ -4,7 +4,7 @@ slug: hackathon-101
 sidebar_position: 2
 ---
 
-### [Slides (click me)](https://docs.google.com/presentation/d/1CbSyo2halRKO3Y1Ukg3KzfldL21XAjqr_HDvNnZMIts/edit?usp=sharing)
+### [Slides (click me)](https://docs.google.com/presentation/d/1jvWX5oexabsgKR6OE79TvFH96xLJ570_HsMBU2wOGyU/edit?usp=sharing)
 
 ## What is a Hackathon?
 
@@ -94,9 +94,8 @@ We’ll be going into a little more detail about pitching with the next phase of
 
 ## Alan Roybal's Hackathon Project Almanac
 
-Here is the link to the [document](https://docs.google.com/document/d/1fqQDTMl69ZBE3Q06UOtNzUyd26_moiE3HHfRtmFxY20/edit?tab=t.0).
+Here is the link to the [document](https://docs.google.com/document/d/1e6F2BRyyKdW8jhclFTrC98tZ3Pb86rp1KqPWgZ7vnlY/edit?usp=sharing).
 In groups of 3-4, study the document and list your 3 favorite hackathon projects.
-And this is the link to the [jamboard](https://padlet.com/danielkim55/list-your-favorite-3-hackathon-projects-don-t-forget-to-add--s4u8quaewfeur7sn) to insert your list.
 
 ## Final remarks
 
