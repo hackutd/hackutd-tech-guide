@@ -2,10 +2,10 @@
 title: Agents and Tools
 sidebar_position: 3
 ---
+
+# Agents and Tools
 - **Slides:** [Presentation](https://docs.google.com/presentation/d/1OKpZgR7t8GL6rCw6H2QqTWOA0uKLygpSxQbGTWMOJ2o/edit?usp=sharing)
 - **Github:** [Project Repo](https://github.com/hackutd/AgentsDemo.git)
-# Agents and Tools
-
 
 ## 1. What is an Agent?
 An agent is an LLM that has the ability to **decide** what **actions** to take, use "tools" to interface with other systems, and store relevant information from previous conversations. Instead of just chatting with a user, agents are built to **automate tasks**, like customer service, or save time, like coding assistants
