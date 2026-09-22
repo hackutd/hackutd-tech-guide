@@ -2,6 +2,8 @@
 title: Agents and Tools
 sidebar_position: 3
 ---
+- **Slides:** [Presentation](https://docs.google.com/presentation/d/1OKpZgR7t8GL6rCw6H2QqTWOA0uKLygpSxQbGTWMOJ2o/edit?usp=sharing)
+- **Github:** [Project Repo](https://github.com/hackutd/AgentsDemo.git)
 # Agents and Tools
 
 
