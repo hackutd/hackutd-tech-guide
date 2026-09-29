@@ -4,6 +4,7 @@ slug: resources
 sidebar_position: 5
 ---
 ## Workshop Links
+- [Slides](https://docs.google.com/presentation/d/1ZfmORaVPTyD7ckUtVYiZ-ow0B3UvkbqnIuCAn4vLvQo/edit?usp=sharing)
 - [Pinecone](https://www.pinecone.io)
 - Get your Gemini API key from [here](https://aistudio.google.com)
 - [Colab Notebook](https://colab.research.google.com/drive/1qN0o5BVmdZP7NaStRSGNRbQlqiR9D5cs?usp=sharing)
