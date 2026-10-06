@@ -6,7 +6,8 @@ sidebar_position: 3
 
 ## Workshop Links
 
-- Slides - Coming Soon
+- [Slides](https://docs.google.com/presentation/d/1JkWmGZWaJckPWsDN3hKyqL8QF-TXkDBSOFyAb5kT59w/edit?slide=id.p#slide=id.p)
+- [Vibe Coding Repository](https://github.com/hackutd/vibecode-demo)
 
 
 ## The Vibe Coding Stack
