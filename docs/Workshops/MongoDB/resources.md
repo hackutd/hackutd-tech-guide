@@ -5,7 +5,7 @@ sidebar_position: 4
 ---
 ## Workshop Resources
 Slides: https://docs.google.com/presentation/d/1MUhXMZVx95B5gpvZHHSI0UqE_by2ffIY2ia9lSRfoKA/edit?usp=sharing
-Demo repository: https://github.com/hackutd/MongoDB-Workshop
+Demo repository: https://github.com/hackutd/mongodb-demo
 
 ## Further Resources
 *   [MongoDB Manual](https://www.mongodb.com/docs/manual/) — manual for MongoDB
